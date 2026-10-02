@@ -1,0 +1,3 @@
+# One worktree per client of the isomorphic-clients submodule, created beside it
+# (git worktree add ../isomorphic-clients-<client> <client>). Each is its own checkout.
+/isomorphic-clients-*/
