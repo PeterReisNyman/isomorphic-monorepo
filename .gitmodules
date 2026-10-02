@@ -1,0 +1,3 @@
+[submodule "isomorphic-clients"]
+	path = isomorphic-clients
+	url = https://github.com/PeterReisNyman/isomorphic-clients.git
