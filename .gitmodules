@@ -4,3 +4,9 @@
 [submodule "isomorphic-engine"]
 	path = isomorphic-engine
 	url = https://github.com/PeterReisNyman/isomorphic-engine.git
+[submodule "isomorphic-atlas"]
+	path = isomorphic-atlas
+	url = https://github.com/PeterReisNyman/isomorphic-atlas.git
+[submodule "media-mcp"]
+	path = media-mcp
+	url = https://github.com/PeterReisNyman/media-mcp.git

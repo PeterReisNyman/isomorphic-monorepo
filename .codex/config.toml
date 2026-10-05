@@ -1,0 +1,9 @@
+[mcp_servers.media-context]
+command = "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/media-context-mcp/.venv/bin/media-context-mcp"
+cwd = "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/media-context-mcp"
+startup_timeout_sec = 30
+tool_timeout_sec = 660
+enabled = true
+
+[mcp_servers.media-context.env]
+MEDIA_CONTEXT_WORKSPACE = "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/media-context-mcp/.media-context"

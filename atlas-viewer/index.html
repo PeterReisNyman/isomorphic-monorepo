@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas Reels</title>
+<style>
+  :root { --bg: #0e0e0f; --panel: #18181a; --line: #2a2a2d; --fg: #ececec; --muted: #9a9aa0; --accent: #ffcc33; --chip: #242427; --on-fg: #1a1400; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  a { color: var(--fg); }
+  button, select { font: inherit; color: var(--fg); background: var(--chip); border: 1px solid var(--line); border-radius: 8px; padding: 5px 10px; cursor: pointer; }
+  button:hover, select:hover { border-color: #444; }
+  header { position: fixed; inset: 0 0 auto 0; height: 52px; display: flex; gap: 8px; align-items: center; padding: 0 16px; background: var(--bg); border-bottom: 1px solid var(--line); z-index: 10; overflow-x: auto; white-space: nowrap; }
+  header h1 { font-size: 15px; margin: 0 8px 0 0; }
+  header .grow { flex: 1; }
+  .muted { color: var(--muted); }
+  .keys { font-size: 12px; }
+  #feed { position: fixed; inset: 52px 0 0 0; overflow-y: scroll; scroll-snap-type: y mandatory; }
+  .item { height: calc(100dvh - 52px); scroll-snap-align: start; display: flex; gap: 24px; justify-content: center; align-items: center; padding: 16px; }
+  .player { position: relative; height: 100%; aspect-ratio: 9 / 16; max-width: 100%; background: #000; border-radius: 12px; overflow: hidden; outline: 2px solid transparent; outline-offset: 3px; }
+  .item.marked .player { outline-color: var(--accent); }
+  .player video { width: 100%; height: 100%; object-fit: contain; display: block; cursor: pointer; }
+  .missing { height: 100%; display: grid; place-items: center; color: var(--muted); }
+  .info { width: 320px; max-height: 100%; display: flex; flex-direction: column; gap: 12px; }
+  .handle { font-size: 16px; font-weight: 600; text-decoration: none; }
+  .handle:hover { text-decoration: underline; }
+  .stats { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .tag { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 99px; background: var(--chip); color: var(--muted); }
+  .marks { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { display: inline-flex; gap: 6px; align-items: center; border-radius: 99px; padding: 5px 12px; }
+  .chip.on { background: var(--accent); border-color: var(--accent); color: var(--on-fg); font-weight: 600; }
+  .chip kbd { font: 11px ui-monospace, Menlo, monospace; opacity: 0.6; }
+  .caption { white-space: pre-wrap; overflow-y: auto; min-height: 0; color: #cfcfd4; border-top: 1px solid var(--line); padding-top: 12px; }
+  .empty { height: 100%; display: grid; place-items: center; color: var(--muted); padding: 16px; text-align: center; }
+  @media (max-width: 760px) {
+    .keys { display: none; }
+    .item { flex-direction: column; gap: 10px; }
+    .player { height: auto; flex: 1; min-height: 0; }
+    .info { width: 100%; max-height: 40%; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Atlas Reels</h1>
+  <select id="root" title="Folder"></select>
+  <select id="filter" title="Show"></select>
+  <select id="sort" title="Order">
+    <option value="views">Most viewed</option>
+    <option value="newest">Newest</option>
+    <option value="account">Account A–Z</option>
+  </select>
+  <button id="labels" title="Add, rename or remove mark labels">Labels…</button>
+  <button id="sound">Sound off</button>
+  <span class="grow"></span>
+  <span class="muted keys">↑↓ scroll · space play · 1–9 mark · s sound</span>
+  <span id="count" class="muted"></span>
+</header>
+<main id="feed"></main>
+
+<script>
+  const $ = (s) => document.querySelector(s)
+  const feed = $('#feed')
+  const store = {
+    get: (k) => { try { return localStorage.getItem(k) } catch { return null } },
+    set: (k, v) => { try { localStorage.setItem(k, v) } catch {} },
+  }
+  const state = { root: null, videos: [], list: [], marks: { labels: ['marked'], videos: {} }, active: -1, sound: store.get('sound') === 'on' }
+
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c])
+  const fmt = (n) => n == null ? '–' : n >= 1e6 ? (n / 1e6).toFixed(1) + 'M' : n >= 1e3 ? Math.round(n / 1e3) + 'k' : String(n)
+  const post = (url, data) => fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(data) }).then((r) => r.json())
+  const labelsOf = (key) => state.marks.videos[key] || []
+
+  async function load(root) {
+    const q = root ? '?root=' + encodeURIComponent(root) : ''
+    const [data, marks] = await Promise.all([fetch('/api/videos' + q).then((r) => r.json()), fetch('/api/marks').then((r) => r.json())]).catch(() => [])
+    if (!data) {
+      // Opened as a file, or the server isn't running: the videos only come through serve.mjs.
+      feed.innerHTML = '<div class="empty"><div>This page needs its server.<br><br>Run <code>node atlas-viewer/serve.mjs</code> in the monorepo,<br>then open <a href="http://localhost:4949">http://localhost:4949</a>.</div></div>'
+      return
+    }
+    Object.assign(state, { root: data.root, videos: data.videos, marks })
+    $('#root').innerHTML = data.roots.map((r) => `<option ${r === data.root ? 'selected' : ''}>${esc(r)}</option>`).join('')
+    renderFilter()
+    render()
+  }
+
+  function renderFilter() {
+    const cur = $('#filter').value || store.get('filter') || 'all'
+    const opts = [['all', 'All'], ['unmarked', 'Unmarked'], ['any', 'Any mark'], ...state.marks.labels.map((l) => ['label:' + l, 'Marked: ' + l])]
+    $('#filter').innerHTML = opts.map(([v, t]) => `<option value="${esc(v)}">${esc(t)}</option>`).join('')
+    $('#filter').value = opts.some(([v]) => v === cur) ? cur : 'all'
+  }
+
+  function filtered() {
+    const f = $('#filter').value
+    const keep = (v) => {
+      const ls = labelsOf(v.key)
+      if (f === 'unmarked') return !ls.length
+      if (f === 'any') return ls.length > 0
+      if (f.startsWith('label:')) return ls.includes(f.slice(6))
+      return true
+    }
+    const by = {
+      views: (a, b) => (b.views ?? -1) - (a.views ?? -1),
+      newest: (a, b) => String(b.posted).localeCompare(String(a.posted)),
+      account: (a, b) => a.handle.localeCompare(b.handle) || String(b.posted).localeCompare(String(a.posted)),
+    }[$('#sort').value]
+    return state.videos.filter(keep).sort(by)
+  }
+
+  function chipsHtml(key) {
+    const on = labelsOf(key)
+    return state.marks.labels.map((l, n) =>
+      `<button class="chip ${on.includes(l) ? 'on' : ''}" data-label="${esc(l)}">${n < 9 ? `<kbd>${n + 1}</kbd>` : ''}${esc(l)}</button>`
+    ).join('')
+  }
+
+  function itemHtml(v, i) {
+    const player = v.hasVideo
+      ? `<video loop playsinline preload="none" data-src="${esc(v.mediaUrl)}" data-poster="${esc(v.posterUrl || '')}"></video>`
+      : '<div class="missing">No video file</div>'
+    const stats = [fmt(v.views) + ' views', fmt(v.likes) + ' likes', fmt(v.comments) + ' comments', v.duration ? Math.round(v.duration) + 's' : null, v.posted ? v.posted.slice(0, 10) : null]
+    return `<section class="item ${labelsOf(v.key).length ? 'marked' : ''}" data-i="${i}" data-key="${esc(v.key)}">
+      <div class="player">${player}</div>
+      <aside class="info">
+        <div>${v.profileUrl ? `<a class="handle" href="${esc(v.profileUrl)}" target="_blank" rel="noopener">@${esc(v.handle)}</a>` : `<span class="handle">${esc(v.handle)}</span>`}
+          <span class="muted"> · ${i + 1} / ${state.list.length}</span></div>
+        <div class="stats">${stats.filter(Boolean).join(' · ')}</div>
+        ${v.category ? `<div><span class="tag">${esc(v.category.replace(/_/g, ' '))}</span></div>` : ''}
+        <div class="marks">${chipsHtml(v.key)}</div>
+        ${v.url ? `<div><a href="${esc(v.url)}" target="_blank" rel="noopener">Open on ${esc(v.platform)} ↗</a></div>` : ''}
+        <div class="caption">${esc(v.caption)}</div>
+      </aside>
+    </section>`
+  }
+
+  let observer
+  function render() {
+    state.list = filtered()
+    state.active = -1
+    observer?.disconnect()
+    feed.innerHTML = state.list.length ? state.list.map(itemHtml).join('') : '<div class="empty">No videos match this filter.</div>'
+    $('#count').textContent = state.list.length + ' videos'
+    observer = new IntersectionObserver((entries) => {
+      for (const e of entries) if (e.isIntersecting) activate(Number(e.target.dataset.i))
+    }, { root: feed, threshold: 0.6 })
+    feed.querySelectorAll('.item').forEach((el) => observer.observe(el))
+    // Pick up where you left off in this folder.
+    const i = state.list.findIndex((v) => v.key === store.get('pos:' + state.root))
+    if (i > 0) feed.children[i].scrollIntoView()
+    else activate(0)
+  }
+
+  // Only the active reel plays; the two on either side are loaded so scrolling feels instant, the rest are unloaded.
+  function activate(i) {
+    if (i === state.active || !state.list[i]) return
+    state.active = i
+    store.set('pos:' + state.root, state.list[i].key)
+    feed.querySelectorAll('.item').forEach((el, j) => {
+      const v = el.querySelector('video')
+      if (!v) return
+      const near = Math.abs(j - i) <= 2
+      if (near && !v.getAttribute('src')) {
+        if (v.dataset.poster) v.poster = v.dataset.poster
+        v.preload = 'auto'
+        v.src = v.dataset.src
+      } else if (!near && v.getAttribute('src')) {
+        v.pause()
+        v.removeAttribute('src')
+        v.load()
+      }
+      if (j === i) {
+        // Browsers refuse sound before the first click or key press; play muted rather than not at all.
+        v.muted = !state.sound
+        v.play().catch(() => { v.muted = true; v.play().catch(() => {}) })
+      } else if (near) v.pause()
+    })
+  }
+
+  const activeItem = () => feed.children[state.active]
+  const activeVideo = () => activeItem()?.querySelector('video')
+
+  async function toggle(key, label) {
+    const cur = labelsOf(key)
+    const next = cur.includes(label) ? cur.filter((l) => l !== label) : [...cur, label]
+    state.marks.videos[key] = next
+    paint(key)
+    state.marks = await post('/api/marks', { key, labels: next })
+    paint(key)
+  }
+
+  function paint(key) {
+    const el = feed.querySelector(`.item[data-key="${CSS.escape(key)}"]`)
+    if (!el) return
+    el.querySelector('.marks').innerHTML = chipsHtml(key)
+    el.classList.toggle('marked', labelsOf(key).length > 0)
+  }
+
+  function setSound(on) {
+    state.sound = on
+    store.set('sound', on ? 'on' : 'off')
+    $('#sound').textContent = on ? 'Sound on' : 'Sound off'
+    const v = activeVideo()
+    if (v) v.muted = !on
+  }
+
+  function go(d) {
+    const next = feed.children[state.active + d]
+    if (next?.classList.contains('item')) next.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  feed.addEventListener('click', (e) => {
+    const chip = e.target.closest('.chip')
+    if (chip) return toggle(chip.closest('.item').dataset.key, chip.dataset.label)
+    const v = e.target.closest('video')
+    if (v) v.paused ? v.play() : v.pause()
+  })
+
+  addEventListener('keydown', (e) => {
+    if (e.metaKey || e.ctrlKey || e.altKey || e.target.matches('input, select, textarea')) return
+    const key = state.list[state.active]?.key
+    if (e.key === 'ArrowDown' || e.key === 'j') go(1)
+    else if (e.key === 'ArrowUp' || e.key === 'k') go(-1)
+    else if (e.key === ' ') { const v = activeVideo(); if (v) v.paused ? v.play() : v.pause() }
+    else if (e.key === 's') setSound(!state.sound)
+    else if (/^[1-9]$/.test(e.key) && key && state.marks.labels[e.key - 1]) toggle(key, state.marks.labels[e.key - 1])
+    else return
+    e.preventDefault()
+  })
+
+  $('#root').addEventListener('change', (e) => { e.target.blur(); store.set('root', e.target.value); load(e.target.value) })
+  $('#filter').addEventListener('change', (e) => { e.target.blur(); store.set('filter', e.target.value); render() })
+  $('#sort').addEventListener('change', (e) => { e.target.blur(); store.set('sort', e.target.value); render() })
+  $('#sound').addEventListener('click', (e) => { e.target.blur(); setSound(!state.sound) })
+  $('#labels').addEventListener('click', async (e) => {
+    e.target.blur()
+    const answer = prompt('Mark labels, separated by commas. Keys 1–9 follow this order.\nRemoving a label also removes it from every video.', state.marks.labels.join(', '))
+    if (answer == null) return
+    const labels = [...new Set(answer.split(',').map((s) => s.trim()).filter(Boolean))]
+    if (!labels.length) return
+    state.marks = await post('/api/labels', { labels })
+    renderFilter()
+    render()
+  })
+
+  $('#sort').value = store.get('sort') || 'views'
+  setSound(state.sound)
+  load(store.get('root'))
+</script>
+</body>
+</html>

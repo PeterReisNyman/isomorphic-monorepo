@@ -1,3 +1,12 @@
-# One worktree per client of the isomorphic-clients submodule, created beside it
-# (git worktree add ../isomorphic-clients-<client> <client>). Each is its own checkout.
-/isomorphic-clients-*/
+# One worktree per client of the isomorphic-clients submodule, under projects/
+# (git worktree add ../projects/<client> <client>). Each is its own checkout.
+/projects/
+
+# Run worktrees made by the isomorphic-engine daemon (one per run, on run/<id>); removed at close.
+/runs/
+
+# macOS Finder metadata
+.DS_Store
+
+# Operator API keys: kept here, outside isomorphic-engine, so the daemon never hands them to agents
+.env
