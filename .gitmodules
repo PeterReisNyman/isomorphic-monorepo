@@ -10,3 +10,6 @@
 [submodule "media-mcp"]
 	path = media-mcp
 	url = https://github.com/PeterReisNyman/media-mcp.git
+[submodule "media-context-mcp"]
+	path = media-context-mcp
+	url = https://github.com/PeterReisNyman/media-context-mcp.git
