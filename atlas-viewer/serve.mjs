@@ -74,6 +74,8 @@ async function listVideos(records) {
       posted: asText(meta.posted_at) || null,
       caption: asText(meta.caption) || asText(meta.title),
       category: asText(meta.kima?.category) || null,
+      // A brain-rot label in meta.yaml: hidden from every view but its own filter.
+      brainRot: meta.brain_rot && typeof meta.brain_rot === 'object' ? { subcategory: asText(meta.brain_rot.subcategory) || null, confidence: asText(meta.brain_rot.confidence) || null, source: asText(meta.brain_rot.source) || null, reason: asText(meta.brain_rot.reason) || null } : null,
       hasVideo: media ? await exists(media) : false,
       hasPoster: Boolean(poster),
       mediaUrl: `/media/${record.id}/video`,

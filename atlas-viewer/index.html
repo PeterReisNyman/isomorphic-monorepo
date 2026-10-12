@@ -89,7 +89,8 @@
 
   function renderFilter() {
     const cur = $('#filter').value || store.get('filter') || 'all'
-    const opts = [['all', 'All'], ['unmarked', 'Unmarked'], ['any', 'Any mark'], ...state.marks.labels.map((l) => ['label:' + l, 'Marked: ' + l])]
+    const rot = state.videos.filter((v) => v.brainRot).length
+    const opts = [['all', 'All'], ['unmarked', 'Unmarked'], ['any', 'Any mark'], ...state.marks.labels.map((l) => ['label:' + l, 'Marked: ' + l]), ...(rot ? [['brainrot', `Brain rot (${rot})`]] : [])]
     $('#filter').innerHTML = opts.map(([v, t]) => `<option value="${esc(v)}">${esc(t)}</option>`).join('')
     $('#filter').value = opts.some(([v]) => v === cur) ? cur : 'all'
   }
@@ -97,6 +98,9 @@
   function filtered() {
     const f = $('#filter').value
     const keep = (v) => {
+      // Brain-rot videos (labelled in their meta.yaml) show only under their own filter.
+      if (f === 'brainrot') return !!v.brainRot
+      if (v.brainRot) return false
       const ls = labelsOf(v.key)
       if (f === 'unmarked') return !ls.length
       if (f === 'any') return ls.length > 0
