@@ -1,0 +1,222 @@
+{
+  "revision": 6,
+  "trajectory": "length-minimized cubic splines with a shared configuration arc-length clock",
+  "sharedClock": "quintic acceleration and deceleration",
+  "holdSeconds": 2,
+  "duration": 48.4,
+  "samplesPerTransition": 4001,
+  "transitions": [
+    {
+      "transition": 1,
+      "minimumUnrelatedSurfaceGap": 11.842224062853873,
+      "minimumBridgeClearanceResidual": 19.001120825377072,
+      "minimumDisconnectingGap": 20.000021553633232,
+      "maximumContactError": 0.020000024962257612,
+      "sharedArcSpeedVariation": 6.050291870028351e-06,
+      "previousLength": 1421.986652472084,
+      "newLength": 497.7695095546262,
+      "travelReduction": 0.6499478327104773,
+      "pathLengths": [
+        100.70007863991067,
+        16.86292586162463,
+        92.63726135098476,
+        90.643809633802,
+        39.133341407748134,
+        71.3046786074496,
+        86.48741405310643
+      ]
+    },
+    {
+      "transition": 2,
+      "minimumUnrelatedSurfaceGap": 17.036127168161116,
+      "minimumBridgeClearanceResidual": 22.940389270377736,
+      "minimumDisconnectingGap": 19.479621042861353,
+      "maximumContactError": 0.020000006575671136,
+      "sharedArcSpeedVariation": 4.916407226621539e-06,
+      "previousLength": 1378.7434395085677,
+      "newLength": 461.9510336825026,
+      "travelReduction": 0.6649477919930062,
+      "pathLengths": [
+        84.89482800084879,
+        89.94579081795243,
+        65.66665311294241,
+        42.08785890935241,
+        69.11248801676228,
+        110.24341482464435
+      ]
+    },
+    {
+      "transition": 3,
+      "minimumUnrelatedSurfaceGap": 11.847419629330872,
+      "minimumBridgeClearanceResidual": 0.008520520264170273,
+      "minimumDisconnectingGap": 11.84863141657813,
+      "maximumContactError": 0.02000000013447334,
+      "sharedArcSpeedVariation": 5.965878723773728e-06,
+      "previousLength": 1737.7738275047595,
+      "newLength": 517.3576696225304,
+      "travelReduction": 0.702287109269337,
+      "pathLengths": [
+        32.60845308049055,
+        90.97964623805458,
+        85.82641636744722,
+        56.79182300006236,
+        146.7493776064193,
+        104.40195333005632
+      ]
+    },
+    {
+      "transition": 4,
+      "minimumUnrelatedSurfaceGap": 13.333328247070312,
+      "minimumBridgeClearanceResidual": 2.229043719629182,
+      "minimumDisconnectingGap": 51.99326941802039,
+      "maximumContactError": 0.0,
+      "sharedArcSpeedVariation": 3.193725484511474e-08,
+      "previousLength": 2185.527509938425,
+      "newLength": 135.4886784439781,
+      "travelReduction": 0.9380064182089406,
+      "pathLengths": [
+        7.6568136376900915,
+        16.957271663644804,
+        16.957261880767742,
+        46.958674938004975,
+        46.95865632387049
+      ]
+    },
+    {
+      "transition": 5,
+      "minimumUnrelatedSurfaceGap": 11.839649080807916,
+      "minimumBridgeClearanceResidual": 6.931735273548959,
+      "minimumDisconnectingGap": 51.66388976532639,
+      "maximumContactError": 0.020000016396551246,
+      "sharedArcSpeedVariation": 3.0259067270888784e-06,
+      "previousLength": 1218.3215101158196,
+      "newLength": 589.277391542932,
+      "travelReduction": 0.5163202925909824,
+      "pathLengths": [
+        96.67510041069131,
+        80.11457575336564,
+        164.81579128888154,
+        51.57172998603327,
+        116.88391199840859,
+        79.21628210555161
+      ]
+    },
+    {
+      "transition": 6,
+      "minimumUnrelatedSurfaceGap": 11.404006958007812,
+      "minimumBridgeClearanceResidual": 20.110835850071666,
+      "minimumDisconnectingGap": null,
+      "maximumContactError": 0.0,
+      "sharedArcSpeedVariation": 6.41655309761814e-06,
+      "previousLength": 1473.871245444304,
+      "newLength": 504.5016052339988,
+      "travelReduction": 0.6577030681659611,
+      "pathLengths": [
+        60.34030153010238,
+        63.19701243281734,
+        77.89273376596792,
+        77.89273288946083,
+        69.39332794201543,
+        77.89274894639988,
+        77.892747727235
+      ]
+    },
+    {
+      "transition": 7,
+      "minimumUnrelatedSurfaceGap": 11.846740450397718,
+      "minimumBridgeClearanceResidual": 3.3060267923912647,
+      "minimumDisconnectingGap": 11.84722971239131,
+      "maximumContactError": 0.020000014895700247,
+      "sharedArcSpeedVariation": 3.8566525746587265e-06,
+      "previousLength": 1593.7406222845195,
+      "newLength": 682.9645265705313,
+      "travelReduction": 0.5714707167396236,
+      "pathLengths": [
+        41.434555763703976,
+        80.79700481590685,
+        67.49728561702976,
+        75.31473668301378,
+        163.22376507860352,
+        71.6210700872045,
+        183.07610852506897
+      ]
+    },
+    {
+      "transition": 8,
+      "minimumUnrelatedSurfaceGap": 19.833925550977213,
+      "minimumBridgeClearanceResidual": 15.20379452908179,
+      "minimumDisconnectingGap": 11.847943516916288,
+      "maximumContactError": 0.02000018762879563,
+      "sharedArcSpeedVariation": 1.8591208870670547e-06,
+      "previousLength": 1262.3125680127232,
+      "newLength": 496.7964772763933,
+      "travelReduction": 0.6064394113903919,
+      "pathLengths": [
+        140.47851726043743,
+        74.00938083511285,
+        59.39514064633017,
+        65.22877980423029,
+        89.56755838724243,
+        68.11710034304012
+      ]
+    },
+    {
+      "transition": 9,
+      "minimumUnrelatedSurfaceGap": 11.842493698116172,
+      "minimumBridgeClearanceResidual": 10.838930542324057,
+      "minimumDisconnectingGap": 11.972273164912622,
+      "maximumContactError": 0.020000000438116672,
+      "sharedArcSpeedVariation": 6.283196571010945e-06,
+      "previousLength": 939.1689338746647,
+      "newLength": 629.6625426598569,
+      "travelReduction": 0.32955348079700486,
+      "pathLengths": [
+        91.11877145045597,
+        131.37487940459434,
+        103.25352736244227,
+        108.32933469000119,
+        76.28855450739998,
+        119.29747524496318
+      ]
+    },
+    {
+      "transition": 10,
+      "minimumUnrelatedSurfaceGap": 11.404790361311811,
+      "minimumBridgeClearanceResidual": 0.32809246081743026,
+      "minimumDisconnectingGap": 54.296966552734375,
+      "maximumContactError": 0.020001511740119327,
+      "sharedArcSpeedVariation": 6.962385692151741e-06,
+      "previousLength": 1856.9906080784663,
+      "newLength": 669.2931737484034,
+      "travelReduction": 0.6395818208036286,
+      "pathLengths": [
+        82.78559948853643,
+        77.20558385039405,
+        180.48477334463695,
+        106.72956141774158,
+        140.90975088785493,
+        81.1779047592395
+      ]
+    },
+    {
+      "transition": 11,
+      "minimumUnrelatedSurfaceGap": 11.411191908116564,
+      "minimumBridgeClearanceResidual": 0.14061767418714766,
+      "minimumDisconnectingGap": 11.848405646148947,
+      "maximumContactError": 0.020000012154156366,
+      "sharedArcSpeedVariation": 6.353922117043029e-06,
+      "previousLength": 1028.9094158096275,
+      "newLength": 562.9685007346492,
+      "travelReduction": 0.45284930618342045,
+      "pathLengths": [
+        70.38108686293508,
+        85.05880145979069,
+        84.74967339039209,
+        79.28060892188071,
+        59.86662616898551,
+        81.09020576871747,
+        102.54149816194767
+      ]
+    }
+  ]
+}

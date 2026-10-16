@@ -1,0 +1,14 @@
+{
+  "revision": 6,
+  "video": {
+    "width": 1080,
+    "height": 1080,
+    "avg_frame_rate": "60/1",
+    "duration": "48.400000",
+    "nb_frames": "2904"
+  },
+  "maximumHoldDifference": 0.006401909722222222,
+  "holdSeconds": 2,
+  "retraction": "solid geometry, narrowing neck with rounded retraction",
+  "geometryReport": "retraction-verification.json"
+}

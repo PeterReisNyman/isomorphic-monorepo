@@ -1,0 +1,785 @@
+{
+  "sampled": 25000,
+  "visuallyReviewed": 420,
+  "source": "user favorites",
+  "recommended": "4",
+  "choices": [
+    {
+      "id": "0407",
+      "rotation": 90,
+      "label": "1",
+      "name": "Rhythm",
+      "reason": "Seven balls: a continuous five-ball chain with two separate dots. Tall and rhythmic, with the dots echoing the two circular recesses.",
+      "record": {
+        "version": 3,
+        "seed": "find-isomorphic:486",
+        "family": "circle-graph",
+        "nodes": [
+          [
+            0,
+            0
+          ],
+          [
+            -80,
+            -80
+          ],
+          [
+            80,
+            -80
+          ],
+          [
+            -80,
+            80
+          ],
+          [
+            80,
+            80
+          ],
+          [
+            -160,
+            0
+          ],
+          [
+            160,
+            0
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 0,
+            "b": 1,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 0,
+            "b": 2,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 1,
+            "b": 5,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 2,
+            "b": 6,
+            "plus": 40,
+            "minus": 40
+          }
+        ],
+        "balls": 7,
+        "rotation": 90,
+        "lattice": {
+          "pitch": 80,
+          "phase": 0
+        },
+        "axes": [
+          "horizontal"
+        ],
+        "id": "0407"
+      },
+      "sourceScreenshot": "/Users/peterreisf.nyman/Desktop/Screenshot 2026-10-14 at 22.47.45.png"
+    },
+    {
+      "id": "0299",
+      "rotation": 135,
+      "label": "2",
+      "name": "Counterparts",
+      "reason": "Two identical three-ball pieces, turned toward each other. A balanced mark that makes the repeated structure easy to see.",
+      "record": {
+        "version": 3,
+        "seed": "find-isomorphic:372",
+        "family": "circle-graph",
+        "nodes": [
+          [
+            -50,
+            -80
+          ],
+          [
+            50,
+            -80
+          ],
+          [
+            -50,
+            80
+          ],
+          [
+            50,
+            80
+          ],
+          [
+            -130,
+            0
+          ],
+          [
+            130,
+            0
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 0,
+            "b": 4,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 1,
+            "b": 5,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 2,
+            "b": 4,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 3,
+            "b": 5,
+            "plus": 40,
+            "minus": 40
+          }
+        ],
+        "balls": 6,
+        "rotation": 135,
+        "lattice": {
+          "pitch": 80,
+          "phase": 50
+        },
+        "axes": [
+          "diagonal",
+          "antidiagonal"
+        ],
+        "id": "0299"
+      },
+      "sourceScreenshot": "/Users/peterreisf.nyman/Desktop/Screenshot 2026-10-14 at 22.49.21.png"
+    },
+    {
+      "id": "0379",
+      "rotation": 90,
+      "label": "3",
+      "name": "Orbit",
+      "reason": "Four connected balls form a circular opening; two separate balls sit to the right. A strong relationship between solid circles and empty space.",
+      "record": {
+        "version": 3,
+        "seed": "find-isomorphic:71",
+        "family": "circle-graph",
+        "nodes": [
+          [
+            0,
+            -80
+          ],
+          [
+            0,
+            80
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            80,
+            0
+          ],
+          [
+            -160,
+            -80
+          ],
+          [
+            160,
+            -80
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 0,
+            "b": 2,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 0,
+            "b": 3,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 1,
+            "b": 3,
+            "plus": 40,
+            "minus": 40
+          }
+        ],
+        "balls": 6,
+        "rotation": 90,
+        "lattice": {
+          "pitch": 80,
+          "phase": 0
+        },
+        "axes": [
+          "horizontal"
+        ],
+        "id": "0379"
+      },
+      "sourceScreenshot": "/Users/peterreisf.nyman/Desktop/Screenshot 2026-10-14 at 22.54.33.png"
+    },
+    {
+      "id": "0190",
+      "rotation": 45,
+      "label": "4",
+      "name": "Open centre",
+      "reason": "My pick for the main logo. A continuous circular gap holds the centre ball, and the open corner gives the mark direction. Compact and clear at small sizes.",
+      "record": {
+        "version": 3,
+        "seed": "find-isomorphic:8021",
+        "family": "circle-graph",
+        "nodes": [
+          [
+            0,
+            0
+          ],
+          [
+            -65.99663291074444,
+            -65.99663291074444
+          ],
+          [
+            65.99663291074444,
+            -65.99663291074444
+          ],
+          [
+            -65.99663291074444,
+            65.99663291074444
+          ],
+          [
+            65.99663291074444,
+            65.99663291074444
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 3,
+            "b": 4,
+            "plus": 40,
+            "minus": 53.33333333333334
+          },
+          {
+            "a": 1,
+            "b": 3,
+            "plus": 40,
+            "minus": 53.33333333333334
+          },
+          {
+            "a": 2,
+            "b": 4,
+            "plus": 53.33333333333334,
+            "minus": 40
+          }
+        ],
+        "balls": 5,
+        "rotation": 45,
+        "lattice": {
+          "pitch": 65.99663291074444,
+          "phase": 0
+        },
+        "axes": [
+          "antidiagonal"
+        ],
+        "id": "0190"
+      },
+      "sourceScreenshot": "/Users/peterreisf.nyman/Desktop/Screenshot 2026-10-14 at 23.06.16.png"
+    },
+    {
+      "id": "05-split",
+      "name": "05 · Two pairs",
+      "reason": "The four outer balls split into two connected pairs. The centre ball, spacing and tangent circular curves stay the same.",
+      "record": {
+        "version": 3,
+        "seed": "favorites-expansion:664",
+        "family": "radial",
+        "nodes": [
+          [
+            -65.83194825675699,
+            -90.60990336999411
+          ],
+          [
+            65.83194825675699,
+            -90.60990336999411
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -106.51832982505721,
+            34.6099033699941
+          ],
+          [
+            106.51832982505721,
+            34.6099033699941
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 0,
+            "b": 3,
+            "plus": 40,
+            "minus": 72
+          },
+          {
+            "a": 1,
+            "b": 4,
+            "plus": 72,
+            "minus": 40
+          }
+        ],
+        "balls": 5,
+        "rotation": 45,
+        "axes": [
+          "antidiagonal"
+        ],
+        "id": "05-split",
+        "group": "2+2+1"
+      },
+      "source": "User favorited the split version of study 05",
+      "label": "6",
+      "rotation": 45
+    },
+    {
+      "id": "P233",
+      "label": "7",
+      "name": "40 · Facing chains",
+      "reason": "Two mirrored three-ball chains face one another, with equal circular recesses and slender connections.",
+      "rotation": 90,
+      "record": {
+        "version": 3,
+        "seed": "two-pairs-expansion:37371",
+        "family": "lattice",
+        "nodes": [
+          [
+            0,
+            61.65971131946694
+          ],
+          [
+            -119.65971131946694,
+            123.31942263893389
+          ],
+          [
+            119.65971131946694,
+            123.31942263893389
+          ],
+          [
+            0,
+            -61.65971131946694
+          ],
+          [
+            -119.65971131946694,
+            -123.31942263893389
+          ],
+          [
+            119.65971131946694,
+            -123.31942263893389
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 0,
+            "b": 1,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 0,
+            "b": 2,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 3,
+            "b": 4,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 3,
+            "b": 5,
+            "plus": 40,
+            "minus": 40
+          }
+        ],
+        "balls": 6,
+        "rotation": 90,
+        "axes": [
+          "vertical",
+          "horizontal"
+        ],
+        "id": "P233",
+        "group": "3+3"
+      },
+      "source": "User favorited study 40",
+      "sourceRound": "round-three"
+    },
+    {
+      "id": "P211",
+      "label": "8",
+      "name": "43 · Split ring",
+      "reason": "Two connected triples surround a separate centre ball, with a circular inner gap and matching openings above and below.",
+      "rotation": 90,
+      "record": {
+        "version": 3,
+        "seed": "two-pairs-expansion:18658",
+        "family": "radial",
+        "nodes": [
+          [
+            0,
+            -122
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -113.11643025714807,
+            45.70200439674127
+          ],
+          [
+            113.11643025714807,
+            45.70200439674127
+          ],
+          [
+            0,
+            122
+          ],
+          [
+            -113.11643025714807,
+            -45.70200439674126
+          ],
+          [
+            113.11643025714807,
+            -45.70200439674126
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 2,
+            "b": 4,
+            "plus": 40,
+            "minus": 82.00000000000001
+          },
+          {
+            "a": 3,
+            "b": 4,
+            "plus": 82.00000000000001,
+            "minus": 40
+          },
+          {
+            "a": 0,
+            "b": 5,
+            "plus": 40,
+            "minus": 82
+          },
+          {
+            "a": 0,
+            "b": 6,
+            "plus": 82,
+            "minus": 40
+          }
+        ],
+        "balls": 7,
+        "rotation": 90,
+        "axes": [
+          "vertical",
+          "horizontal"
+        ],
+        "id": "P211",
+        "group": "3+3+1"
+      },
+      "source": "User favorited study 43",
+      "sourceRound": "round-three"
+    },
+    {
+      "id": "P192",
+      "label": "9",
+      "name": "47 · Winding chain",
+      "reason": "A four-ball chain bends between two separate balls, with horizontal mirror symmetry.",
+      "rotation": 90,
+      "record": {
+        "version": 3,
+        "seed": "two-pairs-expansion:8541",
+        "family": "lattice",
+        "nodes": [
+          [
+            -152.61017305526642,
+            161.22034611053283
+          ],
+          [
+            152.61017305526642,
+            161.22034611053283
+          ],
+          [
+            -72,
+            80.61017305526642
+          ],
+          [
+            72,
+            80.61017305526642
+          ],
+          [
+            0,
+            161.22034611053283
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 2,
+            "b": 3,
+            "plus": 40,
+            "minus": 68.08330120791094
+          },
+          {
+            "a": 0,
+            "b": 2,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 1,
+            "b": 3,
+            "plus": 40,
+            "minus": 40
+          }
+        ],
+        "balls": 6,
+        "rotation": 90,
+        "axes": [
+          "horizontal"
+        ],
+        "id": "P192",
+        "group": "4+1+1"
+      },
+      "source": "User favorited study 47",
+      "sourceRound": "round-three"
+    },
+    {
+      "id": "P106",
+      "label": "10",
+      "name": "37 · Three pairs",
+      "reason": "Three connected pairs form a diagonal arrangement with a shared mirror axis.",
+      "rotation": 45,
+      "record": {
+        "version": 3,
+        "seed": "two-pairs-expansion:1106",
+        "family": "radial",
+        "nodes": [
+          [
+            -96.13731194002008,
+            75.1106999897303
+          ],
+          [
+            96.13731194002008,
+            75.1106999897303
+          ],
+          [
+            -109.65287364849839,
+            -53.48127990826745
+          ],
+          [
+            109.65287364849839,
+            -53.48127990826745
+          ],
+          [
+            0,
+            122
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 4,
+            "b": 5,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 0,
+            "b": 2,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 1,
+            "b": 3,
+            "plus": 40,
+            "minus": 40
+          }
+        ],
+        "balls": 6,
+        "rotation": 45,
+        "axes": [
+          "antidiagonal"
+        ],
+        "id": "P106",
+        "group": "2+2+2"
+      },
+      "source": "User favorited study 37",
+      "sourceRound": "round-three"
+    },
+    {
+      "id": "P074",
+      "label": "11",
+      "name": "34 · Opposing pairs",
+      "reason": "Two connected pairs balance around a separate centre ball, with two diagonal mirror axes and circular inner recesses.",
+      "rotation": 45,
+      "record": {
+        "version": 3,
+        "seed": "two-pairs-expansion:698",
+        "family": "radial",
+        "nodes": [
+          [
+            0,
+            0
+          ],
+          [
+            -70.18540818712506,
+            89.8332259111663
+          ],
+          [
+            70.18540818712506,
+            89.8332259111663
+          ],
+          [
+            -70.18540818712503,
+            -89.83322591116631
+          ],
+          [
+            70.18540818712503,
+            -89.83322591116631
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 1,
+            "b": 2,
+            "plus": 40,
+            "minus": 73.99999999999999
+          },
+          {
+            "a": 3,
+            "b": 4,
+            "plus": 74.00000000000001,
+            "minus": 40
+          }
+        ],
+        "balls": 5,
+        "rotation": 45,
+        "axes": [
+          "diagonal",
+          "antidiagonal"
+        ],
+        "id": "P074",
+        "group": "2+2+1"
+      },
+      "source": "User favorited study 34",
+      "sourceRound": "round-three"
+    },
+    {
+      "id": "F037",
+      "label": "12",
+      "name": "78 · Stacked pairs",
+      "reason": "Three connected pairs form a vertical arrangement, with matching upper and lower curves and a horizontal centre pair.",
+      "rotation": 90,
+      "record": {
+        "version": 3,
+        "id": "F037",
+        "seed": "ten-favorites:177",
+        "family": "guided-affine",
+        "nodes": [
+          [
+            -134.29695228863446,
+            151.54712534390086
+          ],
+          [
+            134.29695228863446,
+            151.54712534390086
+          ],
+          [
+            -63.36,
+            85.4467834385824
+          ],
+          [
+            63.36,
+            85.4467834385824
+          ],
+          [
+            0,
+            151.54712534390086
+          ],
+          [
+            0,
+            19.346441533263942
+          ]
+        ],
+        "free": [],
+        "edges": [
+          {
+            "a": 0,
+            "b": 2,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 1,
+            "b": 3,
+            "plus": 40,
+            "minus": 40
+          },
+          {
+            "a": 4,
+            "b": 5,
+            "plus": 40,
+            "minus": 40
+          }
+        ],
+        "balls": 6,
+        "rotation": 90,
+        "sourceFavorite": "P192",
+        "sourceName": "47 · Winding chain",
+        "change": "affine",
+        "preserveTopology": false,
+        "axes": [
+          "horizontal"
+        ],
+        "group": "2+2+2"
+      },
+      "source": "User favorited study 78",
+      "sourceRound": "round-four"
+    }
+  ]
+}
