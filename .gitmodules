@@ -8,8 +8,11 @@
 	path = isomorphic-atlas
 	url = https://github.com/PeterReisNyman/isomorphic-atlas.git
 [submodule "media-mcp"]
-	path = media-mcp
-	url = https://github.com/PeterReisNyman/media-mcp.git
+	path = vidify-mcp
+	url = https://github.com/PeterReisNyman/vidify-mcp.git
 [submodule "media-context-mcp"]
 	path = media-context-mcp
 	url = https://github.com/PeterReisNyman/media-context-mcp.git
+[submodule "isomorphic-motion"]
+	path = isomorphic-motion
+	url = https://github.com/PeterReisNyman/isomorphic-motion.git
