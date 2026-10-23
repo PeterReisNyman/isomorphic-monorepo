@@ -1,0 +1,327 @@
+{
+  "sample_id": "cat-reel",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "purpose": "Context for fitting and interpreting the objectives; these fields are not performance targets.",
+  "post": {
+    "sample_id": "cat-reel",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "urls": [],
+    "posting_observations": [
+      {
+        "capture": {
+          "at": "2026-07-24T19:01-03:00",
+          "timezone": "explicit_offset"
+        },
+        "at": "2026-07-22T12:52-03:00",
+        "source_files": [
+          "../source/insights/cat-reel-ig-insights-20260724.pdf"
+        ]
+      },
+      {
+        "at": "2026-07-22T12:52:00",
+        "timezone": null,
+        "capture": {
+          "at": "2026-07-24T19:01:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/cat-reel-ig-insights-20260724.pdf"
+        ],
+        "precision": "as_displayed_no_timezone"
+      }
+    ],
+    "captions": [
+      {
+        "capture": {
+          "at": "2026-07-24T19:01-03:00",
+          "timezone": "explicit_offset"
+        },
+        "caption": "O corretor de hoje tem bigodes.🐱 Parque Guarani, 100 m², R$ 419.990. Vem visitar — o gato recebe. (gato adicionado por edição) #reels #imóveis",
+        "hashtags": [
+          "#reels",
+          "#imóveis"
+        ],
+        "truncated_in_export": false,
+        "handle": "@imoblyy",
+        "source_files": [
+          "../source/insights/cat-reel-ig-insights-20260724.pdf"
+        ]
+      },
+      {
+        "capture": {
+          "at": "2026-08-17T12:35-03:00",
+          "timezone": "explicit_offset"
+        },
+        "visible": "O corretor de hoje tem bigodes. 🐱 Parque Guarani ...",
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7460.PNG",
+          "../source/insights/2026-08-07/IMG_7462.PNG",
+          "../source/insights/2026-08-07/IMG_7463.PNG",
+          "../source/insights/2026-08-19/IMG_7784.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7758.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7759.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7760.PNG",
+          "../source/insights/cat-reel-ig-insights-20260724.pdf"
+        ]
+      },
+      {
+        "caption": "O corretor de hoje tem bigodes.    Parque Guarani, 100 m²,\nR$ 419.990. Vem visitar — o gato recebe. (gato adicionado por\nedição) #reels #imóveis",
+        "truncated_in_export": false,
+        "capture": {
+          "at": "2026-07-24T19:01:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/cat-reel-ig-insights-20260724.pdf"
+        ],
+        "notes": [
+          "Extracted from the PDF text layer; emoji and original line wrapping may be lost."
+        ]
+      }
+    ],
+    "account_observations": [
+      {
+        "followers": 1,
+        "capture": {
+          "at": "2026-07-24T19:01:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/cat-reel-ig-insights-20260724.pdf"
+        ]
+      }
+    ],
+    "notes": [
+      "Only information from saved Instagram post/Insights evidence is included. A missing field is unknown, not zero."
+    ]
+  },
+  "audience": {
+    "sample_id": "cat-reel",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "at": "2026-08-07T13:01-03:00",
+          "timezone": "explicit_offset"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7460.PNG",
+          "../source/insights/2026-08-07/IMG_7462.PNG",
+          "../source/insights/2026-08-07/IMG_7463.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record"
+      },
+      {
+        "capture": {
+          "at": "2026-08-24T10:35-03:00",
+          "timezone": "explicit_offset"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "age_pct": {
+          "13-17": 0,
+          "18-24": 32.6,
+          "25-34": 44.2,
+          "35-44": 13.2,
+          "45-54": 7.8,
+          "55-64": 0.8,
+          "65+": 1.6
+        },
+        "gender_pct": {
+          "men": 69.0,
+          "women": 31.0
+        },
+        "countries_pct": {
+          "India": 24.8,
+          "Iran": 20.9,
+          "Brazil": 20.2,
+          "Türkiye": 20.2,
+          "Uzbekistan": 2.3
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7758.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7759.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7760.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record"
+      },
+      {
+        "capture": {
+          "date": "2026-08-07",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null
+        },
+        "followers_pct": 0.0,
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7463.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:36"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "age_pct": {
+          "13-17": 0.0,
+          "18-24": 32.6,
+          "25-34": 44.2,
+          "35-44": 13.2,
+          "45-54": 7.8,
+          "55-64": 0.8,
+          "65+": 1.6
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7758.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:36"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "countries_pct": {
+          "India": 24.8,
+          "Iran": 20.9,
+          "Brazil": 20.2,
+          "Uzbekistan": 2.3
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7759.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:36"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "gender_pct": {
+          "men": 69.0,
+          "women": 31.0
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7760.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "traffic": {
+    "sample_id": "cat-reel",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "at": "2026-08-07T13:01-03:00",
+          "timezone": "explicit_offset"
+        },
+        "sources_pct": {
+          "reels_tab": 86.0,
+          "explore": 12.4
+        },
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7460.PNG",
+          "../source/insights/2026-08-07/IMG_7462.PNG",
+          "../source/insights/2026-08-07/IMG_7463.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record",
+        "notes": [
+          "retention keypoints approximate"
+        ]
+      },
+      {
+        "capture": {
+          "date": "2026-08-07",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null
+        },
+        "sources_pct": {
+          "reels_tab": 86.0,
+          "explore": 12.4,
+          "profile": 12.4
+        },
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7463.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "distribution_observations": [
+    {
+      "capture": {
+        "at": "2026-08-07T13:01-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7460.PNG",
+        "../source/insights/2026-08-07/IMG_7462.PNG",
+        "../source/insights/2026-08-07/IMG_7463.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "retention keypoints approximate"
+      ],
+      "viewers_label": "higher"
+    },
+    {
+      "capture": {
+        "date": "2026-08-07",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7460.PNG"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "views_over_time"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "12:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7784.PNG"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "views_over_time"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    }
+  ]
+}

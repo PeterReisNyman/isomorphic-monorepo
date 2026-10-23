@@ -1,0 +1,100 @@
+{
+  "sample_id": "o-mesmo-ape-6-inquilinos",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "purpose": "Context for fitting and interpreting the objectives; these fields are not performance targets.",
+  "post": {
+    "sample_id": "o-mesmo-ape-6-inquilinos",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "urls": [],
+    "posting_observations": [
+      {
+        "capture": {
+          "at": "2026-09-04T19:59+08:00",
+          "timezone": "explicit_offset"
+        },
+        "at": "2026-09-04T13:35+08:00",
+        "handle": "imoblyy",
+        "source_files": [
+          "../source/insights/2026-09-04/Reel insights for imoblyy – 4 Sep 2026 - 4 Sep 2026.pdf"
+        ]
+      },
+      {
+        "at": "2026-09-04T13:35:00",
+        "timezone": null,
+        "capture": {
+          "at": "2026-09-04T19:59:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-09-04/Reel insights for imoblyy – 4 Sep 2026 - 4 Sep 2026.pdf"
+        ],
+        "precision": "as_displayed_no_timezone"
+      }
+    ],
+    "captions": [
+      {
+        "capture": {
+          "at": "2026-09-04T19:59+08:00",
+          "timezone": "explicit_offset"
+        },
+        "visible": "Marca quem é o 2. 👀",
+        "source_files": [
+          "../source/insights/2026-09-04/Reel insights for imoblyy – 4 Sep 2026 - 4 Sep 2026.pdf"
+        ]
+      },
+      {
+        "caption": "Marca quem é o 2.\n\nO mesmo apê de 38 m², seis vidas. Qual é a sua?\nPerdizes, São Paulo · @imoblyy\n\n#apartamento #saopaulo #aluguel #kitnet #primeiroape",
+        "truncated_in_export": false,
+        "capture": {
+          "at": "2026-09-04T19:59:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-09-04/Reel insights for imoblyy – 4 Sep 2026 - 4 Sep 2026.pdf"
+        ],
+        "notes": [
+          "Extracted from the PDF text layer; emoji and original line wrapping may be lost."
+        ]
+      }
+    ],
+    "account_observations": [
+      {
+        "followers": 3,
+        "capture": {
+          "at": "2026-09-04T19:59:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-09-04/Reel insights for imoblyy – 4 Sep 2026 - 4 Sep 2026.pdf"
+        ]
+      }
+    ],
+    "notes": [
+      "Only information from saved Instagram post/Insights evidence is included. A missing field is unknown, not zero."
+    ]
+  },
+  "audience": {
+    "sample_id": "o-mesmo-ape-6-inquilinos",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": false,
+    "observations": [],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate.",
+      "No numeric values for this category were recorded in the available evidence."
+    ]
+  },
+  "traffic": {
+    "sample_id": "o-mesmo-ape-6-inquilinos",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": false,
+    "observations": [],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate.",
+      "No numeric values for this category were recorded in the available evidence."
+    ]
+  }
+}

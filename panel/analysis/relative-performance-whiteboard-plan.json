@@ -1,0 +1,116 @@
+{
+  "id": "relative-performance-whiteboard-2026-10-23",
+  "title": "Relative reel performance — planning board",
+  "created_date": "2026-10-23",
+  "timezone": "Asia/Hong_Kong",
+  "mode": "Explain relative performance at the same capture time",
+  "status": "Planning only; next-step tasks are not executed by creating this board.",
+  "notes": [
+    {
+      "id": "goal",
+      "group": "goal",
+      "kind": "Confirmed target",
+      "title": "Explain relative reel performance",
+      "text": "Same-capture stats → multiple of the channel baseline.\n1× = typical · 1.5× = 50% above · 0.7× = 30% below.\nThe channel’s absolute view count is not an equation input.\nThis board is for a descriptive model at the observed capture time."
+    },
+    {
+      "id": "decisions",
+      "group": "context",
+      "kind": "Decisions",
+      "title": "What we have agreed",
+      "text": "• Explain performance at the same capture time.\n• Show response metrics as percentages.\n• Use the channel median as the working baseline.\n• Exclude the evaluated reel from its baseline.\nOpen decision: comparable post ages and formats."
+    },
+    {
+      "id": "evidence",
+      "group": "context",
+      "kind": "Evidence",
+      "title": "Where the prototype stands",
+      "text": "• 20 saved reels across 4 channels; 19 aligned model rows.\n• Watch % and skip % are the starting inputs.\n• Above/below baseline: 13/19 held-out reels correct.\n• Median error: 1.61×; always predicting 1×: 1.39×.\nThe current equation has not beaten the simple benchmark."
+    },
+    {
+      "id": "hypotheses",
+      "group": "context",
+      "kind": "Hypotheses",
+      "title": "Ideas worth testing",
+      "text": "• Duration may add information lost by percentages.\n• Completion × average watch seconds is a candidate interaction.\n• Fit the measured curve before assuming constant drop-off.\n• Keep first-pass retention and replay-inclusive watch separate.\nThe old loop-to-views line is not a calibrated predictor."
+    },
+    {
+      "id": "recovery",
+      "group": "context",
+      "kind": "Data recovery",
+      "title": "Simone’s remaining gaps",
+      "text": "• All 5 saved insight records are recovered.\n• Their 5 MP4s are still unavailable locally.\n• 2 reels lack viewers; 2 viewer figures are unconfirmed.\n• Views are available for all 5.\nMedia recovery supports X training; viewer recovery supports loop analysis."
+    },
+    {
+      "id": "step1",
+      "group": "steps",
+      "kind": "First",
+      "title": "1. Freeze the comparison rules",
+      "text": "[ ] Define comparable post-age bands and formats.\n[ ] Document channel median views as the target baseline.\n[ ] Exclude the evaluated reel and flag sparse channel history.\n[ ] Specify every percentage denominator.\nDone when: one precise row/target definition is written."
+    },
+    {
+      "id": "step2",
+      "group": "steps",
+      "kind": "Next",
+      "title": "2. Audit the 20-reel dataset",
+      "text": "[ ] Match every feature to the same capture as its views.\n[ ] Add post age and duration where evidence exists.\n[ ] Record missing data, rounding, platform and collaboration flags.\n[ ] Distinguish actual end retention from the last saved graph point.\nDone when: each included value traces to an original source."
+    },
+    {
+      "id": "step3",
+      "group": "steps",
+      "kind": "Then",
+      "title": "3. Build the candidate features",
+      "text": "[ ] Keep watch % and skip % as the reference feature set.\n[ ] Add duration as context.\n[ ] Test true completion × watch % × duration / 10,000.\n[ ] Compare early drop-off and later retention where curves exist.\n[ ] Label the mathematical coupling in action/view percentages."
+    },
+    {
+      "id": "step4",
+      "group": "steps",
+      "kind": "Then",
+      "title": "4. Fit a small model ladder",
+      "text": "[ ] M0: always predict 1×.\n[ ] M1: watch % + skip %.\n[ ] M2: add duration.\n[ ] M3: test the completion/watch interaction.\n[ ] Test sharing or saves only with adequate matched coverage.\nKeep the model small; estimate new weights from the data."
+    },
+    {
+      "id": "step5",
+      "group": "steps",
+      "kind": "Then",
+      "title": "5. Validate fairly",
+      "text": "[ ] Recompute baselines inside each training fold.\n[ ] Hold out reels; keep duplicate captures together.\n[ ] Also hold out entire channels.\n[ ] Compare models on identical eligible reels and folds.\n[ ] Report log error, above/below accuracy and error ranges.\nJudge magnitude against 1×; direction against a simple class baseline."
+    },
+    {
+      "id": "step6",
+      "group": "steps",
+      "kind": "Decision gate",
+      "title": "6. Keep only demonstrated value",
+      "text": "[ ] Check for consistent error improvement over 1×.\n[ ] Inspect failures, small-channel instability and breakout misses.\n[ ] Retain only features that help held-out results.\n[ ] Publish the equation, definitions and an honest error range.\nIf the gate fails: retain 1× as the benchmark and collect better matched evidence."
+    }
+  ],
+  "dependencies": [
+    [
+      "step1",
+      "step2"
+    ],
+    [
+      "step2",
+      "step3"
+    ],
+    [
+      "step3",
+      "step4"
+    ],
+    [
+      "step4",
+      "step5"
+    ],
+    [
+      "step5",
+      "step6"
+    ]
+  ],
+  "sources": {
+    "dataset": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/manifest.json",
+    "simone_insights": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/manifest.json",
+    "percentage_correlations": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/analysis/percentage-y-vs-views.json",
+    "prototype": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/analysis/relative-performance-equation.json",
+    "retention_note": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/isomorphic-atlas/archive/storage-v1-2026-10-04/notes/reel-length-optimization-2026-08.md"
+  }
+}

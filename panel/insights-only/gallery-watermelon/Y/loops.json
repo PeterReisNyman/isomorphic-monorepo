@@ -1,0 +1,16 @@
+{
+  "sample_id": "gallery-watermelon",
+  "platform": "instagram",
+  "account": "sifontanareis",
+  "objective": "Fit the loop metric: average views per viewer.",
+  "target_fields": [
+    "views_per_viewer"
+  ],
+  "formula": "views / viewers",
+  "available": false,
+  "observations": [],
+  "notes": [
+    "Insights-only record. Local MP4 and transcript are unavailable.",
+    "Missing viewers are not replaced with reach."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sample_id": "isso-nao-e-ruido",
+  "platform": "instagram",
+  "account": "kima.ia.br",
+  "objective": "Fit profile visits and follows attributed to the post.",
+  "target_fields": [
+    "profile_visits",
+    "follows"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-06.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "profile_visits": 10
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "profile_visits": 10
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "displayed_clock": "14:37",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+      ],
+      "extraction": "previously_visually_checked_instagram_screenshot",
+      "profile_visits": 10,
+      "follows": 0
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

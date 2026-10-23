@@ -1,0 +1,4302 @@
+{
+  "method": {
+    "correlation": "Spearman rank correlation; primary ranking by absolute account-adjusted rho, with pooled rho shown for comparison",
+    "minimum_n_to_rank": 8,
+    "action_rate_definition": "100 * action count / recorded views, matched by capture",
+    "duration_rate_definition": "100 * average watch seconds / video duration seconds",
+    "native_percentages": [
+      "Skip rate",
+      "Retention at 3 seconds",
+      "Last measured retention"
+    ],
+    "account_adjustment": "Partial Spearman: remove account-specific means from the global ranks before correlation",
+    "bootstrap": "3000 resamples within account, seed 1729; descriptive 95% interval",
+    "limits": [
+      "One latest matched capture per reel per metric; metric coverage and capture dates vary.",
+      "20 saved reels across 4 accounts; descriptive associations are not causal effects or validated predictions.",
+      "Percentages containing views in the denominator can have mathematical coupling with views.",
+      "Counts may be rounded; retention curves are estimates.",
+      "Loops are excluded from the percentage-only ranking because views per viewer is a ratio rather than a percentage outcome."
+    ]
+  },
+  "samples": [
+    {
+      "id": "a-lead-de-marco",
+      "project": "kima",
+      "account": "kima.ia.br"
+    },
+    {
+      "id": "a-porta-do-corredor",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "barra-v3-ficha",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "cat-reel",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "hard-boiled",
+      "project": "unfilmed.lab",
+      "account": "unfilmed.lab"
+    },
+    {
+      "id": "o-bolo",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "o-mesmo-ape-6-inquilinos",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "o-piano-do-9",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "o-piso-torto",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "o-quarto-de-235",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "perdizes-c206",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "silent-garage",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "tatuape-tour",
+      "project": "imobly",
+      "account": "imoblyy"
+    },
+    {
+      "id": "the-cheapest-ocean-view",
+      "project": "unfilmed.lab",
+      "account": "unfilmed.lab"
+    },
+    {
+      "id": "isso-nao-e-ruido",
+      "project": "kima",
+      "account": "kima.ia.br"
+    },
+    {
+      "id": "canyon-draped-figure",
+      "project": "sifontanareis",
+      "account": "sifontanareis"
+    },
+    {
+      "id": "jiboia-passarinho",
+      "project": "sifontanareis",
+      "account": "sifontanareis"
+    },
+    {
+      "id": "gallery-watermelon",
+      "project": "sifontanareis",
+      "account": "sifontanareis"
+    },
+    {
+      "id": "nego-bispo-jurema",
+      "project": "sifontanareis",
+      "account": "sifontanareis"
+    },
+    {
+      "id": "niede-guidon",
+      "project": "sifontanareis",
+      "account": "sifontanareis"
+    }
+  ],
+  "charts": [
+    {
+      "id": "p11",
+      "category": "attention",
+      "path": "watch",
+      "title": "Average watch / length",
+      "axis": "Watch / length (%)",
+      "unit": "percent",
+      "mode": "duration",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 95.55777082784405,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/attention.json"
+          ],
+          "raw_metric": 15.99,
+          "denominator": 16.733333
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 48.62987263604786,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/attention.json"
+          ],
+          "raw_metric": 8.82,
+          "denominator": 18.137
+        },
+        {
+          "id": "barra-v3-ficha",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 25,
+          "y": 13.806252259952007,
+          "date": "2026-08-19",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/attention.json"
+          ],
+          "raw_metric": 4.2,
+          "denominator": 30.421
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 11.171662125340598,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/attention.json"
+          ],
+          "raw_metric": 4.1,
+          "denominator": 36.7
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 118.2191780821918,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/attention.json"
+          ],
+          "raw_metric": 8.63,
+          "denominator": 7.3
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 124,
+          "y": 32.5,
+          "date": "2026-08-19",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/attention.json"
+          ],
+          "raw_metric": 11.7,
+          "denominator": 36.0
+        },
+        {
+          "id": "o-mesmo-ape-6-inquilinos",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 371,
+          "y": 86.7479674796748,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-mesmo-ape-6-inquilinos/Y/attention.json"
+          ],
+          "raw_metric": 10.67,
+          "denominator": 12.3
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 218,
+          "y": 31.5,
+          "date": "2026-08-19",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/attention.json"
+          ],
+          "raw_metric": 6.3,
+          "denominator": 20.0
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2400,
+          "y": 79.84538928768636,
+          "date": "2026-09-04",
+          "approximate": true,
+          "metricApproximate": false,
+          "flags": [
+            "Views are rounded in the source",
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/attention.json"
+          ],
+          "raw_metric": 14.46,
+          "denominator": 18.11
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 60.72198271081564,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/attention.json"
+          ],
+          "raw_metric": 10.95,
+          "denominator": 18.033008
+        },
+        {
+          "id": "perdizes-c206",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 115,
+          "y": 16.931818181818183,
+          "date": "2026-08-19",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/attention.json"
+          ],
+          "raw_metric": 14.9,
+          "denominator": 88.0
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 9.194101630184942,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/attention.json"
+          ],
+          "raw_metric": 2.6,
+          "denominator": 28.279
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 126,
+          "y": 16.174092045287455,
+          "date": "2026-08-19",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/attention.json"
+          ],
+          "raw_metric": 5.5,
+          "denominator": 34.005
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2800,
+          "y": 89.05759395438727,
+          "date": "2026-09-11",
+          "approximate": true,
+          "metricApproximate": false,
+          "flags": [
+            "Views are rounded in the source",
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/attention.json"
+          ],
+          "raw_metric": 11.34,
+          "denominator": 12.733333
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 64.61498506687443,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/attention.json"
+          ],
+          "raw_metric": 24.88,
+          "denominator": 38.505
+        },
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 27.073529411764707,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/attention.json"
+          ],
+          "raw_metric": 18.41,
+          "denominator": 68
+        },
+        {
+          "id": "jiboia-passarinho",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 201063,
+          "y": 27.345225603357818,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/attention.json"
+          ],
+          "raw_metric": 26.06,
+          "denominator": 95.3
+        },
+        {
+          "id": "gallery-watermelon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 190575,
+          "y": 37.407407407407405,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/attention.json"
+          ],
+          "raw_metric": 20.2,
+          "denominator": 54
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 97975,
+          "y": 22.593984962406015,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/attention.json"
+          ],
+          "raw_metric": 18.03,
+          "denominator": 79.8
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 18.623655913978496,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Average watch time as a percentage of the video length; replays can make this exceed 100%"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/attention.json"
+          ],
+          "raw_metric": 17.32,
+          "denominator": 93
+        }
+      ],
+      "statistics": {
+        "n": 20,
+        "spearman_rho": 0.1789473684210526,
+        "account_adjusted_rho": 0.6307976381371143,
+        "pearson_log10_views": -0.05010572943955369,
+        "by_account": {
+          "imobly": {
+            "n": 11,
+            "rho": 0.6000000000000001
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 5,
+            "rho": 0.6
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          -0.13853141559424678,
+          0.4196618223518037
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          0.083048757131656,
+          0.8735400655824453
+        ],
+        "leave_one_reel_out_rho_range": [
+          0.06666666666666667,
+          0.2596491228070175
+        ]
+      },
+      "rankable": true,
+      "rank": 1
+    },
+    {
+      "id": "p8",
+      "category": "attention",
+      "path": "rates_pct.skip",
+      "title": "Skip rate",
+      "axis": "Skipped (%)",
+      "unit": "percent",
+      "mode": "native",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 54.9,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/attention.json"
+          ],
+          "raw_metric": 54.9,
+          "denominator": null
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 67.6,
+          "date": "2026-08-30",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/attention.json"
+          ],
+          "raw_metric": 67.6,
+          "denominator": null
+        },
+        {
+          "id": "barra-v3-ficha",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 24,
+          "y": 88.2,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/attention.json"
+          ],
+          "raw_metric": 88.2,
+          "denominator": null
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 78.2,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/attention.json"
+          ],
+          "raw_metric": 78.2,
+          "denominator": null
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 32.1,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/attention.json"
+          ],
+          "raw_metric": 32.1,
+          "denominator": null
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 119,
+          "y": 31.5,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/attention.json"
+          ],
+          "raw_metric": 31.5,
+          "denominator": null
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 217,
+          "y": 49.7,
+          "date": "2026-08-18",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/attention.json"
+          ],
+          "raw_metric": 49.7,
+          "denominator": null
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2413,
+          "y": 23.1,
+          "date": "2026-08-30",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/attention.json"
+          ],
+          "raw_metric": 23.1,
+          "denominator": null
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 31.4,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/attention.json"
+          ],
+          "raw_metric": 31.4,
+          "denominator": null
+        },
+        {
+          "id": "perdizes-c206",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 113,
+          "y": 36.8,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/attention.json"
+          ],
+          "raw_metric": 36.8,
+          "denominator": null
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 87.1,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/attention.json"
+          ],
+          "raw_metric": 87.1,
+          "denominator": null
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 125,
+          "y": 49.6,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/attention.json"
+          ],
+          "raw_metric": 49.6,
+          "denominator": null
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2846,
+          "y": 19.9,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/attention.json"
+          ],
+          "raw_metric": 19.9,
+          "denominator": null
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 100.0,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/attention.json"
+          ],
+          "raw_metric": 100.0,
+          "denominator": null
+        },
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 22.25,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/attention.json"
+          ],
+          "raw_metric": 22.25,
+          "denominator": null
+        },
+        {
+          "id": "jiboia-passarinho",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 201063,
+          "y": 23.46,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/attention.json"
+          ],
+          "raw_metric": 23.46,
+          "denominator": null
+        },
+        {
+          "id": "gallery-watermelon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 190575,
+          "y": 26.6,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/attention.json"
+          ],
+          "raw_metric": 26.6,
+          "denominator": null
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 97975,
+          "y": 37.2,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/attention.json"
+          ],
+          "raw_metric": 37.2,
+          "denominator": null
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 37.88,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/attention.json"
+          ],
+          "raw_metric": 37.88,
+          "denominator": null
+        }
+      ],
+      "statistics": {
+        "n": 19,
+        "spearman_rho": -0.6929824561403508,
+        "account_adjusted_rho": -0.496657052035425,
+        "pearson_log10_views": -0.673967784635161,
+        "by_account": {
+          "imobly": {
+            "n": 10,
+            "rho": -0.41818181818181815
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 5,
+            "rho": -0.9999999999999999
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          -0.8778175486079947,
+          -0.3709136976750527
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          -0.8916649591638641,
+          0.3274068020969038
+        ],
+        "leave_one_reel_out_rho_range": [
+          -0.762641898864809,
+          -0.6408668730650156
+        ]
+      },
+      "rankable": true,
+      "rank": 2
+    },
+    {
+      "id": "p10",
+      "category": "attention",
+      "path": "retentionEnd",
+      "title": "Last measured retention",
+      "axis": "Retained (%)",
+      "unit": "percent",
+      "mode": "native",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 42.2,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/attention.json"
+          ],
+          "raw_metric": 42.2,
+          "denominator": null,
+          "atSecond": 16
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 22,
+          "date": "2026-08-30",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/attention.json"
+          ],
+          "raw_metric": 22,
+          "denominator": null,
+          "atSecond": 18
+        },
+        {
+          "id": "barra-v3-ficha",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 24,
+          "y": 6.7,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/attention.json"
+          ],
+          "raw_metric": 6.7,
+          "denominator": null,
+          "atSecond": 30
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 2,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/attention.json"
+          ],
+          "raw_metric": 2,
+          "denominator": null,
+          "atSecond": 36.7
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 48.8,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/attention.json"
+          ],
+          "raw_metric": 48.8,
+          "denominator": null,
+          "atSecond": 7.3
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 119,
+          "y": 12,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/attention.json"
+          ],
+          "raw_metric": 12,
+          "denominator": null,
+          "atSecond": 36.0
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 217,
+          "y": 8,
+          "date": "2026-08-18",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/attention.json"
+          ],
+          "raw_metric": 8,
+          "denominator": null,
+          "atSecond": 19.0
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2413,
+          "y": 33.7,
+          "date": "2026-08-30",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/attention.json"
+          ],
+          "raw_metric": 33.7,
+          "denominator": null,
+          "atSecond": 18
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 20,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/attention.json"
+          ],
+          "raw_metric": 20,
+          "denominator": null,
+          "atSecond": 18.0
+        },
+        {
+          "id": "perdizes-c206",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 113,
+          "y": 3.5,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/attention.json"
+          ],
+          "raw_metric": 3.5,
+          "denominator": null,
+          "atSecond": 87
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 2,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/attention.json"
+          ],
+          "raw_metric": 2,
+          "denominator": null,
+          "atSecond": 28.279
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 125,
+          "y": 5,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/attention.json"
+          ],
+          "raw_metric": 5,
+          "denominator": null,
+          "atSecond": 34.0
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2846,
+          "y": 52.8,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/attention.json"
+          ],
+          "raw_metric": 52.8,
+          "denominator": null,
+          "atSecond": 12.73
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 19.4,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/attention.json"
+          ],
+          "raw_metric": 19.4,
+          "denominator": null,
+          "atSecond": 38
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 3.5,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve",
+            "Last measured second differs between reels"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/attention.json"
+          ],
+          "raw_metric": 3.5,
+          "denominator": null,
+          "atSecond": 92.0
+        }
+      ],
+      "statistics": {
+        "n": 15,
+        "spearman_rho": 0.31484844654346733,
+        "account_adjusted_rho": 0.4741608134351699,
+        "pearson_log10_views": 0.3209290512484127,
+        "by_account": {
+          "imobly": {
+            "n": 10,
+            "rho": 0.4559291577600484
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 1,
+            "rho": null
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          0.016246663609033995,
+          0.4886597409775419
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          -0.2863700854977158,
+          0.860537087475996
+        ],
+        "leave_one_reel_out_rho_range": [
+          0.20704896041358153,
+          0.530253346170072
+        ]
+      },
+      "rankable": true,
+      "rank": 3
+    },
+    {
+      "id": "p2",
+      "category": "engagement",
+      "path": "saves",
+      "title": "Save rate",
+      "axis": "Rate (%)",
+      "unit": "percent",
+      "mode": "action",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 0.0,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 130
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 153
+        },
+        {
+          "id": "barra-v3-ficha",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 24,
+          "y": 0.0,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 24
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 134
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 0.09592326139088729,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/engagement.json"
+          ],
+          "raw_metric": 2,
+          "denominator": 2085
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 124,
+          "y": 0.0,
+          "date": "2026-08-17",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 124
+        },
+        {
+          "id": "o-mesmo-ape-6-inquilinos",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 371,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-mesmo-ape-6-inquilinos/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 371
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 217,
+          "y": 0.0,
+          "date": "2026-08-18",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 217
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2400,
+          "y": 0.041666666666666664,
+          "date": "2026-09-04",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/engagement.json"
+          ],
+          "raw_metric": 1,
+          "denominator": 2400
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 0.06071645415907711,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/engagement.json"
+          ],
+          "raw_metric": 1,
+          "denominator": 1647
+        },
+        {
+          "id": "perdizes-c206",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 113,
+          "y": 0.0,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 113
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 171
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 125,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 125
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2800,
+          "y": 0.0,
+          "date": "2026-09-11",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2800
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 0.0,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 70
+        },
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 0.11281816406118449,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/engagement.json"
+          ],
+          "raw_metric": 335,
+          "denominator": 296938
+        },
+        {
+          "id": "jiboia-passarinho",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 201063,
+          "y": 0.15219110428074784,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/engagement.json"
+          ],
+          "raw_metric": 306,
+          "denominator": 201063
+        },
+        {
+          "id": "gallery-watermelon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 190575,
+          "y": 0.2198609471336744,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/engagement.json"
+          ],
+          "raw_metric": 419,
+          "denominator": 190575
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 97975,
+          "y": 0.4348047971421281,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/engagement.json"
+          ],
+          "raw_metric": 426,
+          "denominator": 97975
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 0.1650821432833446,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/engagement.json"
+          ],
+          "raw_metric": 83,
+          "denominator": 50278
+        }
+      ],
+      "statistics": {
+        "n": 20,
+        "spearman_rho": 0.8138465697913343,
+        "account_adjusted_rho": 0.3830074815605574,
+        "pearson_log10_views": 0.785647809334931,
+        "by_account": {
+          "imobly": {
+            "n": 11,
+            "rho": 0.6607158652139772
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 5,
+            "rho": -0.7
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          0.7377258880392106,
+          0.9001675094644158
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          -0.19497003166196766,
+          0.7133533196827783
+        ],
+        "leave_one_reel_out_rho_range": [
+          0.7935611553526325,
+          0.8592832235509577
+        ]
+      },
+      "rankable": true,
+      "rank": 4
+    },
+    {
+      "id": "p9",
+      "category": "attention",
+      "path": "retention3",
+      "title": "Retention at 3 seconds",
+      "axis": "Retained (%)",
+      "unit": "percent",
+      "mode": "native",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 65.3,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/attention.json"
+          ],
+          "raw_metric": 65.3,
+          "denominator": null
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 37.0,
+          "date": "2026-08-30",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/attention.json"
+          ],
+          "raw_metric": 37.0,
+          "denominator": null
+        },
+        {
+          "id": "barra-v3-ficha",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 24,
+          "y": 19.3,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/attention.json"
+          ],
+          "raw_metric": 19.3,
+          "denominator": null
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 49.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/attention.json"
+          ],
+          "raw_metric": 49.0,
+          "denominator": null
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 72.7,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/attention.json"
+          ],
+          "raw_metric": 72.7,
+          "denominator": null
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 119,
+          "y": 66.66666666666666,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/attention.json"
+          ],
+          "raw_metric": 66.66666666666666,
+          "denominator": null
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 217,
+          "y": 50.0,
+          "date": "2026-08-18",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/attention.json"
+          ],
+          "raw_metric": 50.0,
+          "denominator": null
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2413,
+          "y": 80.8,
+          "date": "2026-08-30",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/attention.json"
+          ],
+          "raw_metric": 80.8,
+          "denominator": null
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 72.0,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/attention.json"
+          ],
+          "raw_metric": 72.0,
+          "denominator": null
+        },
+        {
+          "id": "perdizes-c206",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 113,
+          "y": 66.5,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/attention.json"
+          ],
+          "raw_metric": 66.5,
+          "denominator": null
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 16.25,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/attention.json"
+          ],
+          "raw_metric": 16.25,
+          "denominator": null
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 125,
+          "y": 50.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/attention.json"
+          ],
+          "raw_metric": 50.0,
+          "denominator": null
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2846,
+          "y": 84.5,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/attention.json"
+          ],
+          "raw_metric": 84.5,
+          "denominator": null
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 64.9,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/attention.json"
+          ],
+          "raw_metric": 64.9,
+          "denominator": null
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 66.0,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Estimated from a digitized retention curve"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/attention.json"
+          ],
+          "raw_metric": 66.0,
+          "denominator": null
+        }
+      ],
+      "statistics": {
+        "n": 15,
+        "spearman_rho": 0.48793585167400566,
+        "account_adjusted_rho": 0.3329155473284747,
+        "pearson_log10_views": 0.569094615552699,
+        "by_account": {
+          "imobly": {
+            "n": 10,
+            "rho": 0.3586642707712381
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 1,
+            "rho": null
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          0.06503357204995999,
+          0.7812784442939084
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          -0.6093892548900295,
+          0.8815871849000567
+        ],
+        "leave_one_reel_out_rho_range": [
+          0.396039843612502,
+          0.5676571091779195
+        ]
+      },
+      "rankable": true,
+      "rank": 5
+    },
+    {
+      "id": "p5",
+      "category": "conversion",
+      "path": "follows",
+      "title": "Follow rate",
+      "axis": "Rate (%)",
+      "unit": "percent",
+      "mode": "action",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 2.3076923076923075,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/conversion.json"
+          ],
+          "raw_metric": 3,
+          "denominator": 130
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 0.0,
+          "date": "2026-08-30",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/conversion.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 153
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/conversion.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 134
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 0.0,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/conversion.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2085
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 124,
+          "y": 0.8064516129032258,
+          "date": "2026-08-19",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/conversion.json"
+          ],
+          "raw_metric": 1,
+          "denominator": 124
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 217,
+          "y": 0.0,
+          "date": "2026-08-18",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/conversion.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 217
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2413,
+          "y": 0.0,
+          "date": "2026-08-30",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/conversion.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2413
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 0.06071645415907711,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/conversion.json"
+          ],
+          "raw_metric": 1,
+          "denominator": 1647
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/conversion.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 171
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 125,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/conversion.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 125
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2846,
+          "y": 0.0,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/conversion.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2846
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 0.0,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/conversion.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 70
+        },
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 0.012460513642578585,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/conversion.json"
+          ],
+          "raw_metric": 37,
+          "denominator": 296938
+        },
+        {
+          "id": "jiboia-passarinho",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 201063,
+          "y": 0.027851966796476727,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/conversion.json"
+          ],
+          "raw_metric": 56,
+          "denominator": 201063
+        },
+        {
+          "id": "gallery-watermelon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 190575,
+          "y": 0.03568149022694477,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/conversion.json"
+          ],
+          "raw_metric": 68,
+          "denominator": 190575
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 97975,
+          "y": 0.16738964021434038,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/conversion.json"
+          ],
+          "raw_metric": 164,
+          "denominator": 97975
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 0.09546919129639206,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/conversion.json"
+          ],
+          "raw_metric": 48,
+          "denominator": 50278
+        }
+      ],
+      "statistics": {
+        "n": 17,
+        "spearman_rho": 0.19373280056995495,
+        "account_adjusted_rho": -0.15568521724852466,
+        "pearson_log10_views": -0.25634585416945527,
+        "by_account": {
+          "imobly": {
+            "n": 8,
+            "rho": -0.21821789023599242
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 5,
+            "rho": -0.8999999999999998
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          -0.30972108594418973,
+          0.7500861503104707
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          -0.7999774184963195,
+          0.482557262895747
+        ],
+        "leave_one_reel_out_rho_range": [
+          0.1005315521254873,
+          0.41160936445562435
+        ]
+      },
+      "rankable": true,
+      "rank": 6
+    },
+    {
+      "id": "p0",
+      "category": "engagement",
+      "path": "likes",
+      "title": "Like rate",
+      "axis": "Rate (%)",
+      "unit": "percent",
+      "mode": "action",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 7.6923076923076925,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/engagement.json"
+          ],
+          "raw_metric": 10,
+          "denominator": 130
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 153
+        },
+        {
+          "id": "barra-v3-ficha",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 24,
+          "y": 0.0,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 24
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 134
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 0.19184652278177458,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/engagement.json"
+          ],
+          "raw_metric": 4,
+          "denominator": 2085
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 124,
+          "y": 0.8064516129032258,
+          "date": "2026-08-17",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/engagement.json"
+          ],
+          "raw_metric": 1,
+          "denominator": 124
+        },
+        {
+          "id": "o-mesmo-ape-6-inquilinos",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 371,
+          "y": 0.5390835579514824,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-mesmo-ape-6-inquilinos/Y/engagement.json"
+          ],
+          "raw_metric": 2,
+          "denominator": 371
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 217,
+          "y": 0.0,
+          "date": "2026-08-18",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 217
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2400,
+          "y": 0.125,
+          "date": "2026-09-04",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/engagement.json"
+          ],
+          "raw_metric": 3,
+          "denominator": 2400
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 0.24286581663630843,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/engagement.json"
+          ],
+          "raw_metric": 4,
+          "denominator": 1647
+        },
+        {
+          "id": "perdizes-c206",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 113,
+          "y": 0.0,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 113
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 171
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 125,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 125
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2800,
+          "y": 0.25,
+          "date": "2026-09-11",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/engagement.json"
+          ],
+          "raw_metric": 7,
+          "denominator": 2800
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 17.142857142857142,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/engagement.json"
+          ],
+          "raw_metric": 12,
+          "denominator": 70
+        },
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 0.47686722480787236,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/engagement.json"
+          ],
+          "raw_metric": 1416,
+          "denominator": 296938
+        },
+        {
+          "id": "jiboia-passarinho",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 201063,
+          "y": 0.6465635149182097,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/engagement.json"
+          ],
+          "raw_metric": 1300,
+          "denominator": 201063
+        },
+        {
+          "id": "gallery-watermelon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 190575,
+          "y": 0.8920372556736194,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/engagement.json"
+          ],
+          "raw_metric": 1700,
+          "denominator": 190575
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 97975,
+          "y": 3.266139321255422,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/engagement.json"
+          ],
+          "raw_metric": 3200,
+          "denominator": 97975
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 1.8278372250288397,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/engagement.json"
+          ],
+          "raw_metric": 919,
+          "denominator": 50278
+        }
+      ],
+      "statistics": {
+        "n": 20,
+        "spearman_rho": 0.32265526478874257,
+        "account_adjusted_rho": 0.14604647118359387,
+        "pearson_log10_views": -0.16257618410384236,
+        "by_account": {
+          "imobly": {
+            "n": 11,
+            "rho": 0.38958161650696166
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 5,
+            "rho": -0.8999999999999998
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          0.005325127166145836,
+          0.5553297021292398
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          -0.43890082707704,
+          0.6235599182261747
+        ],
+        "leave_one_reel_out_rho_range": [
+          0.2369998504432135,
+          0.519949029178451
+        ]
+      },
+      "rankable": true,
+      "rank": 7
+    },
+    {
+      "id": "p4",
+      "category": "amplification",
+      "path": "reposts",
+      "title": "Repost rate",
+      "axis": "Rate (%)",
+      "unit": "percent",
+      "mode": "action",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 0.0,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 130
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 153
+        },
+        {
+          "id": "barra-v3-ficha",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 24,
+          "y": 0.0,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 24
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 134
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 0.0,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2085
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 124,
+          "y": 0.0,
+          "date": "2026-08-17",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 124
+        },
+        {
+          "id": "o-mesmo-ape-6-inquilinos",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 371,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-mesmo-ape-6-inquilinos/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 371
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 217,
+          "y": 0.0,
+          "date": "2026-08-18",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 217
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2400,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2400
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 0.0,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 1647
+        },
+        {
+          "id": "perdizes-c206",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 113,
+          "y": 0.0,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 113
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 171
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 125,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 125
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2800,
+          "y": 0.0,
+          "date": "2026-09-11",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2800
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 0.0,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 70
+        },
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 0.017848843866396354,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/amplification.json"
+          ],
+          "raw_metric": 53,
+          "denominator": 296938
+        },
+        {
+          "id": "jiboia-passarinho",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 201063,
+          "y": 0.017407479247797952,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/amplification.json"
+          ],
+          "raw_metric": 35,
+          "denominator": 201063
+        },
+        {
+          "id": "gallery-watermelon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 190575,
+          "y": 0.03463203463203463,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/amplification.json"
+          ],
+          "raw_metric": 66,
+          "denominator": 190575
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 97975,
+          "y": 0.09798417963766266,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/amplification.json"
+          ],
+          "raw_metric": 96,
+          "denominator": 97975
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 0.027845180794781016,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/amplification.json"
+          ],
+          "raw_metric": 14,
+          "denominator": 50278
+        }
+      ],
+      "statistics": {
+        "n": 20,
+        "spearman_rho": 0.7292646776188044,
+        "account_adjusted_rho": -0.13966885537786003,
+        "pearson_log10_views": 0.6539004416994747,
+        "by_account": {
+          "imobly": {
+            "n": 11,
+            "rho": null
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 5,
+            "rho": -0.6
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          0.7261904761904764,
+          0.7605688392718147
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          -0.24016643048396558,
+          0.18544398959292344
+        ],
+        "leave_one_reel_out_rho_range": [
+          0.691146149960311,
+          0.7389507084853549
+        ]
+      },
+      "rankable": true,
+      "rank": 8
+    },
+    {
+      "id": "p1",
+      "category": "engagement",
+      "path": "comments",
+      "title": "Comment rate",
+      "axis": "Rate (%)",
+      "unit": "percent",
+      "mode": "action",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 0.7692307692307693,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/engagement.json"
+          ],
+          "raw_metric": 1,
+          "denominator": 130
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 1.3071895424836601,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/engagement.json"
+          ],
+          "raw_metric": 2,
+          "denominator": 153
+        },
+        {
+          "id": "barra-v3-ficha",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 24,
+          "y": 0.0,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 24
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 134
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 0.0,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2085
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 124,
+          "y": 0.0,
+          "date": "2026-08-17",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 124
+        },
+        {
+          "id": "o-mesmo-ape-6-inquilinos",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 371,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-mesmo-ape-6-inquilinos/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 371
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 217,
+          "y": 0.0,
+          "date": "2026-08-18",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 217
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2400,
+          "y": 0.08333333333333333,
+          "date": "2026-09-04",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/engagement.json"
+          ],
+          "raw_metric": 2,
+          "denominator": 2400
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 0.0,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 1647
+        },
+        {
+          "id": "perdizes-c206",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 113,
+          "y": 0.8849557522123894,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/engagement.json"
+          ],
+          "raw_metric": 1,
+          "denominator": 113
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 171
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 125,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 125
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2800,
+          "y": 0.0,
+          "date": "2026-09-11",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/engagement.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2800
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 7.142857142857143,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/engagement.json"
+          ],
+          "raw_metric": 5,
+          "denominator": 70
+        },
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 0.1522203288228519,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/engagement.json"
+          ],
+          "raw_metric": 452,
+          "denominator": 296938
+        },
+        {
+          "id": "jiboia-passarinho",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 201063,
+          "y": 0.895241789886752,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/engagement.json"
+          ],
+          "raw_metric": 1800,
+          "denominator": 201063
+        },
+        {
+          "id": "gallery-watermelon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 190575,
+          "y": 0.6821461366915912,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/engagement.json"
+          ],
+          "raw_metric": 1300,
+          "denominator": 190575
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 97975,
+          "y": 0.45828017351365147,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/engagement.json"
+          ],
+          "raw_metric": 449,
+          "denominator": 97975
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 0.22673932932893115,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/engagement.json"
+          ],
+          "raw_metric": 114,
+          "denominator": 50278
+        }
+      ],
+      "statistics": {
+        "n": 20,
+        "spearman_rho": 0.10363368168072637,
+        "account_adjusted_rho": -0.08398812720673687,
+        "pearson_log10_views": -0.1712306956128143,
+        "by_account": {
+          "imobly": {
+            "n": 11,
+            "rho": 0.005781216125786004
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 5,
+            "rho": 0.0
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          -0.26407408497535767,
+          0.4604321672005936
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          -0.5846376893419974,
+          0.617034952959464
+        ],
+        "leave_one_reel_out_rho_range": [
+          0.010433690542448656,
+          0.27507002339182823
+        ]
+      },
+      "rankable": true,
+      "rank": 9
+    },
+    {
+      "id": "p3",
+      "category": "amplification",
+      "path": "shares",
+      "title": "Share rate",
+      "axis": "Rate (%)",
+      "unit": "percent",
+      "mode": "action",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 3.076923076923077,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/amplification.json"
+          ],
+          "raw_metric": 4,
+          "denominator": 130
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 153,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 153
+        },
+        {
+          "id": "barra-v3-ficha",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 24,
+          "y": 0.0,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 24
+        },
+        {
+          "id": "cat-reel",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 134,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 134
+        },
+        {
+          "id": "hard-boiled",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2085,
+          "y": 0.0,
+          "date": "2026-09-11",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2085
+        },
+        {
+          "id": "o-bolo",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 124,
+          "y": 0.0,
+          "date": "2026-08-17",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 124
+        },
+        {
+          "id": "o-mesmo-ape-6-inquilinos",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 371,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-mesmo-ape-6-inquilinos/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 371
+        },
+        {
+          "id": "o-piano-do-9",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 217,
+          "y": 0.0,
+          "date": "2026-08-18",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 217
+        },
+        {
+          "id": "o-piso-torto",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 2400,
+          "y": 0.0,
+          "date": "2026-09-04",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2400
+        },
+        {
+          "id": "o-quarto-de-235",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 1647,
+          "y": 0.0,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 1647
+        },
+        {
+          "id": "perdizes-c206",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 113,
+          "y": 0.0,
+          "date": "2026-08-13",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 113
+        },
+        {
+          "id": "silent-garage",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 171,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 171
+        },
+        {
+          "id": "tatuape-tour",
+          "project": "imobly",
+          "account": "imoblyy",
+          "x": 125,
+          "y": 0.0,
+          "date": "2026-08-07",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 125
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "project": "unfilmed.lab",
+          "account": "unfilmed.lab",
+          "x": 2800,
+          "y": 0.0,
+          "date": "2026-09-11",
+          "approximate": true,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Views are rounded in the source",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/amplification.json"
+          ],
+          "raw_metric": 0,
+          "denominator": 2800
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 4.285714285714286,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/amplification.json"
+          ],
+          "raw_metric": 3,
+          "denominator": 70
+        },
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 0.9429577891681091,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/amplification.json"
+          ],
+          "raw_metric": 2800,
+          "denominator": 296938
+        },
+        {
+          "id": "jiboia-passarinho",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 201063,
+          "y": 6.764049079144348,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/amplification.json"
+          ],
+          "raw_metric": 13600,
+          "denominator": 201063
+        },
+        {
+          "id": "gallery-watermelon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 190575,
+          "y": 9.917355371900827,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/amplification.json"
+          ],
+          "raw_metric": 18900,
+          "denominator": 190575
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 97975,
+          "y": 5.4095432508292935,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/amplification.json"
+          ],
+          "raw_metric": 5300,
+          "denominator": 97975
+        },
+        {
+          "id": "niede-guidon",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 50278,
+          "y": 1.611042603126616,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/amplification.json"
+          ],
+          "raw_metric": 810,
+          "denominator": 50278
+        }
+      ],
+      "statistics": {
+        "n": 20,
+        "spearman_rho": 0.45170570665436505,
+        "account_adjusted_rho": -0.042265718365509006,
+        "pearson_log10_views": 0.5972854019403018,
+        "by_account": {
+          "imobly": {
+            "n": 11,
+            "rho": null
+          },
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 5,
+            "rho": -0.09999999999999999
+          },
+          "unfilmed.lab": {
+            "n": 2,
+            "rho": null
+          }
+        },
+        "bootstrap_ci95_stratified_by_account": [
+          0.2933622175359343,
+          0.6092388353134058
+        ],
+        "account_adjusted_bootstrap_ci95": [
+          -0.2468531086674874,
+          0.23128726722993254
+        ],
+        "leave_one_reel_out_rho_range": [
+          0.35511022746189336,
+          0.6166584788260424
+        ]
+      },
+      "rankable": true,
+      "rank": 10
+    },
+    {
+      "id": "p6",
+      "category": "conversion",
+      "path": "profile_visits",
+      "title": "Profile visit rate",
+      "axis": "Rate (%)",
+      "unit": "percent",
+      "mode": "action",
+      "points": [
+        {
+          "id": "a-lead-de-marco",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 130,
+          "y": 10.0,
+          "date": "2026-09-23",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/conversion.json"
+          ],
+          "raw_metric": 13,
+          "denominator": 130
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "project": "kima",
+          "account": "kima.ia.br",
+          "x": 70,
+          "y": 14.285714285714286,
+          "date": "2026-10-09",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same capture time",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/conversion.json"
+          ],
+          "raw_metric": 10,
+          "denominator": 70
+        },
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 0.740895405774943,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": true,
+          "flags": [
+            "Approximate percentage: a source count is abbreviated",
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/conversion.json"
+          ],
+          "raw_metric": 2200,
+          "denominator": 296938
+        }
+      ],
+      "statistics": {
+        "n": 3,
+        "spearman_rho": -1.0,
+        "account_adjusted_rho": null,
+        "pearson_log10_views": -0.96936949871824,
+        "by_account": {
+          "kima": {
+            "n": 2,
+            "rho": null
+          },
+          "sifontanareis": {
+            "n": 1,
+            "rho": null
+          }
+        }
+      },
+      "rankable": false
+    },
+    {
+      "id": "p7",
+      "category": "conversion",
+      "path": "bio_clicks",
+      "title": "Bio link click rate",
+      "axis": "Rate (%)",
+      "unit": "percent",
+      "mode": "action",
+      "points": [
+        {
+          "id": "canyon-draped-figure",
+          "project": "sifontanareis",
+          "account": "sifontanareis",
+          "x": 296938,
+          "y": 0.0026941651119088833,
+          "date": "2026-08-24",
+          "approximate": false,
+          "metricApproximate": false,
+          "flags": [
+            "Actions as a percentage of recorded views; not Instagram’s reach-based rate card"
+          ],
+          "pairing": "same date; recorded views agree",
+          "source": [
+            "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/conversion.json"
+          ],
+          "raw_metric": 8,
+          "denominator": 296938
+        }
+      ],
+      "statistics": {
+        "n": 1,
+        "spearman_rho": null,
+        "account_adjusted_rho": null,
+        "pearson_log10_views": null,
+        "by_account": {
+          "sifontanareis": {
+            "n": 1,
+            "rho": null
+          }
+        }
+      },
+      "rankable": false
+    }
+  ]
+}

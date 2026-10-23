@@ -1,0 +1,298 @@
+{
+  "sample_id": "tatuape-tour",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "purpose": "Context for fitting and interpreting the objectives; these fields are not performance targets.",
+  "post": {
+    "sample_id": "tatuape-tour",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "urls": [],
+    "posting_observations": [
+      {
+        "at": "2026-07-30T17:02:00",
+        "timezone": null,
+        "capture": {
+          "at": "2026-07-31T10:21:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/tatuape-tour-reel-insights-2026-07-30_31.pdf"
+        ],
+        "precision": "as_displayed_no_timezone"
+      }
+    ],
+    "captions": [
+      {
+        "capture": {
+          "at": "2026-07-31",
+          "timezone": null
+        },
+        "caption": "Antes de amar, teste. no Tatuapé: 4 testes num apartamento de 64 m² R$ 783.000 · Condomínio R$ 750 · IPTU R$ 180/mês Tatuapé, São Paulo — região da estação Tatuapé, shopping e...",
+        "hashtags": [],
+        "truncated_in_export": true,
+        "handle": "@imoblyy",
+        "source_files": [
+          "../source/insights/tatuape-tour-reel-insights-2026-07-30_31.pdf"
+        ]
+      },
+      {
+        "capture": {
+          "at": "2026-08-17T12:35-03:00",
+          "timezone": "explicit_offset"
+        },
+        "visible": "Antes de amar, teste. 🧪 4 testes num apartamento ...",
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7467.PNG",
+          "../source/insights/2026-08-07/IMG_7468.PNG",
+          "../source/insights/2026-08-07/IMG_7469.PNG",
+          "../source/insights/2026-08-19/IMG_7785.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7752.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7753.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7754.PNG",
+          "../source/insights/tatuape-tour-reel-insights-2026-07-30_31.pdf"
+        ]
+      },
+      {
+        "caption": "Antes de amar, teste.       4 testes num apartamento de 64 m²\nno Tatuapé:\n\nR$ 783.000 · Condomínio R$ 750 · IPTU R$ 180/mês\nTatuapé, São Paulo — região da estação Tatuapé, shopping\ne...",
+        "truncated_in_export": true,
+        "capture": {
+          "at": "2026-07-31T10:21:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/tatuape-tour-reel-insights-2026-07-30_31.pdf"
+        ],
+        "notes": [
+          "Extracted from the PDF text layer; emoji and original line wrapping may be lost."
+        ]
+      }
+    ],
+    "account_observations": [
+      {
+        "followers": 1,
+        "capture": {
+          "at": "2026-07-31T10:21:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/tatuape-tour-reel-insights-2026-07-30_31.pdf"
+        ]
+      }
+    ],
+    "notes": [
+      "Only information from saved Instagram post/Insights evidence is included. A missing field is unknown, not zero."
+    ]
+  },
+  "audience": {
+    "sample_id": "tatuape-tour",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "at": "2026-08-07T13:02-03:00",
+          "timezone": "explicit_offset"
+        },
+        "followers_pct": 0.8,
+        "non_followers_pct": 99.2,
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7467.PNG",
+          "../source/insights/2026-08-07/IMG_7468.PNG",
+          "../source/insights/2026-08-07/IMG_7469.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record"
+      },
+      {
+        "capture": {
+          "at": "2026-08-24T10:35-03:00",
+          "timezone": "explicit_offset"
+        },
+        "followers_pct": 0.8,
+        "non_followers_pct": 99.2,
+        "age_pct": {
+          "13-17": 0,
+          "18-24": 18.4,
+          "25-34": 49.6,
+          "35-44": 24.0,
+          "45-54": 5.6,
+          "55-64": 1.6,
+          "65+": 0.8
+        },
+        "gender_pct": {
+          "men": 64.0,
+          "women": 36.0
+        },
+        "countries_pct": {
+          "Brazil": 85.6,
+          "Portugal": 6.4,
+          "United States": 2.4,
+          "Germany": 1.6,
+          "Italy": 0.8
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7752.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7753.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7754.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record"
+      },
+      {
+        "capture": {
+          "date": "2026-08-07",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null
+        },
+        "followers_pct": 0.8,
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7469.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null
+        },
+        "followers_pct": 0.8,
+        "non_followers_pct": 99.2,
+        "age_pct": {
+          "13-17": 0.0,
+          "18-24": 18.4,
+          "25-34": 49.6,
+          "35-44": 24.0,
+          "45-54": 5.6,
+          "55-64": 1.6,
+          "65+": 0.8
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7752.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null
+        },
+        "followers_pct": 0.8,
+        "non_followers_pct": 99.2,
+        "countries_pct": {
+          "Brazil": 85.6,
+          "Portugal": 6.4,
+          "United States": 2.4,
+          "Germany": 1.6,
+          "Italy": 0.8
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7753.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:36"
+        },
+        "followers_pct": 0.8,
+        "non_followers_pct": 99.2,
+        "gender_pct": {
+          "men": 64.0,
+          "women": 36.0
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7754.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "traffic": {
+    "sample_id": "tatuape-tour",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "at": "2026-08-07T13:02-03:00",
+          "timezone": "explicit_offset"
+        },
+        "sources_pct": {
+          "reels_tab": 84.0,
+          "explore": 12.8,
+          "feed": 2.4
+        },
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7467.PNG",
+          "../source/insights/2026-08-07/IMG_7468.PNG",
+          "../source/insights/2026-08-07/IMG_7469.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record",
+        "notes": [
+          "retention keypoints approximate"
+        ]
+      },
+      {
+        "capture": {
+          "date": "2026-08-07",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null
+        },
+        "sources_pct": {
+          "reels_tab": 84.0,
+          "explore": 12.8,
+          "feed": 2.4
+        },
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7469.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "distribution_observations": [
+    {
+      "capture": {
+        "date": "2026-08-07",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7467.PNG"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "views_over_time"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "12:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7785.PNG"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "views_over_time"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    }
+  ]
+}

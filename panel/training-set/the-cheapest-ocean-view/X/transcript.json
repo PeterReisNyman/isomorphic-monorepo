@@ -1,0 +1,24 @@
+{
+  "produced": "2026-10-22T11:52:34.784980+00:00",
+  "how": "media-context transcribe-1-pro (Fish Audio), from the complete saved MP4; segment/word timings are provider estimates in original-media seconds.",
+  "duration_s": 12.733333,
+  "language": "ja",
+  "text": "",
+  "segments": [],
+  "words": [],
+  "timing": "estimated",
+  "status": "no_reliable_speech_transcribed",
+  "source_video": "video.mp4",
+  "source_sha256": "597a81a8e8e6df7ea0dd7cc82dba7007489e16026874a8d9ed1e6d70070da75a",
+  "warnings": [],
+  "note": "An empty transcript means no speech was transcribed; it does not establish silence. On-screen text is not included.",
+  "raw_provider_text": "[敲击声] [惊讶]啊！[水流声] [疑惑]か？[水流声]",
+  "non_speech_annotations": [
+    "敲击声",
+    "惊讶",
+    "水流声",
+    "疑惑",
+    "水流声"
+  ],
+  "uncertainty": "Fish produced sound tags and inconsistent non-English vocalizations; the English GPT transcription returned no speech. No lexical words are accepted as reliable."
+}

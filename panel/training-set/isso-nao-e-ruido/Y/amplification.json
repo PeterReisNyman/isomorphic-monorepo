@@ -1,0 +1,91 @@
+{
+  "sample_id": "isso-nao-e-ruido",
+  "platform": "instagram",
+  "account": "kima.ia.br",
+  "objective": "Fit viewers distributing the post through shares and reposts.",
+  "target_fields": [
+    "shares",
+    "reposts",
+    "rates_pct.share",
+    "rates_pct.repost"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:38"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-01.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "reposts": 0,
+      "shares": 3
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-04.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "notes": [
+        "The screenshot displays a 100.0% skip rate. This is preserved as displayed; its definition and apparent disagreement with the nonzero retention curve are unresolved."
+      ],
+      "rates_pct": {
+        "share": 9.1,
+        "repost": 0.0
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-06.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "shares": 3
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "shares": 3
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "displayed_clock": "14:37",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+      ],
+      "extraction": "previously_visually_checked_instagram_screenshot",
+      "reposts": 0,
+      "shares": 3
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

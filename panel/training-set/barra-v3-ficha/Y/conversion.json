@@ -1,0 +1,16 @@
+{
+  "sample_id": "barra-v3-ficha",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit profile visits and follows attributed to the post.",
+  "target_fields": [
+    "profile_visits",
+    "follows"
+  ],
+  "available": false,
+  "observations": [],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

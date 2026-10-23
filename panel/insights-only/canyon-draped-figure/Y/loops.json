@@ -1,0 +1,46 @@
+{
+  "sample_id": "canyon-draped-figure",
+  "platform": "instagram",
+  "account": "sifontanareis",
+  "objective": "Fit the loop metric: average views per viewer.",
+  "target_fields": [
+    "views_per_viewer"
+  ],
+  "formula": "views / viewers",
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "date": "2026-08-24",
+        "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+        "timezone": "-03:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.33.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37.jpeg",
+        "../source/insights/2026-08-24/Insights do reel para sifontanareis - 22 de jun. de 2026 - 24 de ago. de 2026.pdf",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31.jpeg"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "views": 296938,
+      "viewers": 161000,
+      "views_per_viewer": 1.8443354,
+      "rounded_fields": [
+        "viewers"
+      ],
+      "ratio_precision": "approximate_from_rounded_counts",
+      "viewers_status": "rounded_pdf_viewer_count",
+      "notes": [
+        "2nd capture (1st: 2026-08-19, 292,972 views — still growing +4k/5d). PDF viewers 161k consistent with Aug-19 159,432. Audience is the outlier of the 5: 84.8% women, oldest age curve (45+ = 48%)."
+      ]
+    }
+  ],
+  "notes": [
+    "Insights-only record. Local MP4 and transcript are unavailable.",
+    "Missing viewers are not replaced with reach."
+  ]
+}

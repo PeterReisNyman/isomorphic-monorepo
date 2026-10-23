@@ -1,0 +1,314 @@
+{
+  "sample_id": "tatuape-tour",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit how long viewers kept watching and where they dropped off.",
+  "target_fields": [
+    "average_watch_time_s",
+    "average_watch_time_pdf_s",
+    "points",
+    "displayed_retention_pct",
+    "rates_pct.skip"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-07T13:02-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7467.PNG",
+        "../source/insights/2026-08-07/IMG_7468.PNG",
+        "../source/insights/2026-08-07/IMG_7469.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "retention keypoints approximate"
+      ],
+      "average_watch_time_s": 5.7,
+      "average_watch_label": "higher"
+    },
+    {
+      "capture": {
+        "at": "2026-07-31T10:21:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/tatuape-tour-reel-insights-2026-07-30_31.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "average_watch_time_s": 5.28,
+      "displayed_values": {
+        "average_watch_time": "5.28s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-07",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7467.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "average_watch_time_s": 5.7,
+      "displayed_values": {
+        "average_watch_time_s": "5,7s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "12:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7785.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "average_watch_time_s": 5.5,
+      "displayed_values": {
+        "average_watch_time_s": "5,5s"
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-08-07T13:02-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7467.PNG",
+        "../source/insights/2026-08-07/IMG_7468.PNG",
+        "../source/insights/2026-08-07/IMG_7469.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "retention keypoints approximate"
+      ],
+      "rates_pct": {
+        "skip": 49.6
+      },
+      "rate_labels": {
+        "skip": "lower"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-07",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7468.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "skip": 49.6
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-08-07T13:02-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7467.PNG",
+        "../source/insights/2026-08-07/IMG_7468.PNG",
+        "../source/insights/2026-08-07/IMG_7469.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "retention keypoints approximate"
+      ],
+      "points": [
+        {
+          "time_s": 0.0,
+          "retention_pct": 100
+        },
+        {
+          "time_s": 3.0,
+          "retention_pct": 50
+        },
+        {
+          "time_s": 6.0,
+          "retention_pct": 25
+        },
+        {
+          "time_s": 20.0,
+          "retention_pct": 10
+        },
+        {
+          "time_s": 34.0,
+          "retention_pct": 5
+        }
+      ],
+      "precision": "previously_digitized_approximation"
+    },
+    {
+      "capture": {
+        "date": "2026-08-07",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7469.PNG"
+      ],
+      "extraction": "saved_screenshot_pixel_trace",
+      "points": [
+        {
+          "time_s": 0,
+          "retention_pct": 100.0
+        },
+        {
+          "time_s": 1,
+          "retention_pct": 88.0
+        },
+        {
+          "time_s": 2,
+          "retention_pct": 67.7
+        },
+        {
+          "time_s": 3,
+          "retention_pct": 55.4
+        },
+        {
+          "time_s": 4,
+          "retention_pct": 46.9
+        },
+        {
+          "time_s": 5,
+          "retention_pct": 28.5
+        },
+        {
+          "time_s": 6,
+          "retention_pct": 20.2
+        },
+        {
+          "time_s": 7,
+          "retention_pct": 17.6
+        },
+        {
+          "time_s": 8,
+          "retention_pct": 16.8
+        },
+        {
+          "time_s": 9,
+          "retention_pct": 16.0
+        },
+        {
+          "time_s": 10,
+          "retention_pct": 15.2
+        },
+        {
+          "time_s": 11,
+          "retention_pct": 13.6
+        },
+        {
+          "time_s": 12,
+          "retention_pct": 10.4
+        },
+        {
+          "time_s": 13,
+          "retention_pct": 10.4
+        },
+        {
+          "time_s": 14,
+          "retention_pct": 10.4
+        },
+        {
+          "time_s": 15,
+          "retention_pct": 8.8
+        },
+        {
+          "time_s": 16,
+          "retention_pct": 8.8
+        },
+        {
+          "time_s": 17,
+          "retention_pct": 8.0
+        },
+        {
+          "time_s": 18,
+          "retention_pct": 7.2
+        },
+        {
+          "time_s": 19,
+          "retention_pct": 6.4
+        },
+        {
+          "time_s": 20,
+          "retention_pct": 5.6
+        },
+        {
+          "time_s": 21,
+          "retention_pct": 5.6
+        },
+        {
+          "time_s": 22,
+          "retention_pct": 5.6
+        },
+        {
+          "time_s": 23,
+          "retention_pct": 5.6
+        },
+        {
+          "time_s": 24,
+          "retention_pct": 5.6
+        },
+        {
+          "time_s": 25,
+          "retention_pct": 5.6
+        },
+        {
+          "time_s": 26,
+          "retention_pct": 6.4
+        },
+        {
+          "time_s": 27,
+          "retention_pct": 4.8
+        },
+        {
+          "time_s": 28,
+          "retention_pct": 3.3
+        },
+        {
+          "time_s": 29,
+          "retention_pct": 3.3
+        },
+        {
+          "time_s": 30,
+          "retention_pct": 3.3
+        },
+        {
+          "time_s": 31,
+          "retention_pct": 3.3
+        },
+        {
+          "time_s": 32,
+          "retention_pct": 3.2
+        },
+        {
+          "time_s": 33,
+          "retention_pct": 2.4
+        },
+        {
+          "time_s": 34,
+          "retention_pct": 1.6
+        }
+      ],
+      "displayed_end_seconds": 34,
+      "precision": "estimated_from_screenshot",
+      "curve_color": "white",
+      "limitations": [
+        "Pixel tracing of the visible curve; times assume a linear axis between the displayed endpoints. These estimates do not replace previously digitized readings."
+      ]
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

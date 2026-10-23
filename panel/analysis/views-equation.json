@@ -1,0 +1,53 @@
+{
+  "formula": "estimated_views = baseline[account] * 10 ** (0.00885 * (watch_pct - 50) - 0.00735 * (skip_pct - 50))",
+  "input_units": "Percentage points: enter 70 for 70%, not 0.70.",
+  "watch_pct_definition": "100 * average_watch_time_seconds / video_duration_seconds; replay-inclusive average watch can exceed 100%.",
+  "skip_pct_definition": "The recorded Instagram/Edits skip percentage.",
+  "baseline_definition": "Fitted views for each account at watch_pct=50 and skip_pct=50.",
+  "baselines": {
+    "imobly": 313.43289922858,
+    "kima": 82.20401161984914,
+    "sifontanareis": 160685.80920144432,
+    "unfilmed.lab": 544.0899334569121
+  },
+  "n": 19,
+  "ridge_alpha": 3.0,
+  "exact_coefficients_log10_views": {
+    "watch_pct": 0.008850070486160237,
+    "skip_pct": -0.007345678736368526
+  },
+  "validation": {
+    "log10_rmse": 0.407757761247825,
+    "typical_factor_rmse": 2.5571591687245143,
+    "median_factor_error": 2.0779359168862563,
+    "p80_factor_error": 3.150876331059898,
+    "within_factor_2": 0.47368421052631576,
+    "within_factor_5": 0.8947368421052632,
+    "r2_log10": 0.905407838472231
+  },
+  "account_only_baseline_validation": {
+    "log10_rmse": 0.4886897881285186,
+    "typical_factor_rmse": 3.0809864486475638,
+    "median_factor_error": 1.7188533938945183,
+    "p80_factor_error": 2.9267287980278236,
+    "within_factor_2": 0.7368421052631579,
+    "within_factor_5": 0.8421052631578947,
+    "r2_log10": 0.8641319929121303
+  },
+  "validation_method": "Outer leave-one-reel-out; ridge strength selected by inner leave-one-reel-out separately in each fold. Each candidate feature set is evaluated separately; final model choice remains exploratory.",
+  "example": {
+    "account": "imobly",
+    "watch_pct": 70,
+    "skip_pct": 30,
+    "estimated_views": 660.7840696268187
+  },
+  "limits": [
+    "Only 19 or fewer aligned reels and four accounts, with two accounts represented by only two reels.",
+    "Retrospective metrics on completed reels do not establish early-post forecasting performance.",
+    "Account-based predictions apply to the represented accounts, not automatically to a new account.",
+    "View counts, rate cards and retention have different measurement conventions; some source counts are rounded.",
+    "The stats model improves root-mean-square log error over an account-only baseline, but has worse median error.",
+    "The selected feature set and model family were compared on the same small dataset; validation is exploratory, not an independent prospective test."
+  ],
+  "details_file": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/analysis/views-equation-models.json"
+}

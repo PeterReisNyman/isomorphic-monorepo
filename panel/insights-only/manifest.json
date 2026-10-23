@@ -1,0 +1,121 @@
+{
+  "layout": "<post-id>/Y/*.json; <post-id>/source/insights/ contains only original PDFs and screenshots",
+  "post_count": 5,
+  "source_file_count": 44,
+  "posts": [
+    {
+      "id": "canyon-draped-figure",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DZ58TOORmmh/",
+      "Y_directory": "canyon-draped-figure/Y/",
+      "source_directory": "canyon-draped-figure/source/",
+      "source_file_count": 12,
+      "video_status": "not_available_locally",
+      "viewer_status": "rounded",
+      "source_sha256": {
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.33.jpeg": "0e0f0fb7fff426cf15a4d181b85ce2d1381ef3efde2b08b5e1e16502c67724c5",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38.jpeg": "d8e9ff34c2f9dc5b2cb80a0d4d33b818d61b6b929c48062d6f279b2f82d25218",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38 (1).jpeg": "82edc965a1824a861cb62a983f536e5f7240ce726bd0cd471266a92168934c40",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37 (1).jpeg": "5c896becf1f0c50a03573c230b1611fe9848b463dd9930f0bea3ecf8c87fa399",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37.jpeg": "239c804abc6c030158cb4164d3c1c7e369306b904b44addf89a7668646aa70fd",
+        "source/insights/2026-08-24/Insights do reel para sifontanareis - 22 de jun. de 2026 - 24 de ago. de 2026.pdf": "eb4e1429c681141b2ccea359b63e0ee3ec258329ef57432bc667c21357d46181",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31 (1).jpeg": "bc817ebff9285c0a3be3da1e2b0bd237f57a98c64c8c68bc2c098d54c40b846e",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31.jpeg": "43606afba7e13e2a5a83f587f21774e07d10d8787c66dec7105d9899dfe64ce6",
+        "source/insights/2026-08-19/insights-rates.JPG": "7ec15086a9497361fe21ebe24ddb5457a1dc341e989ff4023ae967c4cb7d6535",
+        "source/insights/2026-08-19/insights-summary.JPG": "750e32f319091ffc49948511702ba48f4bfe2511c41ff4eb6a93a86cd1d37d97",
+        "source/insights/2026-08-19/insights-views-over-time.JPG": "b7a810a34af8a2a37f82003572619e76cc945625a2e2ffe8a837d999d6ea4069",
+        "source/insights/2026-08-19/insights-retention-sources.JPG": "64c8a336853848c4e5d0cda61b139ce1aab2a941ccddad00574c71ad2c82150c"
+      }
+    },
+    {
+      "id": "jiboia-passarinho",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DNeL5UivNkb/",
+      "Y_directory": "jiboia-passarinho/Y/",
+      "source_directory": "jiboia-passarinho/source/",
+      "source_file_count": 7,
+      "video_status": "not_available_locally",
+      "viewer_status": "unavailable_reach_only",
+      "source_sha256": {
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (1).jpeg": "443d38be3bb323007a4b4ece6fc6bea7d7c8e6f55c5226758837087ebeb3c8ed",
+        "source/insights/2026-08-24/Insights do reel para sifontanareis - 17 de ago. de 2025 - 24 de ago. de 2026.pdf": "127f87db09e94553030a5df79eea23ae1f63631e954159b2a9311947416afada",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11.jpeg": "01b1692b279f473090c1eb3095d50d590d5008c9933d184aa232985aa9d24573",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (2).jpeg": "7b9035829b42419b35c3535546c33ca31f9ff31dcb0062d3023eeb3581276470",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (1).jpeg": "29ca6a03ff374f33f46c1e6550d350cfd2ef1c15c2020a7a9009ca8d032631e7",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12.jpeg": "c5f0b83f998dee54d15638593bdc9da09e5b1a582b1badfeadfa72cedfa0492e",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (2).jpeg": "5013a846c0c7d840e36bf3bda2b002244a86e77df74be5a833032ebf1f1e6240"
+      }
+    },
+    {
+      "id": "gallery-watermelon",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DP9StouDsyd/",
+      "Y_directory": "gallery-watermelon/Y/",
+      "source_directory": "gallery-watermelon/source/",
+      "source_file_count": 10,
+      "video_status": "not_available_locally",
+      "viewer_status": "unavailable_reach_only",
+      "source_sha256": {
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.21.jpeg": "421b894911f3de06672a102aef41712264693a449fb601a91a4a7ac22f5e58e2",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22.jpeg": "bf78d4ca7bbe0ccad17c5f42ecf49105f7ef49413ebbe09ab22eaefc0c6576bd",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (1).jpeg": "9b20aa256d9c3a37520623e3173f93219c1a8918e9b142748f0fe9c9118b34bf",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22 (1).jpeg": "7b28087bba2fcb4845beb5fe69fb72b6394aa7cfce7e39be9ddbd72c2c39362e",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23.jpeg": "f65003f034ce299f7fc4ea76905ef66810919ed4eeeb562ae5d3defe4d29e199",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (2).jpeg": "45cab3f709695db53aac11180a6da8e48100ced8e058259d4aa2efb86ad59f20",
+        "source/insights/2026-08-24/Insights do reel para sifontanareis - 18 de out. de 2025 - 24 de ago. de 2026.pdf": "12fea25a53820ea0f5112d6a0e63b86657d633b5c40a2b7db44f4b4ddb155f88",
+        "source/insights/2026-08-19/insights-rates.JPG": "048b481e1a7edddae018882b2e36eeed9fb81810933fd26eb10062897ed863b2",
+        "source/insights/2026-08-19/insights-summary.JPG": "061acb91044a9c2d12d67d88b72bebff3bd37849154d6701b93986d3636ecce0",
+        "source/insights/2026-08-19/insights-sources.JPG": "382561388572efeed7d5c84cd978737934d64be31979b4b1132728907ef6743e"
+      }
+    },
+    {
+      "id": "nego-bispo-jurema",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DZbW3Iqxx64/",
+      "Y_directory": "nego-bispo-jurema/Y/",
+      "source_directory": "nego-bispo-jurema/source/",
+      "source_file_count": 7,
+      "video_status": "not_available_locally",
+      "viewer_status": "unconfirmed",
+      "source_sha256": {
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34.jpeg": "e6e9c59cf0cc789db266ed7906ceb80a7e2976665289d8f0336accf5801132da",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.33.jpeg": "705a1f1290671eeec96c1adc601e3c4e85a64651577696dbccc61e46a7be17cd",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32.jpeg": "4bf4fd15495d05f909806c35ddee749f139e5e6b0999d8f41681f835d60aab21",
+        "source/insights/2026-08-24/Insights do reel para sifontanareis - 10 de jun. de 2026 - 24 de ago. de 2026.pdf": "3405ccaeecbf6858330c5f6a066e86e806b034ce484eca94b1e60c00ff0a7b25",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (1).jpeg": "30b86f02eaf17dfb67fd1dbeb0e5febdb086ba6c1a2ae6a0ffae26279338ae69",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (2).jpeg": "4a17a2da9f566ea1f38ffbe4ac975244e79bb3e44e377d274fc0773f6dfd7a3c",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34 (1).jpeg": "2d03ae0f024ba99b9d22a76f3de0fc580445387421f4a6e251c805822d25ec70"
+      }
+    },
+    {
+      "id": "niede-guidon",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DZoCjWRRBtP/",
+      "Y_directory": "niede-guidon/Y/",
+      "source_directory": "niede-guidon/source/",
+      "source_file_count": 8,
+      "video_status": "not_available_locally",
+      "viewer_status": "unconfirmed",
+      "source_sha256": {
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (2).jpeg": "15c79c619600bfe505d611c8a9ab244a6ccdf4bbb6e86b4b81411b2bb5c66960",
+        "source/insights/2026-08-24/Insights do reel para sifontanareis - 15 de jun. de 2026 - 24 de ago. de 2026.pdf": "18c5d8f363438ea76069db9f0f249c12c739ad9a82dbed76b5f647848af77652",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45.jpeg": "62fc1538de02334968408d8c926eac7ae4e5a93851d32edd75afff50c73e2dc5",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (1).jpeg": "9bfaef7cea88d4c071fed8f9fa9e3dd5eb8cc1d105f0c381298ecb78b41a8818",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (2).jpeg": "e8149e8a0eadc5d57fab8e9bc33a81e33e8c60684c9f14de3d3fdb97ee5bdafc",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46.jpeg": "eda067d28d88312a57395d2d18adb21194d602fe776110297161ecdd8a8d5e76",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (1).jpeg": "a422c1b8ec1468eef085edc1d210f5722e7acedaa1d4245cc728185e18ba5e70",
+        "source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (3).jpeg": "81573026c129b1d3dec2f62d452402380e73eecc0a05ff1ab2ec8005e4a50ba2"
+      }
+    }
+  ],
+  "limits": [
+    "These five records have saved insights but no local MP4 or transcript. They are not complete X/Y training samples.",
+    "Gallery-watermelon and jiboia-passarinho report accounts reached, not viewers.",
+    "Niede-guidon and nego-bispo-jurema have PDF viewer counts flagged as unconfirmed by the historical record.",
+    "No live account fetch was performed."
+  ],
+  "recovered_from": {
+    "repository": "/Users/peterreisf.nyman/Documents/GitHub/Isomorphic/Isomorphic",
+    "commit": "5ba9e1ad6ab4766db4abae59dd0bd1dc807f1c26"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "sample_id": "silent-garage",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit how long viewers kept watching and where they dropped off.",
+  "target_fields": [
+    "average_watch_time_s",
+    "average_watch_time_pdf_s",
+    "points",
+    "displayed_retention_pct",
+    "rates_pct.skip"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-07T13:02-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7464.PNG",
+        "../source/insights/2026-08-07/IMG_7465.PNG",
+        "../source/insights/2026-08-07/IMG_7466.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "retention keypoints approximate"
+      ],
+      "average_watch_time_s": 2.6,
+      "average_watch_label": "lower"
+    },
+    {
+      "capture": {
+        "at": "2026-07-24T19:02:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/silent-garage-ig-insights-20260724.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "average_watch_time_s": 2.56,
+      "displayed_values": {
+        "average_watch_time": "2.56s"
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-08-07T13:02-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7464.PNG",
+        "../source/insights/2026-08-07/IMG_7465.PNG",
+        "../source/insights/2026-08-07/IMG_7466.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "retention keypoints approximate"
+      ],
+      "rates_pct": {
+        "skip": 87.1
+      },
+      "rate_labels": {
+        "skip": "higher"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-07",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7465.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "skip": 87.1
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-08-07T13:02-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7464.PNG",
+        "../source/insights/2026-08-07/IMG_7465.PNG",
+        "../source/insights/2026-08-07/IMG_7466.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "retention keypoints approximate"
+      ],
+      "points": [
+        {
+          "time_s": 0.0,
+          "retention_pct": 100
+        },
+        {
+          "time_s": 2.0,
+          "retention_pct": 20
+        },
+        {
+          "time_s": 6.0,
+          "retention_pct": 5
+        },
+        {
+          "time_s": 28.279,
+          "retention_pct": 2
+        }
+      ],
+      "precision": "previously_digitized_approximation"
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

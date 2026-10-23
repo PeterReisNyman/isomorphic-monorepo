@@ -1,0 +1,221 @@
+{
+  "sample_id": "hard-boiled",
+  "platform": "instagram",
+  "account": "unfilmed.lab",
+  "objective": "Fit how long viewers kept watching and where they dropped off.",
+  "target_fields": [
+    "average_watch_time_s",
+    "average_watch_time_pdf_s",
+    "points",
+    "displayed_retention_pct",
+    "rates_pct.skip"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-09-11T10:34+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/IMG_8933.PNG",
+        "../source/insights/2026-09-11/IMG_8934.PNG",
+        "../source/insights/2026-09-11/IMG_8935.PNG",
+        "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+        "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates + audience transcribed verbatim from the screenshots; retention keypoints digitized from the screenshot pixels (white-curve centroid per column, y mapped through the 100/50/0% gridlines, x assumed linear 0 -> duration) — about +/-1pp in y, +/-0.2s in x"
+      ],
+      "average_watch_time_s": 8.6,
+      "average_watch_time_pdf_s": 8.63
+    },
+    {
+      "capture": {
+        "at": "2026-09-11T10:34:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "average_watch_time_s": 8.63,
+      "displayed_values": {
+        "average_watch_time": "8.63s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-11",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:34"
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/IMG_8933.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "average_watch_time_s": 8.6,
+      "displayed_values": {
+        "average_watch_time_s": "8,6s"
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-09-11T10:34+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/IMG_8933.PNG",
+        "../source/insights/2026-09-11/IMG_8934.PNG",
+        "../source/insights/2026-09-11/IMG_8935.PNG",
+        "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+        "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates + audience transcribed verbatim from the screenshots; retention keypoints digitized from the screenshot pixels (white-curve centroid per column, y mapped through the 100/50/0% gridlines, x assumed linear 0 -> duration) — about +/-1pp in y, +/-0.2s in x"
+      ],
+      "rates_pct": {
+        "skip": 32.1
+      },
+      "rate_labels": {
+        "skip": "Higher"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-11",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:34"
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/IMG_8934.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "skip": 32.1
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-09-11T10:34+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/IMG_8933.PNG",
+        "../source/insights/2026-09-11/IMG_8934.PNG",
+        "../source/insights/2026-09-11/IMG_8935.PNG",
+        "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+        "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates + audience transcribed verbatim from the screenshots; retention keypoints digitized from the screenshot pixels (white-curve centroid per column, y mapped through the 100/50/0% gridlines, x assumed linear 0 -> duration) — about +/-1pp in y, +/-0.2s in x"
+      ],
+      "points": [
+        {
+          "time_s": 0,
+          "retention_pct": 100
+        },
+        {
+          "time_s": 1,
+          "retention_pct": 92.9
+        },
+        {
+          "time_s": 2,
+          "retention_pct": 81.0
+        },
+        {
+          "time_s": 3,
+          "retention_pct": 72.7
+        },
+        {
+          "time_s": 4,
+          "retention_pct": 69.6
+        },
+        {
+          "time_s": 5,
+          "retention_pct": 61.4
+        },
+        {
+          "time_s": 6,
+          "retention_pct": 56.0
+        },
+        {
+          "time_s": 7,
+          "retention_pct": 50.5
+        },
+        {
+          "time_s": 7.3,
+          "retention_pct": 48.8
+        }
+      ],
+      "precision": "previously_digitized_approximation"
+    },
+    {
+      "capture": {
+        "date": "2026-09-11",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:34"
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/IMG_8935.PNG"
+      ],
+      "extraction": "saved_screenshot_pixel_trace",
+      "points": [
+        {
+          "time_s": 0,
+          "retention_pct": 100
+        },
+        {
+          "time_s": 1,
+          "retention_pct": 93.0
+        },
+        {
+          "time_s": 2,
+          "retention_pct": 80.6
+        },
+        {
+          "time_s": 3,
+          "retention_pct": 72.4
+        },
+        {
+          "time_s": 4,
+          "retention_pct": 69.7
+        },
+        {
+          "time_s": 5,
+          "retention_pct": 60.1
+        },
+        {
+          "time_s": 6,
+          "retention_pct": 55.5
+        },
+        {
+          "time_s": 7,
+          "retention_pct": 49.3
+        }
+      ],
+      "displayed_end_seconds": 7,
+      "precision": "estimated_from_screenshot",
+      "curve_color": "white",
+      "limitations": [
+        "Pixel tracing of the visible curve; times assume a linear axis between the displayed endpoints. These estimates do not replace previously digitized readings."
+      ]
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

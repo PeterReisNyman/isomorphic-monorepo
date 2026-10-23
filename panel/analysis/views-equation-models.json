@@ -1,0 +1,3222 @@
+{
+  "n": 19,
+  "excluded": [
+    {
+      "id": "o-mesmo-ape-6-inquilinos",
+      "reason": "No capture with all five metrics and a matched view count."
+    }
+  ],
+  "rows": [
+    {
+      "id": "a-lead-de-marco",
+      "account": "kima",
+      "views": 130,
+      "date": "2026-09-23",
+      "metrics": {
+        "watch_pct": 95.55777082784405,
+        "skip_pct": 54.9,
+        "save_pct": 0.0,
+        "share_pct": 3.076923076923077,
+        "like_pct": 7.6923076923076925
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 95.55777082784405,
+          "raw": 15.99,
+          "capture": {
+            "at": "2026-09-23T16:20:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 54.9,
+          "raw": 54.9,
+          "capture": {
+            "at": "2026-09-23T16:19+08:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-09-23/IMG_9864.PNG",
+            "../source/insights/2026-09-23/IMG_9865.PNG",
+            "../source/insights/2026-09-23/IMG_9866.PNG",
+            "../source/insights/2026-09-23/IMG_9867.PNG",
+            "../source/insights/2026-09-23/IMG_9868.PNG",
+            "../source/insights/2026-09-23/IMG_9869.PNG",
+            "../source/insights/2026-09-23/IMG_9870.PNG",
+            "../source/insights/2026-09-23/IMG_9871.PNG",
+            "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf",
+            "../source/insights/2026-09-23-audience/IMG_9863.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-09-23T16:20:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 3.076923076923077,
+          "raw": 4,
+          "capture": {
+            "at": "2026-09-23T16:20:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 7.6923076923076925,
+          "raw": 10,
+          "capture": {
+            "at": "2026-09-23T16:20:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-lead-de-marco/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "a-porta-do-corredor",
+      "account": "imobly",
+      "views": 153,
+      "date": "2026-08-30",
+      "metrics": {
+        "watch_pct": 49.07095991619342,
+        "skip_pct": 67.6,
+        "save_pct": 0.0,
+        "share_pct": 0.0,
+        "like_pct": 0.0
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 49.07095991619342,
+          "raw": 8.9,
+          "capture": {
+            "at": "2026-08-30T14:11-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26-evening/IMG_7909.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7910.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7911.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7912.PNG",
+            "../source/insights/2026-08-30/IMG_8237.PNG",
+            "../source/insights/2026-08-30/IMG_8238.PNG",
+            "../source/insights/2026-08-30/IMG_8239.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8244.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8248.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8249.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 26 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 67.6,
+          "raw": 67.6,
+          "capture": {
+            "at": "2026-08-30T14:11-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26-evening/IMG_7909.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7910.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7911.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7912.PNG",
+            "../source/insights/2026-08-30/IMG_8237.PNG",
+            "../source/insights/2026-08-30/IMG_8238.PNG",
+            "../source/insights/2026-08-30/IMG_8239.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8244.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8248.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8249.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 26 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-30T14:11-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26-evening/IMG_7909.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7910.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7911.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7912.PNG",
+            "../source/insights/2026-08-30/IMG_8237.PNG",
+            "../source/insights/2026-08-30/IMG_8238.PNG",
+            "../source/insights/2026-08-30/IMG_8239.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8244.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8248.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8249.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 26 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-30T14:11-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26-evening/IMG_7909.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7910.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7911.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7912.PNG",
+            "../source/insights/2026-08-30/IMG_8237.PNG",
+            "../source/insights/2026-08-30/IMG_8238.PNG",
+            "../source/insights/2026-08-30/IMG_8239.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8244.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8248.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8249.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 26 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-30T14:11-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26-evening/IMG_7909.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7910.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7911.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7912.PNG",
+            "../source/insights/2026-08-30/IMG_8237.PNG",
+            "../source/insights/2026-08-30/IMG_8238.PNG",
+            "../source/insights/2026-08-30/IMG_8239.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8244.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8248.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8249.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 26 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/a-porta-do-corredor/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "barra-v3-ficha",
+      "account": "imobly",
+      "views": 24,
+      "date": "2026-08-13",
+      "metrics": {
+        "watch_pct": 13.707636172380921,
+        "skip_pct": 88.2,
+        "save_pct": 0.0,
+        "share_pct": 0.0,
+        "like_pct": 0.0
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 13.707636172380921,
+          "raw": 4.17,
+          "capture": {
+            "at": "2026-08-13T10:57:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/reel-insights-2026-08-10_13.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 88.2,
+          "raw": 88.2,
+          "capture": {
+            "date": "2026-08-13",
+            "date_basis": "source_folder_or_filename",
+            "timezone": null,
+            "displayed_clock": "10:57"
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/IMG_7610.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-13T10:57:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/reel-insights-2026-08-10_13.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-13T10:57:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/reel-insights-2026-08-10_13.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-13T10:57:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/reel-insights-2026-08-10_13.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/barra-v3-ficha/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "cat-reel",
+      "account": "imobly",
+      "views": 134,
+      "date": "2026-08-07",
+      "metrics": {
+        "watch_pct": 11.171662125340598,
+        "skip_pct": 78.2,
+        "save_pct": 0.0,
+        "share_pct": 0.0,
+        "like_pct": 0.0
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 11.171662125340598,
+          "raw": 4.1,
+          "capture": {
+            "at": "2026-08-07T13:01-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7460.PNG",
+            "../source/insights/2026-08-07/IMG_7462.PNG",
+            "../source/insights/2026-08-07/IMG_7463.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 78.2,
+          "raw": 78.2,
+          "capture": {
+            "at": "2026-08-07T13:01-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7460.PNG",
+            "../source/insights/2026-08-07/IMG_7462.PNG",
+            "../source/insights/2026-08-07/IMG_7463.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:01-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7460.PNG",
+            "../source/insights/2026-08-07/IMG_7462.PNG",
+            "../source/insights/2026-08-07/IMG_7463.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:01-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7460.PNG",
+            "../source/insights/2026-08-07/IMG_7462.PNG",
+            "../source/insights/2026-08-07/IMG_7463.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:01-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7460.PNG",
+            "../source/insights/2026-08-07/IMG_7462.PNG",
+            "../source/insights/2026-08-07/IMG_7463.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/cat-reel/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "hard-boiled",
+      "account": "unfilmed.lab",
+      "views": 2085,
+      "date": "2026-09-11",
+      "metrics": {
+        "watch_pct": 118.2191780821918,
+        "skip_pct": 32.1,
+        "save_pct": 0.09592326139088729,
+        "share_pct": 0.0,
+        "like_pct": 0.19184652278177458
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 118.2191780821918,
+          "raw": 8.63,
+          "capture": {
+            "at": "2026-09-11T10:34:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 32.1,
+          "raw": 32.1,
+          "capture": {
+            "at": "2026-09-11T10:34+08:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/IMG_8933.PNG",
+            "../source/insights/2026-09-11/IMG_8934.PNG",
+            "../source/insights/2026-09-11/IMG_8935.PNG",
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+            "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.09592326139088729,
+          "raw": 2,
+          "capture": {
+            "at": "2026-09-11T10:34:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-09-11T10:34:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.19184652278177458,
+          "raw": 4,
+          "capture": {
+            "at": "2026-09-11T10:34:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/hard-boiled/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "o-bolo",
+      "account": "imobly",
+      "views": 119,
+      "date": "2026-08-07",
+      "metrics": {
+        "watch_pct": 34.72222222222222,
+        "skip_pct": 31.5,
+        "save_pct": 0.0,
+        "share_pct": 0.0,
+        "like_pct": 0.8403361344537815
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 34.72222222222222,
+          "raw": 12.5,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7470.PNG",
+            "../source/insights/2026-08-07/IMG_7471.PNG",
+            "../source/insights/2026-08-07/IMG_7472.PNG",
+            "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 31.5,
+          "raw": 31.5,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7470.PNG",
+            "../source/insights/2026-08-07/IMG_7471.PNG",
+            "../source/insights/2026-08-07/IMG_7472.PNG",
+            "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7470.PNG",
+            "../source/insights/2026-08-07/IMG_7471.PNG",
+            "../source/insights/2026-08-07/IMG_7472.PNG",
+            "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7470.PNG",
+            "../source/insights/2026-08-07/IMG_7471.PNG",
+            "../source/insights/2026-08-07/IMG_7472.PNG",
+            "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.8403361344537815,
+          "raw": 1,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7470.PNG",
+            "../source/insights/2026-08-07/IMG_7471.PNG",
+            "../source/insights/2026-08-07/IMG_7472.PNG",
+            "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-bolo/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "o-piano-do-9",
+      "account": "imobly",
+      "views": 217,
+      "date": "2026-08-18",
+      "metrics": {
+        "watch_pct": 31.8,
+        "skip_pct": 49.7,
+        "save_pct": 0.0,
+        "share_pct": 0.0,
+        "like_pct": 0.0
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 31.8,
+          "raw": 6.36,
+          "capture": {
+            "at": "2026-08-18T09:51:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-18/Reel insights for imoblyy – 17 Aug 2026 - 18 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 49.7,
+          "raw": 49.7,
+          "capture": {
+            "at": "2026-08-18T09:51-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-18/Reel insights for imoblyy – 17 Aug 2026 - 18 Aug 2026.pdf",
+            "../source/insights/2026-08-18/rates.PNG",
+            "../source/insights/2026-08-18/retention.PNG",
+            "../source/insights/2026-08-18/summary.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-18T09:51:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-18/Reel insights for imoblyy – 17 Aug 2026 - 18 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-18T09:51:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-18/Reel insights for imoblyy – 17 Aug 2026 - 18 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-18T09:51:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-18/Reel insights for imoblyy – 17 Aug 2026 - 18 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piano-do-9/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "o-piso-torto",
+      "account": "imobly",
+      "views": 2413,
+      "date": "2026-08-30",
+      "metrics": {
+        "watch_pct": 79.51408061844285,
+        "skip_pct": 23.1,
+        "save_pct": 0.04144218814753419,
+        "share_pct": 0.0,
+        "like_pct": 0.12432656444260257
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 79.51408061844285,
+          "raw": 14.4,
+          "capture": {
+            "at": "2026-08-30T14:12-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26/IMG_7894.PNG",
+            "../source/insights/2026-08-26/IMG_7895.PNG",
+            "../source/insights/2026-08-26/IMG_7896.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7891.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7892.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7893.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7905.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7906.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7907.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7908.PNG",
+            "../source/insights/2026-08-30/IMG_8240.PNG",
+            "../source/insights/2026-08-30/IMG_8241.PNG",
+            "../source/insights/2026-08-30/IMG_8242.PNG",
+            "../source/insights/2026-08-30/IMG_8243.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8245.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8246.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8247.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 23.1,
+          "raw": 23.1,
+          "capture": {
+            "at": "2026-08-30T14:12-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26/IMG_7894.PNG",
+            "../source/insights/2026-08-26/IMG_7895.PNG",
+            "../source/insights/2026-08-26/IMG_7896.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7891.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7892.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7893.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7905.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7906.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7907.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7908.PNG",
+            "../source/insights/2026-08-30/IMG_8240.PNG",
+            "../source/insights/2026-08-30/IMG_8241.PNG",
+            "../source/insights/2026-08-30/IMG_8242.PNG",
+            "../source/insights/2026-08-30/IMG_8243.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8245.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8246.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8247.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.04144218814753419,
+          "raw": 1,
+          "capture": {
+            "at": "2026-08-30T14:12-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26/IMG_7894.PNG",
+            "../source/insights/2026-08-26/IMG_7895.PNG",
+            "../source/insights/2026-08-26/IMG_7896.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7891.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7892.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7893.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7905.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7906.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7907.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7908.PNG",
+            "../source/insights/2026-08-30/IMG_8240.PNG",
+            "../source/insights/2026-08-30/IMG_8241.PNG",
+            "../source/insights/2026-08-30/IMG_8242.PNG",
+            "../source/insights/2026-08-30/IMG_8243.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8245.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8246.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8247.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-30T14:12-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26/IMG_7894.PNG",
+            "../source/insights/2026-08-26/IMG_7895.PNG",
+            "../source/insights/2026-08-26/IMG_7896.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7891.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7892.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7893.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7905.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7906.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7907.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7908.PNG",
+            "../source/insights/2026-08-30/IMG_8240.PNG",
+            "../source/insights/2026-08-30/IMG_8241.PNG",
+            "../source/insights/2026-08-30/IMG_8242.PNG",
+            "../source/insights/2026-08-30/IMG_8243.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8245.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8246.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8247.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.12432656444260257,
+          "raw": 3,
+          "capture": {
+            "at": "2026-08-30T14:12-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-26/IMG_7894.PNG",
+            "../source/insights/2026-08-26/IMG_7895.PNG",
+            "../source/insights/2026-08-26/IMG_7896.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7891.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7892.PNG",
+            "../source/insights/2026-08-26-audience/IMG_7893.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7905.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7906.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7907.PNG",
+            "../source/insights/2026-08-26-evening/IMG_7908.PNG",
+            "../source/insights/2026-08-30/IMG_8240.PNG",
+            "../source/insights/2026-08-30/IMG_8241.PNG",
+            "../source/insights/2026-08-30/IMG_8242.PNG",
+            "../source/insights/2026-08-30/IMG_8243.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8245.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8246.PNG",
+            "../source/insights/2026-08-30-audience/IMG_8247.PNG",
+            "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-piso-torto/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "o-quarto-de-235",
+      "account": "imobly",
+      "views": 1647,
+      "date": "2026-08-24",
+      "metrics": {
+        "watch_pct": 60.72198271081564,
+        "skip_pct": 31.4,
+        "save_pct": 0.06071645415907711,
+        "share_pct": 0.0,
+        "like_pct": 0.24286581663630843
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 60.72198271081564,
+          "raw": 10.95,
+          "capture": {
+            "at": "2026-08-24T08:13:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/Reel insights for imoblyy – 18 Aug 2026 - 24 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 31.4,
+          "raw": 31.4,
+          "capture": {
+            "at": "2026-08-24T08:13-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/Reel insights for imoblyy – 18 Aug 2026 - 24 Aug 2026.pdf",
+            "../source/insights/2026-08-24/rates.PNG",
+            "../source/insights/2026-08-24/retention.PNG",
+            "../source/insights/2026-08-24/summary.PNG",
+            "../source/insights/2026-08-24-audience/IMG_7857.PNG",
+            "../source/insights/2026-08-24-audience/IMG_7858.PNG",
+            "../source/insights/2026-08-24-audience/IMG_7859.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.06071645415907711,
+          "raw": 1,
+          "capture": {
+            "at": "2026-08-24T08:13:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/Reel insights for imoblyy – 18 Aug 2026 - 24 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-24T08:13:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/Reel insights for imoblyy – 18 Aug 2026 - 24 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.24286581663630843,
+          "raw": 4,
+          "capture": {
+            "at": "2026-08-24T08:13:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/Reel insights for imoblyy – 18 Aug 2026 - 24 Aug 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/o-quarto-de-235/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "perdizes-c206",
+      "account": "imobly",
+      "views": 113,
+      "date": "2026-08-13",
+      "metrics": {
+        "watch_pct": 17.306818181818183,
+        "skip_pct": 36.8,
+        "save_pct": 0.0,
+        "share_pct": 0.0,
+        "like_pct": 0.0
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 17.306818181818183,
+          "raw": 15.23,
+          "capture": {
+            "at": "2026-08-13T10:57:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 36.8,
+          "raw": 36.8,
+          "capture": {
+            "date": "2026-08-13",
+            "date_basis": "source_folder_or_filename",
+            "timezone": null,
+            "displayed_clock": "10:56"
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/IMG_7607.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-13T10:57:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-13T10:57:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-13T10:57:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/perdizes-c206/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "silent-garage",
+      "account": "imobly",
+      "views": 171,
+      "date": "2026-08-07",
+      "metrics": {
+        "watch_pct": 9.194101630184942,
+        "skip_pct": 87.1,
+        "save_pct": 0.0,
+        "share_pct": 0.0,
+        "like_pct": 0.0
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 9.194101630184942,
+          "raw": 2.6,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7464.PNG",
+            "../source/insights/2026-08-07/IMG_7465.PNG",
+            "../source/insights/2026-08-07/IMG_7466.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 87.1,
+          "raw": 87.1,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7464.PNG",
+            "../source/insights/2026-08-07/IMG_7465.PNG",
+            "../source/insights/2026-08-07/IMG_7466.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7464.PNG",
+            "../source/insights/2026-08-07/IMG_7465.PNG",
+            "../source/insights/2026-08-07/IMG_7466.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7464.PNG",
+            "../source/insights/2026-08-07/IMG_7465.PNG",
+            "../source/insights/2026-08-07/IMG_7466.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7464.PNG",
+            "../source/insights/2026-08-07/IMG_7465.PNG",
+            "../source/insights/2026-08-07/IMG_7466.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/silent-garage/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "tatuape-tour",
+      "account": "imobly",
+      "views": 125,
+      "date": "2026-08-07",
+      "metrics": {
+        "watch_pct": 16.762240846934272,
+        "skip_pct": 49.6,
+        "save_pct": 0.0,
+        "share_pct": 0.0,
+        "like_pct": 0.0
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 16.762240846934272,
+          "raw": 5.7,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7467.PNG",
+            "../source/insights/2026-08-07/IMG_7468.PNG",
+            "../source/insights/2026-08-07/IMG_7469.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 49.6,
+          "raw": 49.6,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7467.PNG",
+            "../source/insights/2026-08-07/IMG_7468.PNG",
+            "../source/insights/2026-08-07/IMG_7469.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7467.PNG",
+            "../source/insights/2026-08-07/IMG_7468.PNG",
+            "../source/insights/2026-08-07/IMG_7469.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7467.PNG",
+            "../source/insights/2026-08-07/IMG_7468.PNG",
+            "../source/insights/2026-08-07/IMG_7469.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-08-07T13:02-03:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-08-07/IMG_7467.PNG",
+            "../source/insights/2026-08-07/IMG_7468.PNG",
+            "../source/insights/2026-08-07/IMG_7469.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/tatuape-tour/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "the-cheapest-ocean-view",
+      "account": "unfilmed.lab",
+      "views": 2846,
+      "date": "2026-09-11",
+      "metrics": {
+        "watch_pct": 89.05759395438727,
+        "skip_pct": 19.9,
+        "save_pct": 0.0,
+        "share_pct": 0.0,
+        "like_pct": 0.24595924104005623
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 89.05759395438727,
+          "raw": 11.34,
+          "capture": {
+            "at": "2026-09-11T10:34+08:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/IMG_8930.PNG",
+            "../source/insights/2026-09-11/IMG_8931.PNG",
+            "../source/insights/2026-09-11/IMG_8932.PNG",
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+            "../source/insights/2026-09-11-audience/IMG_8937.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8938.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8939.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 19.9,
+          "raw": 19.9,
+          "capture": {
+            "at": "2026-09-11T10:34+08:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/IMG_8930.PNG",
+            "../source/insights/2026-09-11/IMG_8931.PNG",
+            "../source/insights/2026-09-11/IMG_8932.PNG",
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+            "../source/insights/2026-09-11-audience/IMG_8937.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8938.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8939.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-09-11T10:34+08:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/IMG_8930.PNG",
+            "../source/insights/2026-09-11/IMG_8931.PNG",
+            "../source/insights/2026-09-11/IMG_8932.PNG",
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+            "../source/insights/2026-09-11-audience/IMG_8937.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8938.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8939.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "at": "2026-09-11T10:34+08:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/IMG_8930.PNG",
+            "../source/insights/2026-09-11/IMG_8931.PNG",
+            "../source/insights/2026-09-11/IMG_8932.PNG",
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+            "../source/insights/2026-09-11-audience/IMG_8937.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8938.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8939.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 0.24595924104005623,
+          "raw": 7,
+          "capture": {
+            "at": "2026-09-11T10:34+08:00",
+            "timezone": "explicit_offset"
+          },
+          "source_files": [
+            "../source/insights/2026-09-11/IMG_8930.PNG",
+            "../source/insights/2026-09-11/IMG_8931.PNG",
+            "../source/insights/2026-09-11/IMG_8932.PNG",
+            "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+            "../source/insights/2026-09-11-audience/IMG_8937.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8938.PNG",
+            "../source/insights/2026-09-11-audience/IMG_8939.PNG"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/the-cheapest-ocean-view/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "isso-nao-e-ruido",
+      "account": "kima",
+      "views": 70,
+      "date": "2026-10-09",
+      "metrics": {
+        "watch_pct": 64.61498506687443,
+        "skip_pct": 100.0,
+        "save_pct": 0.0,
+        "share_pct": 4.285714285714286,
+        "like_pct": 17.142857142857142
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 64.61498506687443,
+          "raw": 24.88,
+          "capture": {
+            "at": "2026-10-09T14:38:00",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-01.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "skip_pct": {
+          "value": 100.0,
+          "raw": 100.0,
+          "capture": {
+            "date": "2026-10-09",
+            "date_basis": "source_folder_or_filename",
+            "timezone": null,
+            "displayed_clock": "14:37"
+          },
+          "source_files": [
+            "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-04.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/attention.json",
+          "pairing": "same capture time"
+        },
+        "save_pct": {
+          "value": 0.0,
+          "raw": 0,
+          "capture": {
+            "date": "2026-10-09",
+            "displayed_clock": "14:37",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/engagement.json",
+          "pairing": "same capture time"
+        },
+        "share_pct": {
+          "value": 4.285714285714286,
+          "raw": 3,
+          "capture": {
+            "date": "2026-10-09",
+            "displayed_clock": "14:37",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/amplification.json",
+          "pairing": "same capture time"
+        },
+        "like_pct": {
+          "value": 17.142857142857142,
+          "raw": 12,
+          "capture": {
+            "date": "2026-10-09",
+            "displayed_clock": "14:37",
+            "timezone": null
+          },
+          "source_files": [
+            "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/training-set/isso-nao-e-ruido/Y/engagement.json",
+          "pairing": "same capture time"
+        }
+      }
+    },
+    {
+      "id": "canyon-draped-figure",
+      "account": "sifontanareis",
+      "views": 296938,
+      "date": "2026-08-24",
+      "metrics": {
+        "watch_pct": 27.073529411764707,
+        "skip_pct": 22.25,
+        "save_pct": 0.11281816406118449,
+        "share_pct": 0.9429577891681091,
+        "like_pct": 0.47686722480787236
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 27.073529411764707,
+          "raw": 18.41,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 22 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "skip_pct": {
+          "value": 22.25,
+          "raw": 22.25,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 22 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "save_pct": {
+          "value": 0.11281816406118449,
+          "raw": 335,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 22 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "share_pct": {
+          "value": 0.9429577891681091,
+          "raw": 2800,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 22 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/amplification.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "like_pct": {
+          "value": 0.47686722480787236,
+          "raw": 1416,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 22 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31.jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/canyon-draped-figure/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        }
+      }
+    },
+    {
+      "id": "jiboia-passarinho",
+      "account": "sifontanareis",
+      "views": 201063,
+      "date": "2026-08-24",
+      "metrics": {
+        "watch_pct": 27.345225603357818,
+        "skip_pct": 23.46,
+        "save_pct": 0.15219110428074784,
+        "share_pct": 6.764049079144348,
+        "like_pct": 0.6465635149182097
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 27.345225603357818,
+          "raw": 26.06,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (1).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 17 de ago. de 2025 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (2).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "skip_pct": {
+          "value": 23.46,
+          "raw": 23.46,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (1).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 17 de ago. de 2025 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (2).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "save_pct": {
+          "value": 0.15219110428074784,
+          "raw": 306,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (1).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 17 de ago. de 2025 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (2).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "share_pct": {
+          "value": 6.764049079144348,
+          "raw": 13600,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (1).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 17 de ago. de 2025 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (2).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/amplification.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "like_pct": {
+          "value": 0.6465635149182097,
+          "raw": 1300,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (1).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 17 de ago. de 2025 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (2).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/jiboia-passarinho/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        }
+      }
+    },
+    {
+      "id": "gallery-watermelon",
+      "account": "sifontanareis",
+      "views": 190575,
+      "date": "2026-08-24",
+      "metrics": {
+        "watch_pct": 37.407407407407405,
+        "skip_pct": 26.6,
+        "save_pct": 0.2198609471336744,
+        "share_pct": 9.917355371900827,
+        "like_pct": 0.8920372556736194
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 37.407407407407405,
+          "raw": 20.2,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.21.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 18 de out. de 2025 - 24 de ago. de 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "skip_pct": {
+          "value": 26.6,
+          "raw": 26.6,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.21.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 18 de out. de 2025 - 24 de ago. de 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "save_pct": {
+          "value": 0.2198609471336744,
+          "raw": 419,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.21.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 18 de out. de 2025 - 24 de ago. de 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "share_pct": {
+          "value": 9.917355371900827,
+          "raw": 18900,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.21.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 18 de out. de 2025 - 24 de ago. de 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/amplification.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "like_pct": {
+          "value": 0.8920372556736194,
+          "raw": 1700,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.21.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 18 de out. de 2025 - 24 de ago. de 2026.pdf"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/gallery-watermelon/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        }
+      }
+    },
+    {
+      "id": "nego-bispo-jurema",
+      "account": "sifontanareis",
+      "views": 97975,
+      "date": "2026-08-24",
+      "metrics": {
+        "watch_pct": 22.593984962406015,
+        "skip_pct": 37.2,
+        "save_pct": 0.4348047971421281,
+        "share_pct": 5.4095432508292935,
+        "like_pct": 3.266139321255422
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 22.593984962406015,
+          "raw": 18.03,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 10 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34 (1).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "skip_pct": {
+          "value": 37.2,
+          "raw": 37.2,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 10 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34 (1).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "save_pct": {
+          "value": 0.4348047971421281,
+          "raw": 426,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 10 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34 (1).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "share_pct": {
+          "value": 5.4095432508292935,
+          "raw": 5300,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 10 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34 (1).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/amplification.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "like_pct": {
+          "value": 3.266139321255422,
+          "raw": 3200,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.33.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32.jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 10 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34 (1).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/nego-bispo-jurema/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        }
+      }
+    },
+    {
+      "id": "niede-guidon",
+      "account": "sifontanareis",
+      "views": 50278,
+      "date": "2026-08-24",
+      "metrics": {
+        "watch_pct": 18.623655913978496,
+        "skip_pct": 37.88,
+        "save_pct": 0.1650821432833446,
+        "share_pct": 1.611042603126616,
+        "like_pct": 1.8278372250288397
+      },
+      "evidence": {
+        "watch_pct": {
+          "value": 18.623655913978496,
+          "raw": 17.32,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 15 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (3).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "skip_pct": {
+          "value": 37.88,
+          "raw": 37.88,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 15 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (3).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/attention.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "save_pct": {
+          "value": 0.1650821432833446,
+          "raw": 83,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 15 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (3).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "share_pct": {
+          "value": 1.611042603126616,
+          "raw": 810,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 15 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (3).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/amplification.json",
+          "pairing": "same date; recorded views agree"
+        },
+        "like_pct": {
+          "value": 1.8278372250288397,
+          "raw": 919,
+          "capture": {
+            "date": "2026-08-24",
+            "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+            "timezone": "-03:00"
+          },
+          "source_files": [
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (2).jpeg",
+            "../source/insights/2026-08-24/Insights do reel para sifontanareis - 15 de jun. de 2026 - 24 de ago. de 2026.pdf",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (2).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46.jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (1).jpeg",
+            "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (3).jpeg"
+          ],
+          "source_json": "/Users/peterreisf.nyman/Documents/GitHub/isomorphic-monorepo/panel/insights-only/niede-guidon/Y/engagement.json",
+          "pairing": "same date; recorded views agree"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "global_baseline",
+      "features": [],
+      "uses_account_baseline": false,
+      "ridge_alpha": 0.0,
+      "center_percent": {},
+      "log10_intercepts_at_reference": {
+        "all": 3.1351152175260695
+      },
+      "reference_views": {
+        "all": 1364.9452060075223
+      },
+      "coefficients_per_percentage_point_log10_views": {},
+      "in_sample": {
+        "log10_rmse": 1.3257897629782518,
+        "typical_factor_rmse": 21.173359088741172,
+        "median_factor_error": 10.919561648060183,
+        "p80_factor_error": 62.422679568005684,
+        "within_factor_2": 0.15789473684210525,
+        "within_factor_5": 0.21052631578947367,
+        "r2_log10": 0.0
+      },
+      "loo_selected_alpha_metrics": {
+        "log10_rmse": 1.3994447498103768,
+        "typical_factor_rmse": 25.08677009632093,
+        "median_factor_error": 12.470482907324369,
+        "p80_factor_error": 78.53868983496501,
+        "within_factor_2": 0.15789473684210525,
+        "within_factor_5": 0.21052631578947367,
+        "r2_log10": -0.11419753086419737
+      },
+      "nested_loo_metrics": {
+        "log10_rmse": 1.3994447498103768,
+        "typical_factor_rmse": 25.08677009632093,
+        "median_factor_error": 12.470482907324369,
+        "p80_factor_error": 78.53868983496501,
+        "within_factor_2": 0.15789473684210525,
+        "within_factor_5": 0.21052631578947367,
+        "r2_log10": -0.11419753086419737
+      },
+      "predictions": [
+        {
+          "id": "a-lead-de-marco",
+          "account": "kima",
+          "actual_views": 130,
+          "predicted_views_nested_loo": 1555.4175247940855,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "account": "imobly",
+          "actual_views": 153,
+          "predicted_views_nested_loo": 1541.4042035413515,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "barra-v3-ficha",
+          "account": "imobly",
+          "actual_views": 24,
+          "predicted_views_nested_loo": 1708.4799357641152,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "cat-reel",
+          "account": "imobly",
+          "actual_views": 134,
+          "predicted_views_nested_loo": 1552.8009796320325,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "hard-boiled",
+          "account": "unfilmed.lab",
+          "actual_views": 2085,
+          "predicted_views_nested_loo": 1333.1944716128407,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "o-bolo",
+          "account": "imobly",
+          "actual_views": 119,
+          "predicted_views_nested_loo": 1563.0760929030696,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "o-piano-do-9",
+          "account": "imobly",
+          "actual_views": 217,
+          "predicted_views_nested_loo": 1511.7673676625689,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "o-piso-torto",
+          "account": "imobly",
+          "actual_views": 2413,
+          "predicted_views_nested_loo": 1322.4170316257812,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "o-quarto-de-235",
+          "account": "imobly",
+          "actual_views": 1647,
+          "predicted_views_nested_loo": 1350.7752209876428,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "perdizes-c206",
+          "account": "imobly",
+          "actual_views": 113,
+          "predicted_views_nested_loo": 1567.5751551843919,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "silent-garage",
+          "account": "imobly",
+          "actual_views": 171,
+          "predicted_views_nested_loo": 1531.90892252252,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "tatuape-tour",
+          "account": "imobly",
+          "actual_views": 125,
+          "predicted_views_nested_loo": 1558.8103634155455,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "account": "unfilmed.lab",
+          "actual_views": 2846,
+          "predicted_views_nested_loo": 1310.3470838232456,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "account": "kima",
+          "actual_views": 70,
+          "predicted_views_nested_loo": 1609.8404607985703,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "canyon-draped-figure",
+          "account": "sifontanareis",
+          "actual_views": 296938,
+          "predicted_views_nested_loo": 1012.1649576447493,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "jiboia-passarinho",
+          "account": "sifontanareis",
+          "actual_views": 201063,
+          "predicted_views_nested_loo": 1034.3290462822304,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "gallery-watermelon",
+          "account": "sifontanareis",
+          "actual_views": 190575,
+          "predicted_views_nested_loo": 1037.4120522272692,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "account": "sifontanareis",
+          "actual_views": 97975,
+          "predicted_views_nested_loo": 1076.475384532736,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "niede-guidon",
+          "account": "sifontanareis",
+          "actual_views": 50278,
+          "predicted_views_nested_loo": 1117.1220365132438,
+          "predicted_views_fit_all": 1364.9452060075223,
+          "fold_alpha": 0.0
+        }
+      ]
+    },
+    {
+      "name": "account_baseline",
+      "features": [],
+      "uses_account_baseline": true,
+      "ridge_alpha": 0.0,
+      "center_percent": {},
+      "log10_intercepts_at_reference": {
+        "imobly": 2.308624965409724,
+        "kima": 1.979520696160547,
+        "sifontanareis": 5.1497114263037895,
+        "unfilmed.lab": 3.3866704775290213
+      },
+      "reference_views": {
+        "imobly": 203.52837512504402,
+        "kima": 95.3939201416946,
+        "sifontanareis": 141159.92739282054,
+        "unfilmed.lab": 2435.9618223609355
+      },
+      "coefficients_per_percentage_point_log10_views": {},
+      "in_sample": {
+        "log10_rmse": 0.42768920915402486,
+        "typical_factor_rmse": 2.6772517378935556,
+        "median_factor_error": 1.4407749670101606,
+        "p80_factor_error": 2.3610543518255604,
+        "within_factor_2": 0.7368421052631579,
+        "within_factor_5": 0.8421052631578947,
+        "r2_log10": 0.8959343830750953
+      },
+      "loo_selected_alpha_metrics": {
+        "log10_rmse": 0.4886897881285186,
+        "typical_factor_rmse": 3.0809864486475638,
+        "median_factor_error": 1.7188533938945183,
+        "p80_factor_error": 2.9267287980278236,
+        "within_factor_2": 0.7368421052631579,
+        "within_factor_5": 0.8421052631578947,
+        "r2_log10": 0.8641319929121303
+      },
+      "nested_loo_metrics": {
+        "log10_rmse": 0.4886897881285186,
+        "typical_factor_rmse": 3.0809864486475638,
+        "median_factor_error": 1.7188533938945183,
+        "p80_factor_error": 2.9267287980278236,
+        "within_factor_2": 0.7368421052631579,
+        "within_factor_5": 0.8421052631578947,
+        "r2_log10": 0.8641319929121303
+      },
+      "predictions": [
+        {
+          "id": "a-lead-de-marco",
+          "account": "kima",
+          "actual_views": 130,
+          "predicted_views_nested_loo": 70.00000000000001,
+          "predicted_views_fit_all": 95.3939201416946,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "account": "imobly",
+          "actual_views": 153,
+          "predicted_views_nested_loo": 210.08515146472791,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "barra-v3-ficha",
+          "account": "imobly",
+          "actual_views": 24,
+          "predicted_views_nested_loo": 258.0964587716807,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "cat-reel",
+          "account": "imobly",
+          "actual_views": 134,
+          "predicted_views_nested_loo": 213.20327563202747,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "hard-boiled",
+          "account": "unfilmed.lab",
+          "actual_views": 2085,
+          "predicted_views_nested_loo": 2845.999999999999,
+          "predicted_views_fit_all": 2435.9618223609355,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "o-bolo",
+          "account": "imobly",
+          "actual_views": 119,
+          "predicted_views_nested_loo": 216.03420617365336,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "o-piano-do-9",
+          "account": "imobly",
+          "actual_views": 217,
+          "predicted_views_nested_loo": 202.0841320326993,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "o-piso-torto",
+          "account": "imobly",
+          "actual_views": 2413,
+          "predicted_views_nested_loo": 154.6319198748412,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "o-quarto-de-235",
+          "account": "imobly",
+          "actual_views": 1647,
+          "predicted_views_nested_loo": 161.33494692657573,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "perdizes-c206",
+          "account": "imobly",
+          "actual_views": 113,
+          "predicted_views_nested_loo": 217.27963517796215,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "silent-garage",
+          "account": "imobly",
+          "actual_views": 171,
+          "predicted_views_nested_loo": 207.5048115916957,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "tatuape-tour",
+          "account": "imobly",
+          "actual_views": 125,
+          "predicted_views_nested_loo": 214.85667423681468,
+          "predicted_views_fit_all": 203.52837512504402,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "account": "unfilmed.lab",
+          "actual_views": 2846,
+          "predicted_views_nested_loo": 2085.0,
+          "predicted_views_fit_all": 2435.9618223609355,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "account": "kima",
+          "actual_views": 70,
+          "predicted_views_nested_loo": 130.00000000000006,
+          "predicted_views_fit_all": 95.3939201416946,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "canyon-draped-figure",
+          "account": "sifontanareis",
+          "actual_views": 296938,
+          "predicted_views_nested_loo": 117212.20557562844,
+          "predicted_views_fit_all": 141159.92739282054,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "jiboia-passarinho",
+          "account": "sifontanareis",
+          "actual_views": 201063,
+          "predicted_views_nested_loo": 129213.0099661401,
+          "predicted_views_fit_all": 141159.92739282054,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "gallery-watermelon",
+          "account": "sifontanareis",
+          "actual_views": 190575,
+          "predicted_views_nested_loo": 130955.21586008948,
+          "predicted_views_fit_all": 141159.92739282054,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "account": "sifontanareis",
+          "actual_views": 97975,
+          "predicted_views_nested_loo": 154653.7534636963,
+          "predicted_views_fit_all": 141159.92739282054,
+          "fold_alpha": 0.0
+        },
+        {
+          "id": "niede-guidon",
+          "account": "sifontanareis",
+          "actual_views": 50278,
+          "predicted_views_nested_loo": 182723.65949233843,
+          "predicted_views_fit_all": 141159.92739282054,
+          "fold_alpha": 0.0
+        }
+      ]
+    },
+    {
+      "name": "stats_attention",
+      "features": [
+        "watch_pct",
+        "skip_pct"
+      ],
+      "uses_account_baseline": false,
+      "ridge_alpha": 3.0,
+      "center_percent": {
+        "watch_pct": 50.0,
+        "skip_pct": 50.0
+      },
+      "log10_intercepts_at_reference": {
+        "all": 2.998139124883356
+      },
+      "reference_views": {
+        "all": 995.7243434545438
+      },
+      "coefficients_per_percentage_point_log10_views": {
+        "watch_pct": -0.006779702196931817,
+        "skip_pct": -0.033354715038029364
+      },
+      "in_sample": {
+        "log10_rmse": 0.9513193387747567,
+        "typical_factor_rmse": 8.939625770084186,
+        "median_factor_error": 4.109414163155818,
+        "p80_factor_error": 24.296189833147082,
+        "within_factor_2": 0.2631578947368421,
+        "within_factor_5": 0.5263157894736842,
+        "r2_log10": 0.4851231943095171
+      },
+      "loo_selected_alpha_metrics": {
+        "log10_rmse": 1.0729316216407407,
+        "typical_factor_rmse": 11.828553040550938,
+        "median_factor_error": 6.98760445047875,
+        "p80_factor_error": 34.19043933933262,
+        "within_factor_2": 0.15789473684210525,
+        "within_factor_5": 0.42105263157894735,
+        "r2_log10": 0.3450701761478995
+      },
+      "nested_loo_metrics": {
+        "log10_rmse": 1.093210684627008,
+        "typical_factor_rmse": 12.393976964335296,
+        "median_factor_error": 6.98760445047875,
+        "p80_factor_error": 34.19043933933262,
+        "within_factor_2": 0.15789473684210525,
+        "within_factor_5": 0.42105263157894735,
+        "r2_log10": 0.32007906615188186
+      },
+      "predictions": [
+        {
+          "id": "a-lead-de-marco",
+          "account": "kima",
+          "actual_views": 130,
+          "predicted_views_nested_loo": 424.666045058293,
+          "predicted_views_fit_all": 335.6084617476768,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "account": "imobly",
+          "actual_views": 153,
+          "predicted_views_nested_loo": 277.21313420247463,
+          "predicted_views_fit_all": 261.4536777979323,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "barra-v3-ficha",
+          "account": "imobly",
+          "actual_views": 24,
+          "predicted_views_nested_loo": 123.22433314577114,
+          "predicted_views_fit_all": 93.33411830552248,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "cat-reel",
+          "account": "imobly",
+          "actual_views": 134,
+          "predicted_views_nested_loo": 223.94008191352313,
+          "predicted_views_fit_all": 209.30554231154784,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "hard-boiled",
+          "account": "unfilmed.lab",
+          "actual_views": 2085,
+          "predicted_views_nested_loo": 1036.1240893850845,
+          "predicted_views_fit_all": 1357.3217630497854,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "o-bolo",
+          "account": "imobly",
+          "actual_views": 119,
+          "predicted_views_nested_loo": 7198.034564088475,
+          "predicted_views_fit_all": 5233.354288201788,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "o-piano-do-9",
+          "account": "imobly",
+          "actual_views": 217,
+          "predicted_views_nested_loo": 1516.310165753889,
+          "predicted_views_fit_all": 1353.7426739839225,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "o-piso-torto",
+          "account": "imobly",
+          "actual_views": 2413,
+          "predicted_views_nested_loo": 5555.3374124080965,
+          "predicted_views_fit_all": 4957.746107157526,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "o-quarto-de-235",
+          "account": "imobly",
+          "actual_views": 1647,
+          "predicted_views_nested_loo": 3738.106421992192,
+          "predicted_views_fit_all": 3514.3497040156813,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "perdizes-c206",
+          "account": "imobly",
+          "actual_views": 113,
+          "predicted_views_nested_loo": 6880.536533996627,
+          "predicted_views_fit_all": 4571.633431641992,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "silent-garage",
+          "account": "imobly",
+          "actual_views": 171,
+          "predicted_views_nested_loo": 93.07688524458892,
+          "predicted_views_fit_all": 108.97604337505146,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "tatuape-tour",
+          "account": "imobly",
+          "actual_views": 125,
+          "predicted_views_nested_loo": 2200.3188710383565,
+          "predicted_views_fit_all": 1725.13513230246,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "account": "unfilmed.lab",
+          "actual_views": 2846,
+          "predicted_views_nested_loo": 6278.6539463241015,
+          "predicted_views_fit_all": 5461.5660724237205,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "account": "kima",
+          "actual_views": 70,
+          "predicted_views_nested_loo": 3.042466133399983,
+          "predicted_views_fit_all": 17.034058194378645,
+          "fold_alpha": 1.0
+        },
+        {
+          "id": "canyon-draped-figure",
+          "account": "sifontanareis",
+          "actual_views": 296938,
+          "predicted_views_nested_loo": 7544.781095913299,
+          "predicted_views_fit_all": 11999.609418552422,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "jiboia-passarinho",
+          "account": "sifontanareis",
+          "actual_views": 201063,
+          "predicted_views_nested_loo": 7288.463320679844,
+          "predicted_views_fit_all": 10888.445601611525,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "gallery-watermelon",
+          "account": "sifontanareis",
+          "actual_views": 190575,
+          "predicted_views_nested_loo": 5238.859881180209,
+          "predicted_views_fit_all": 7311.617850219738,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "account": "sifontanareis",
+          "actual_views": 97975,
+          "predicted_views_nested_loo": 2986.4842825355286,
+          "predicted_views_fit_all": 4082.1043070122414,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "niede-guidon",
+          "account": "sifontanareis",
+          "actual_views": 50278,
+          "predicted_views_nested_loo": 3137.010349411848,
+          "predicted_views_fit_all": 4122.119141969766,
+          "fold_alpha": 3.0
+        }
+      ],
+      "leave_one_account_out_metrics": {
+        "log10_rmse": 1.962419901886543,
+        "typical_factor_rmse": 91.71067752919774,
+        "median_factor_error": 81.86335957401317,
+        "p80_factor_error": 454.49077856052713,
+        "within_factor_2": 0.15789473684210525,
+        "within_factor_5": 0.21052631578947367,
+        "r2_log10": -1.190960543978648
+      }
+    },
+    {
+      "name": "stats_attention_saves",
+      "features": [
+        "watch_pct",
+        "skip_pct",
+        "save_pct"
+      ],
+      "uses_account_baseline": false,
+      "ridge_alpha": 10.0,
+      "center_percent": {
+        "watch_pct": 50.0,
+        "skip_pct": 50.0,
+        "save_pct": 0.0
+      },
+      "log10_intercepts_at_reference": {
+        "all": 2.730058803293684
+      },
+      "reference_views": {
+        "all": 537.1045151768691
+      },
+      "coefficients_per_percentage_point_log10_views": {
+        "watch_pct": -0.0015401333625611423,
+        "skip_pct": -0.018249140971304676,
+        "save_pct": 5.101551003056948
+      },
+      "in_sample": {
+        "log10_rmse": 0.7090542289248587,
+        "typical_factor_rmse": 5.117457315588793,
+        "median_factor_error": 2.673648058038123,
+        "p80_factor_error": 9.412673100676356,
+        "within_factor_2": 0.47368421052631576,
+        "within_factor_5": 0.631578947368421,
+        "r2_log10": 0.7139713208857825
+      },
+      "loo_selected_alpha_metrics": {
+        "log10_rmse": 0.8876188197376695,
+        "typical_factor_rmse": 7.720027008870555,
+        "median_factor_error": 3.5609887892643592,
+        "p80_factor_error": 13.142011956042499,
+        "within_factor_2": 0.42105263157894735,
+        "within_factor_5": 0.5263157894736842,
+        "r2_log10": 0.5517671509307767
+      },
+      "nested_loo_metrics": {
+        "log10_rmse": 1.0235028855319144,
+        "typical_factor_rmse": 10.556085168485506,
+        "median_factor_error": 3.5609887892643592,
+        "p80_factor_error": 13.142011956042499,
+        "within_factor_2": 0.42105263157894735,
+        "within_factor_5": 0.5263157894736842,
+        "r2_log10": 0.4040239325558873
+      },
+      "predictions": [
+        {
+          "id": "a-lead-de-marco",
+          "account": "kima",
+          "actual_views": 130,
+          "predicted_views_nested_loo": 462.9285426043669,
+          "predicted_views_fit_all": 371.9400711030233,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "account": "imobly",
+          "actual_views": 153,
+          "predicted_views_nested_loo": 272.9664138164507,
+          "predicted_views_fit_all": 257.2200200973365,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "barra-v3-ficha",
+          "account": "imobly",
+          "actual_views": 24,
+          "predicted_views_nested_loo": 160.36349782856144,
+          "predicted_views_fit_all": 122.69777816977162,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "cat-reel",
+          "account": "imobly",
+          "actual_views": 134,
+          "predicted_views_nested_loo": 197.37104846935648,
+          "predicted_views_fit_all": 188.46636161114841,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "hard-boiled",
+          "account": "unfilmed.lab",
+          "actual_views": 2085,
+          "predicted_views_nested_loo": 2908.974363091385,
+          "predicted_views_fit_all": 2760.6363675600464,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "o-bolo",
+          "account": "imobly",
+          "actual_views": 119,
+          "predicted_views_nested_loo": 1591.213441057708,
+          "predicted_views_fit_all": 1233.666371664427,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "o-piano-do-9",
+          "account": "imobly",
+          "actual_views": 217,
+          "predicted_views_nested_loo": 630.8091250549594,
+          "predicted_views_fit_all": 580.1816285942728,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "o-piso-torto",
+          "account": "imobly",
+          "actual_views": 2413,
+          "predicted_views_nested_loo": 2464.482249275981,
+          "predicted_views_fit_all": 2437.387119271279,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "o-quarto-de-235",
+          "account": "imobly",
+          "actual_views": 1647,
+          "predicted_views_nested_loo": 2364.2252263944683,
+          "predicted_views_fit_all": 2305.3009523688397,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "perdizes-c206",
+          "account": "imobly",
+          "actual_views": 113,
+          "predicted_views_nested_loo": 1399.0823783038798,
+          "predicted_views_fit_all": 1050.2660429406637,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "silent-garage",
+          "account": "imobly",
+          "actual_views": 171,
+          "predicted_views_nested_loo": 116.80406505699256,
+          "predicted_views_fit_all": 130.5756506954744,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "tatuape-tour",
+          "account": "imobly",
+          "actual_views": 125,
+          "predicted_views_nested_loo": 732.0742543090603,
+          "predicted_views_fit_all": 614.5384227650891,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "account": "unfilmed.lab",
+          "actual_views": 2846,
+          "predicted_views_nested_loo": 1506.3771656170902,
+          "predicted_views_fit_all": 1656.548070708693,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "account": "kima",
+          "actual_views": 70,
+          "predicted_views_nested_loo": 45.74921594869666,
+          "predicted_views_fit_all": 62.38680267997235,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "canyon-draped-figure",
+          "account": "sifontanareis",
+          "actual_views": 296938,
+          "predicted_views_nested_loo": 4529.783645304753,
+          "predicted_views_fit_all": 7036.066014965442,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "jiboia-passarinho",
+          "account": "sifontanareis",
+          "actual_views": 201063,
+          "predicted_views_nested_loo": 7392.370256004369,
+          "predicted_views_fit_all": 10609.454613025779,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "gallery-watermelon",
+          "account": "sifontanareis",
+          "actual_views": 190575,
+          "predicted_views_nested_loo": 14669.562102226477,
+          "predicted_views_fit_all": 19866.20027562953,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "account": "sifontanareis",
+          "actual_views": 97975,
+          "predicted_views_nested_loo": 62284378.76771741,
+          "predicted_views_fit_all": 167508.00829816467,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "niede-guidon",
+          "account": "sifontanareis",
+          "actual_views": 50278,
+          "predicted_views_nested_loo": 5516.7350339845225,
+          "predicted_views_fit_all": 6946.037439359383,
+          "fold_alpha": 10.0
+        }
+      ],
+      "leave_one_account_out_metrics": {
+        "log10_rmse": 1.457072321558151,
+        "typical_factor_rmse": 28.646549712743155,
+        "median_factor_error": 22.47389074813112,
+        "p80_factor_error": 104.78772689992176,
+        "within_factor_2": 0.15789473684210525,
+        "within_factor_5": 0.3157894736842105,
+        "r2_log10": -0.20784969580950685
+      }
+    },
+    {
+      "name": "account_attention",
+      "features": [
+        "watch_pct",
+        "skip_pct"
+      ],
+      "uses_account_baseline": true,
+      "ridge_alpha": 3.0,
+      "center_percent": {
+        "watch_pct": 50.0,
+        "skip_pct": 50.0
+      },
+      "log10_intercepts_at_reference": {
+        "imobly": 2.496144579891165,
+        "kima": 1.9148930119664778,
+        "sifontanareis": 5.205977524195595,
+        "unfilmed.lab": 2.7356706908304447
+      },
+      "reference_views": {
+        "imobly": 313.43289922858,
+        "kima": 82.20401161984914,
+        "sifontanareis": 160685.80920144432,
+        "unfilmed.lab": 544.0899334569121
+      },
+      "coefficients_per_percentage_point_log10_views": {
+        "watch_pct": 0.008850070486160237,
+        "skip_pct": -0.007345678736368526
+      },
+      "in_sample": {
+        "log10_rmse": 0.2740677391204067,
+        "typical_factor_rmse": 1.8796099662721804,
+        "median_factor_error": 1.4926127019319388,
+        "p80_factor_error": 2.459348525955731,
+        "within_factor_2": 0.6842105263157895,
+        "within_factor_5": 1.0,
+        "r2_log10": 0.9572666921274188
+      },
+      "loo_selected_alpha_metrics": {
+        "log10_rmse": 0.38745733267051163,
+        "typical_factor_rmse": 2.4403793008170362,
+        "median_factor_error": 2.216947970009381,
+        "p80_factor_error": 3.150876331059898,
+        "within_factor_2": 0.3684210526315789,
+        "within_factor_5": 1.0,
+        "r2_log10": 0.9145920208415561
+      },
+      "nested_loo_metrics": {
+        "log10_rmse": 0.407757761247825,
+        "typical_factor_rmse": 2.5571591687245143,
+        "median_factor_error": 2.0779359168862563,
+        "p80_factor_error": 3.150876331059898,
+        "within_factor_2": 0.47368421052631576,
+        "within_factor_5": 0.8947368421052632,
+        "r2_log10": 0.905407838472231
+      },
+      "predictions": [
+        {
+          "id": "a-lead-de-marco",
+          "account": "kima",
+          "actual_views": 130,
+          "predicted_views_nested_loo": 315.362373859709,
+          "predicted_views_fit_all": 191.46467953476701,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "account": "imobly",
+          "actual_views": 153,
+          "predicted_views_nested_loo": 248.80265195128925,
+          "predicted_views_fit_all": 228.36974339558665,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "barra-v3-ficha",
+          "account": "imobly",
+          "actual_views": 24,
+          "predicted_views_nested_loo": 111.80296590722901,
+          "predicted_views_fit_all": 78.40606787142272,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "cat-reel",
+          "account": "imobly",
+          "actual_views": 134,
+          "predicted_views_nested_loo": 80.13216913503872,
+          "predicted_views_fit_all": 88.17854176151675,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "hard-boiled",
+          "account": "unfilmed.lab",
+          "actual_views": 2085,
+          "predicted_views_nested_loo": 5080.693435797956,
+          "predicted_views_fit_all": 2957.3510130936547,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "o-bolo",
+          "account": "imobly",
+          "actual_views": 119,
+          "predicted_views_nested_loo": 384.1558582830808,
+          "predicted_views_fit_all": 313.92812512651926,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "o-piano-do-9",
+          "account": "imobly",
+          "actual_views": 217,
+          "predicted_views_nested_loo": 217.43049165816075,
+          "predicted_views_fit_all": 217.4087407947916,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "o-piso-torto",
+          "account": "imobly",
+          "actual_views": 2413,
+          "predicted_views_nested_loo": 331.8271055846612,
+          "predicted_views_fit_all": 901.457033714516,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "o-quarto-de-235",
+          "account": "imobly",
+          "actual_views": 1647,
+          "predicted_views_nested_loo": 293.96117313877306,
+          "predicted_views_fit_all": 534.1515674195211,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "perdizes-c206",
+          "account": "imobly",
+          "actual_views": 113,
+          "predicted_views_nested_loo": 234.80675860814682,
+          "predicted_views_fit_all": 201.26607427704138,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "silent-garage",
+          "account": "imobly",
+          "actual_views": 171,
+          "predicted_views_nested_loo": 55.154909968272705,
+          "predicted_views_fit_all": 72.85927106590927,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "tatuape-tour",
+          "account": "imobly",
+          "actual_views": 125,
+          "predicted_views_nested_loo": 167.14964453966584,
+          "predicted_views_fit_all": 160.29734901265502,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "account": "unfilmed.lab",
+          "actual_views": 2846,
+          "predicted_views_nested_loo": 1650.4229549402903,
+          "predicted_views_fit_all": 2006.4949928932047,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "account": "kima",
+          "actual_views": 70,
+          "predicted_views_nested_loo": 42.389038800693434,
+          "predicted_views_fit_all": 47.52834842495129,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "canyon-draped-figure",
+          "account": "sifontanareis",
+          "actual_views": 296938,
+          "predicted_views_nested_loo": 137402.1855636422,
+          "predicted_views_fit_all": 161034.61096418108,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "jiboia-passarinho",
+          "account": "sifontanareis",
+          "actual_views": 201063,
+          "predicted_views_nested_loo": 149385.47567879787,
+          "predicted_views_fit_all": 158648.3236835634,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "gallery-watermelon",
+          "account": "sifontanareis",
+          "actual_views": 190575,
+          "predicted_views_nested_loo": 182181.48402113887,
+          "predicted_views_fit_all": 184680.51398983132,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "account": "sifontanareis",
+          "actual_views": 97975,
+          "predicted_views_nested_loo": 118983.52745728266,
+          "predicted_views_fit_all": 114145.0406746698,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "niede-guidon",
+          "account": "sifontanareis",
+          "actual_views": 50278,
+          "predicted_views_nested_loo": 126590.83438955699,
+          "predicted_views_fit_all": 104069.69786515553,
+          "fold_alpha": 3.0
+        }
+      ]
+    },
+    {
+      "name": "account_attention_saves",
+      "features": [
+        "watch_pct",
+        "skip_pct",
+        "save_pct"
+      ],
+      "uses_account_baseline": true,
+      "ridge_alpha": 3.0,
+      "center_percent": {
+        "watch_pct": 50.0,
+        "skip_pct": 50.0,
+        "save_pct": 0.0
+      },
+      "log10_intercepts_at_reference": {
+        "imobly": 2.4960519282514175,
+        "kima": 1.9150282522283746,
+        "sifontanareis": 5.204880412317538,
+        "unfilmed.lab": 2.7355732217872935
+      },
+      "reference_views": {
+        "imobly": 313.36603912370884,
+        "kima": 82.22961411695218,
+        "sifontanareis": 160280.39805090294,
+        "unfilmed.lab": 543.9678366381424
+      },
+      "coefficients_per_percentage_point_log10_views": {
+        "watch_pct": 0.008847063806284514,
+        "skip_pct": -0.007347310071698009,
+        "save_pct": 0.0045784609045163745
+      },
+      "in_sample": {
+        "log10_rmse": 0.27407843996101305,
+        "typical_factor_rmse": 1.879656279673074,
+        "median_factor_error": 1.492205248779718,
+        "p80_factor_error": 2.4594146448293532,
+        "within_factor_2": 0.6842105263157895,
+        "within_factor_5": 1.0,
+        "r2_log10": 0.9572633550601318
+      },
+      "loo_selected_alpha_metrics": {
+        "log10_rmse": 0.397542147547191,
+        "typical_factor_rmse": 2.497710776011678,
+        "median_factor_error": 2.4102359819350747,
+        "p80_factor_error": 3.15244577492053,
+        "within_factor_2": 0.3684210526315789,
+        "within_factor_5": 1.0,
+        "r2_log10": 0.9100881287473319
+      },
+      "nested_loo_metrics": {
+        "log10_rmse": 0.41270567388168095,
+        "typical_factor_rmse": 2.5864594492034367,
+        "median_factor_error": 2.0013929312690353,
+        "p80_factor_error": 3.15244577492053,
+        "within_factor_2": 0.47368421052631576,
+        "within_factor_5": 0.8947368421052632,
+        "r2_log10": 0.903098264210815
+      },
+      "predictions": [
+        {
+          "id": "a-lead-de-marco",
+          "account": "kima",
+          "actual_views": 130,
+          "predicted_views_nested_loo": 315.4537792898175,
+          "predicted_views_fit_all": 191.46038957593572,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "a-porta-do-corredor",
+          "account": "imobly",
+          "actual_views": 153,
+          "predicted_views_nested_loo": 249.49005151455154,
+          "predicted_views_fit_all": 228.30740306329687,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "barra-v3-ficha",
+          "account": "imobly",
+          "actual_views": 24,
+          "predicted_views_nested_loo": 111.98993911378933,
+          "predicted_views_fit_all": 78.39779086043393,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "cat-reel",
+          "account": "imobly",
+          "actual_views": 134,
+          "predicted_views_nested_loo": 80.11569394521337,
+          "predicted_views_fit_all": 88.17409311253937,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "hard-boiled",
+          "account": "unfilmed.lab",
+          "actual_views": 2085,
+          "predicted_views_nested_loo": 4018.6689256387453,
+          "predicted_views_fit_all": 2958.4802492232493,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "o-bolo",
+          "account": "imobly",
+          "actual_views": 119,
+          "predicted_views_nested_loo": 384.1830684325778,
+          "predicted_views_fit_all": 313.9161719720168,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "o-piano-do-9",
+          "account": "imobly",
+          "actual_views": 217,
+          "predicted_views_nested_loo": 217.38662275074898,
+          "predicted_views_fit_all": 217.38999872599308,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "o-piso-torto",
+          "account": "imobly",
+          "actual_views": 2413,
+          "predicted_views_nested_loo": 331.63133952545144,
+          "predicted_views_fit_all": 901.5654599858515,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "o-quarto-de-235",
+          "account": "imobly",
+          "actual_views": 1647,
+          "predicted_views_nested_loo": 290.8421476833733,
+          "predicted_views_fit_all": 534.3772352251995,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "perdizes-c206",
+          "account": "imobly",
+          "actual_views": 113,
+          "predicted_views_nested_loo": 234.8926977034612,
+          "predicted_views_fit_all": 201.27867072230268,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "silent-garage",
+          "account": "imobly",
+          "actual_views": 171,
+          "predicted_views_nested_loo": 55.111755074567405,
+          "predicted_views_fit_all": 72.85415712274228,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "tatuape-tour",
+          "account": "imobly",
+          "actual_views": 125,
+          "predicted_views_nested_loo": 167.1541118817085,
+          "predicted_views_fit_all": 160.3002782757418,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "the-cheapest-ocean-view",
+          "account": "unfilmed.lab",
+          "actual_views": 2846,
+          "predicted_views_nested_loo": 1607.7367940926238,
+          "predicted_views_fit_all": 2005.7291244577873,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "isso-nao-e-ruido",
+          "account": "kima",
+          "actual_views": 70,
+          "predicted_views_nested_loo": 42.4209585968711,
+          "predicted_views_fit_all": 47.529413369289415,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "canyon-draped-figure",
+          "account": "sifontanareis",
+          "actual_views": 296938,
+          "predicted_views_nested_loo": 122575.32913959652,
+          "predicted_views_fit_all": 160861.77339883303,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "jiboia-passarinho",
+          "account": "sifontanareis",
+          "actual_views": 201063,
+          "predicted_views_nested_loo": 146934.3732709891,
+          "predicted_views_fit_all": 158542.82340175315,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "gallery-watermelon",
+          "account": "sifontanareis",
+          "actual_views": 190575,
+          "predicted_views_nested_loo": 182160.28758208067,
+          "predicted_views_fit_all": 184674.36849211628,
+          "fold_alpha": 3.0
+        },
+        {
+          "id": "nego-bispo-jurema",
+          "account": "sifontanareis",
+          "actual_views": 97975,
+          "predicted_views_nested_loo": 196086.47244108384,
+          "predicted_views_fit_all": 114407.35739313105,
+          "fold_alpha": 10.0
+        },
+        {
+          "id": "niede-guidon",
+          "account": "sifontanareis",
+          "actual_views": 50278,
+          "predicted_views_nested_loo": 130022.13604763223,
+          "predicted_views_fit_all": 104015.27326879154,
+          "fold_alpha": 3.0
+        }
+      ]
+    }
+  ],
+  "method": {
+    "response": "log10 views",
+    "capture_alignment": "One most recent common capture per reel; every predictor shares the same capture date and matching recorded view count.",
+    "validation": "Outer leave-one-reel-out; ridge strength selected by inner leave-one-reel-out separately in each fold. Each candidate feature set is evaluated separately; final model choice remains exploratory.",
+    "action_rates": "Actions divided by views times 100, which reuse the outcome in the denominator; models using these are descriptive and can have mathematical coupling.",
+    "baseline": "Geometric mean views; account baseline is a separate geometric mean per account.",
+    "limits": [
+      "Only 19 or fewer aligned reels and four accounts, with two accounts represented by only two reels.",
+      "Retrospective metrics on completed reels do not establish early-post forecasting performance.",
+      "Account-based predictions apply to the represented accounts, not automatically to a new account.",
+      "View counts, rate cards and retention have different measurement conventions; some source counts are rounded."
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "sample_id": "o-bolo",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit the loop metric: average views per viewer.",
+  "target_fields": [
+    "views_per_viewer"
+  ],
+  "formula": "views / viewers",
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-07T13:02-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7470.PNG",
+        "../source/insights/2026-08-07/IMG_7471.PNG",
+        "../source/insights/2026-08-07/IMG_7472.PNG",
+        "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "retention keypoints read off the graph by supervising agent — approximate"
+      ],
+      "views": 119,
+      "viewers": 108,
+      "views_per_viewer": 1.10185185,
+      "ratio_precision": "computed_from_recorded_counts"
+    },
+    {
+      "capture": {
+        "at": "2026-08-17T12:15:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "views": 124,
+      "viewers": 109,
+      "views_per_viewer": 1.13761468,
+      "displayed_values": {
+        "views": "124",
+        "viewers": "109"
+      },
+      "ratio_precision": "computed_from_recorded_counts"
+    },
+    {
+      "capture": {
+        "date": "2026-08-07",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7470.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "views": 119,
+      "viewers": 108,
+      "views_per_viewer": 1.10185185,
+      "displayed_values": {
+        "views": "119",
+        "viewers": "108"
+      },
+      "ratio_precision": "computed_from_recorded_counts"
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "12:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7786.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "views": 124,
+      "viewers": 109,
+      "views_per_viewer": 1.13761468,
+      "displayed_values": {
+        "views": "124",
+        "viewers": "109"
+      },
+      "ratio_precision": "computed_from_recorded_counts"
+    }
+  ],
+  "notes": [
+    "The ratio uses counts from the same recorded observation; dates and evidence are preserved.",
+    "Views and viewers are retained as the numerator and denominator, rather than separate fitting targets.",
+    "Ratios from abbreviated or rounded counts are labeled approximate. This ratio does not measure completed full-length loops."
+  ]
+}

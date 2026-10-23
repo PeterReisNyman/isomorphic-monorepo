@@ -1,0 +1,242 @@
+{
+  "sample_id": "barra-v3-ficha",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit how long viewers kept watching and where they dropped off.",
+  "target_fields": [
+    "average_watch_time_s",
+    "average_watch_time_pdf_s",
+    "points",
+    "displayed_retention_pct",
+    "rates_pct.skip"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-13T10:57-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7609.PNG",
+        "../source/insights/2026-08-13/IMG_7610.PNG",
+        "../source/insights/2026-08-13/IMG_7611.PNG",
+        "../source/insights/2026-08-13/reel-insights-2026-08-10_13.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary metrics transcribed verbatim from the PDF by supervising agent; posted caption-style variant identified as FICHA by matching the IG cover frame against the three V3 finals"
+      ],
+      "average_watch_time_s": 4.17
+    },
+    {
+      "capture": {
+        "at": "2026-08-13T10:57:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/reel-insights-2026-08-10_13.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "average_watch_time_s": 4.17,
+      "displayed_values": {
+        "average_watch_time": "4.17s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-13",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:57"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7609.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "average_watch_time_s": 4.2,
+      "displayed_values": {
+        "average_watch_time_s": "4,2s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "12:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7788.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "average_watch_time_s": 4.2,
+      "displayed_values": {
+        "average_watch_time_s": "4,2s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-13",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:57"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7610.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "skip": 88.2
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-13",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:57"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7611.PNG"
+      ],
+      "extraction": "saved_screenshot_pixel_trace",
+      "points": [
+        {
+          "time_s": 0,
+          "retention_pct": 100
+        },
+        {
+          "time_s": 1,
+          "retention_pct": 73.9
+        },
+        {
+          "time_s": 2,
+          "retention_pct": 34.3
+        },
+        {
+          "time_s": 3,
+          "retention_pct": 19.3
+        },
+        {
+          "time_s": 4,
+          "retention_pct": 18.5
+        },
+        {
+          "time_s": 5,
+          "retention_pct": 18.5
+        },
+        {
+          "time_s": 6,
+          "retention_pct": 7.5
+        },
+        {
+          "time_s": 7,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 8,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 9,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 10,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 11,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 12,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 13,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 14,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 15,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 16,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 17,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 18,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 19,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 20,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 21,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 22,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 23,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 24,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 25,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 26,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 27,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 28,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 29,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 30,
+          "retention_pct": 6.7
+        }
+      ],
+      "displayed_end_seconds": 30,
+      "precision": "estimated_from_screenshot",
+      "curve_color": "white",
+      "limitations": [
+        "Pixel tracing of the visible curve; times assume a linear axis between the displayed endpoints. These estimates do not replace previously digitized readings."
+      ]
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sample_id": "the-cheapest-ocean-view",
+  "platform": "instagram",
+  "account": "unfilmed.lab",
+  "objective": "Fit profile visits and follows attributed to the post.",
+  "target_fields": [
+    "profile_visits",
+    "follows"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-09-11T10:34+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/IMG_8930.PNG",
+        "../source/insights/2026-09-11/IMG_8931.PNG",
+        "../source/insights/2026-09-11/IMG_8932.PNG",
+        "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+        "../source/insights/2026-09-11-audience/IMG_8937.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8938.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8939.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates + audience transcribed verbatim from the screenshots; retention keypoints digitized from the screenshot pixels (white-curve centroid per column, y mapped through the 100/50/0% gridlines, x assumed linear 0 -> duration) — about +/-1pp in y, +/-0.2s in x"
+      ],
+      "follows": 0
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

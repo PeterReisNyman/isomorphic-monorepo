@@ -1,0 +1,54 @@
+{
+  "sample_id": "jiboia-passarinho",
+  "platform": "instagram",
+  "account": "sifontanareis",
+  "objective": "Fit viewers liking, commenting on, or saving the post.",
+  "target_fields": [
+    "likes",
+    "comments",
+    "saves",
+    "rates_pct.like",
+    "rates_pct.comment",
+    "rates_pct.save",
+    "likes_timing_pct"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "date": "2026-08-24",
+        "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+        "timezone": "-03:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (1).jpeg",
+        "../source/insights/2026-08-24/Insights do reel para sifontanareis - 17 de ago. de 2025 - 24 de ago. de 2026.pdf",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (2).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (2).jpeg"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "likes": 1300,
+      "comments": 1800,
+      "saves": 306,
+      "rates_pct": {
+        "like": 0.94,
+        "comment": 1.28,
+        "save": 0.21
+      },
+      "rounded_fields": [
+        "likes",
+        "comments"
+      ],
+      "notes": [
+        "Rates are as displayed on the Instagram rate cards; counts and rates may differ within the capture window."
+      ]
+    }
+  ],
+  "notes": [
+    "Insights-only record. Local MP4 and transcript are unavailable.",
+    "Missing viewers are not replaced with reach."
+  ]
+}

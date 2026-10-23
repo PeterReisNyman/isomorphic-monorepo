@@ -1,0 +1,184 @@
+{
+  "nodes": [
+    {
+      "id": "group-context",
+      "type": "group",
+      "x": -25,
+      "y": 260,
+      "width": 1690,
+      "height": 455,
+      "label": "Decisions, evidence and hypotheses"
+    },
+    {
+      "id": "group-next",
+      "type": "group",
+      "x": -25,
+      "y": 760,
+      "width": 1690,
+      "height": 1000,
+      "label": "Next steps — planning only"
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "x": 400,
+      "y": 0,
+      "width": 840,
+      "height": 220,
+      "color": "5",
+      "text": "# Explain relative reel performance\n\nSame-capture stats → multiple of the channel baseline.\n1× = typical · 1.5× = 50% above · 0.7× = 30% below.\nThe channel’s absolute view count is not an equation input.\nThis board is for a descriptive model at the observed capture time."
+    },
+    {
+      "id": "decisions",
+      "type": "text",
+      "x": 0,
+      "y": 300,
+      "width": 390,
+      "height": 375,
+      "color": "4",
+      "text": "## What we have agreed\n\n• Explain performance at the same capture time.\n• Show response metrics as percentages.\n• Use the channel median as the working baseline.\n• Exclude the evaluated reel from its baseline.\nOpen decision: comparable post ages and formats."
+    },
+    {
+      "id": "evidence",
+      "type": "text",
+      "x": 420,
+      "y": 300,
+      "width": 390,
+      "height": 375,
+      "color": "6",
+      "text": "## Where the prototype stands\n\n• 20 saved reels across 4 channels; 19 aligned model rows.\n• Watch % and skip % are the starting inputs.\n• Above/below baseline: 13/19 held-out reels correct.\n• Median error: 1.61×; always predicting 1×: 1.39×.\nThe current equation has not beaten the simple benchmark."
+    },
+    {
+      "id": "hypotheses",
+      "type": "text",
+      "x": 840,
+      "y": 300,
+      "width": 390,
+      "height": 375,
+      "color": "3",
+      "text": "## Ideas worth testing\n\n• Duration may add information lost by percentages.\n• Completion × average watch seconds is a candidate interaction.\n• Fit the measured curve before assuming constant drop-off.\n• Keep first-pass retention and replay-inclusive watch separate.\nThe old loop-to-views line is not a calibrated predictor."
+    },
+    {
+      "id": "recovery",
+      "type": "text",
+      "x": 1260,
+      "y": 300,
+      "width": 390,
+      "height": 375,
+      "color": "6",
+      "text": "## Simone’s remaining gaps\n\n• All 5 saved insight records are recovered.\n• Their 5 MP4s are still unavailable locally.\n• 2 reels lack viewers; 2 viewer figures are unconfirmed.\n• Views are available for all 5.\nMedia recovery supports X training; viewer recovery supports loop analysis."
+    },
+    {
+      "id": "step1",
+      "type": "text",
+      "x": 0,
+      "y": 810,
+      "width": 510,
+      "height": 410,
+      "color": "5",
+      "text": "## 1. Freeze the comparison rules\n\n- [ ] Define comparable post-age bands and formats.\n- [ ] Document channel median views as the target baseline.\n- [ ] Exclude the evaluated reel and flag sparse channel history.\n- [ ] Specify every percentage denominator.\nDone when: one precise row/target definition is written."
+    },
+    {
+      "id": "step2",
+      "type": "text",
+      "x": 560,
+      "y": 810,
+      "width": 510,
+      "height": 410,
+      "color": "5",
+      "text": "## 2. Audit the 20-reel dataset\n\n- [ ] Match every feature to the same capture as its views.\n- [ ] Add post age and duration where evidence exists.\n- [ ] Record missing data, rounding, platform and collaboration flags.\n- [ ] Distinguish actual end retention from the last saved graph point.\nDone when: each included value traces to an original source."
+    },
+    {
+      "id": "step3",
+      "type": "text",
+      "x": 1120,
+      "y": 810,
+      "width": 510,
+      "height": 410,
+      "color": "5",
+      "text": "## 3. Build the candidate features\n\n- [ ] Keep watch % and skip % as the reference feature set.\n- [ ] Add duration as context.\n- [ ] Test true completion × watch % × duration / 10,000.\n- [ ] Compare early drop-off and later retention where curves exist.\n- [ ] Label the mathematical coupling in action/view percentages."
+    },
+    {
+      "id": "step4",
+      "type": "text",
+      "x": 1120,
+      "y": 1280,
+      "width": 510,
+      "height": 410,
+      "color": "5",
+      "text": "## 4. Fit a small model ladder\n\n- [ ] M0: always predict 1×.\n- [ ] M1: watch % + skip %.\n- [ ] M2: add duration.\n- [ ] M3: test the completion/watch interaction.\n- [ ] Test sharing or saves only with adequate matched coverage.\nKeep the model small; estimate new weights from the data."
+    },
+    {
+      "id": "step5",
+      "type": "text",
+      "x": 560,
+      "y": 1280,
+      "width": 510,
+      "height": 410,
+      "color": "5",
+      "text": "## 5. Validate fairly\n\n- [ ] Recompute baselines inside each training fold.\n- [ ] Hold out reels; keep duplicate captures together.\n- [ ] Also hold out entire channels.\n- [ ] Compare models on identical eligible reels and folds.\n- [ ] Report log error, above/below accuracy and error ranges.\nJudge magnitude against 1×; direction against a simple class baseline."
+    },
+    {
+      "id": "step6",
+      "type": "text",
+      "x": 0,
+      "y": 1280,
+      "width": 510,
+      "height": 410,
+      "color": "5",
+      "text": "## 6. Keep only demonstrated value\n\n- [ ] Check for consistent error improvement over 1×.\n- [ ] Inspect failures, small-channel instability and breakout misses.\n- [ ] Retain only features that help held-out results.\n- [ ] Publish the equation, definitions and an honest error range.\nIf the gate fails: retain 1× as the benchmark and collect better matched evidence."
+    }
+  ],
+  "edges": [
+    {
+      "id": "goal-rules",
+      "fromNode": "goal",
+      "fromSide": "bottom",
+      "toNode": "decisions",
+      "toSide": "top",
+      "label": "confirmed direction"
+    },
+    {
+      "id": "rules-start",
+      "fromNode": "decisions",
+      "fromSide": "bottom",
+      "toNode": "step1",
+      "toSide": "top"
+    },
+    {
+      "id": "next-0",
+      "fromNode": "step1",
+      "fromSide": "right",
+      "toNode": "step2",
+      "toSide": "left"
+    },
+    {
+      "id": "next-1",
+      "fromNode": "step2",
+      "fromSide": "right",
+      "toNode": "step3",
+      "toSide": "left"
+    },
+    {
+      "id": "next-2",
+      "fromNode": "step3",
+      "fromSide": "bottom",
+      "toNode": "step4",
+      "toSide": "top"
+    },
+    {
+      "id": "next-3",
+      "fromNode": "step4",
+      "fromSide": "left",
+      "toNode": "step5",
+      "toSide": "right"
+    },
+    {
+      "id": "next-4",
+      "fromNode": "step5",
+      "fromSide": "left",
+      "toNode": "step6",
+      "toSide": "right"
+    }
+  ]
+}

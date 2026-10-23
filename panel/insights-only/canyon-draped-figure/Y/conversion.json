@@ -1,0 +1,42 @@
+{
+  "sample_id": "canyon-draped-figure",
+  "platform": "instagram",
+  "account": "sifontanareis",
+  "objective": "Fit profile visits and follows attributed to the post.",
+  "target_fields": [
+    "profile_visits",
+    "follows",
+    "bio_clicks"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "date": "2026-08-24",
+        "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+        "timezone": "-03:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.33.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37.jpeg",
+        "../source/insights/2026-08-24/Insights do reel para sifontanareis - 22 de jun. de 2026 - 24 de ago. de 2026.pdf",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31.jpeg"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "profile_visits": 2200,
+      "bio_clicks": 8,
+      "follows": 37,
+      "rounded_fields": [
+        "profile_visits"
+      ]
+    }
+  ],
+  "notes": [
+    "Insights-only record. Local MP4 and transcript are unavailable.",
+    "Missing viewers are not replaced with reach."
+  ]
+}

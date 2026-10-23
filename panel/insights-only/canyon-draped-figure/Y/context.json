@@ -1,0 +1,76 @@
+{
+  "sample_id": "canyon-draped-figure",
+  "platform": "instagram",
+  "account": "sifontanareis",
+  "purpose": "Post context and measurement qualifications for an insights-only record.",
+  "post": {
+    "url": "https://www.instagram.com/reel/DZ58TOORmmh/",
+    "shortcode": "DZ58TOORmmh",
+    "posted_at": "2026-06-22T19:45-03:00",
+    "duration_s": 68,
+    "caption": "Chamando os pássaros, se transformando, mudando de cor. Assim vai a mulher engolida pela jiboia."
+  },
+  "audience": {
+    "followers_pct": 1.3,
+    "non_followers_pct": 98.7,
+    "age_pct": {
+      "13-17": 1.5,
+      "18-24": 9.8,
+      "25-34": 23.0,
+      "35-44": 17.7,
+      "45-54": 20.2,
+      "55-64": 19.3,
+      "65+": 8.5
+    },
+    "country_pct": {
+      "BR": 95.7,
+      "PT": 1.1,
+      "US": 0.4,
+      "AR": 0.2,
+      "IT": 0.2
+    },
+    "gender_pct": {
+      "men": 15.2,
+      "women": 84.8
+    }
+  },
+  "traffic": {
+    "feed": 80.2,
+    "reels_tab": 12.1,
+    "explore": 1.8,
+    "search": 1.8,
+    "other": 1.8,
+    "stories": 1.2
+  },
+  "distribution_observations": [
+    {
+      "capture": {
+        "date": "2026-08-24",
+        "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+        "timezone": "-03:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.33.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.38 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.37.jpeg",
+        "../source/insights/2026-08-24/Insights do reel para sifontanareis - 22 de jun. de 2026 - 24 de ago. de 2026.pdf",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.46.31.jpeg"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "views": 296938,
+      "reached": 252937
+    }
+  ],
+  "availability": {
+    "video": false,
+    "transcript": false,
+    "viewers": true,
+    "viewer_count_status": "rounded"
+  },
+  "notes": [
+    "2nd capture (1st: 2026-08-19, 292,972 views — still growing +4k/5d). PDF viewers 161k consistent with Aug-19 159,432. Audience is the outlier of the 5: 84.8% women, oldest age curve (45+ = 48%)."
+  ]
+}

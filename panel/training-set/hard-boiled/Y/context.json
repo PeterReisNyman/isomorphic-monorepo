@@ -1,0 +1,320 @@
+{
+  "sample_id": "hard-boiled",
+  "platform": "instagram",
+  "account": "unfilmed.lab",
+  "purpose": "Context for fitting and interpreting the objectives; these fields are not performance targets.",
+  "post": {
+    "sample_id": "hard-boiled",
+    "platform": "instagram",
+    "account": "unfilmed.lab",
+    "urls": [],
+    "posting_observations": [
+      {
+        "capture": {
+          "at": "2026-09-11T10:34+08:00",
+          "timezone": "explicit_offset"
+        },
+        "at": "2026-09-08T20:07+08:00",
+        "handle": "unfilmed.lab",
+        "source_files": [
+          "../source/insights/2026-09-11/IMG_8933.PNG",
+          "../source/insights/2026-09-11/IMG_8934.PNG",
+          "../source/insights/2026-09-11/IMG_8935.PNG",
+          "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+          "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+        ]
+      },
+      {
+        "at": "2026-09-08T20:07:00",
+        "timezone": null,
+        "capture": {
+          "at": "2026-09-11T10:34:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf"
+        ],
+        "precision": "as_displayed_no_timezone"
+      }
+    ],
+    "captions": [
+      {
+        "capture": {
+          "at": "2026-09-11T10:34+08:00",
+          "timezone": "explicit_offset"
+        },
+        "visible": "The recipe said one egg.",
+        "source_files": [
+          "../source/insights/2026-09-11/IMG_8933.PNG",
+          "../source/insights/2026-09-11/IMG_8934.PNG",
+          "../source/insights/2026-09-11/IMG_8935.PNG",
+          "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+          "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+        ]
+      },
+      {
+        "caption": "The recipe said one egg.\nNothing here was filmed.\n@unfilmed.lab #AIvideo #visualcomedy",
+        "truncated_in_export": false,
+        "capture": {
+          "at": "2026-09-11T10:34:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf"
+        ],
+        "notes": [
+          "Extracted from the PDF text layer; emoji and original line wrapping may be lost."
+        ]
+      }
+    ],
+    "account_observations": [
+      {
+        "followers": 6,
+        "capture": {
+          "at": "2026-09-11T10:34:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf"
+        ]
+      }
+    ],
+    "notes": [
+      "Only information from saved Instagram post/Insights evidence is included. A missing field is unknown, not zero."
+    ]
+  },
+  "audience": {
+    "sample_id": "hard-boiled",
+    "platform": "instagram",
+    "account": "unfilmed.lab",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "at": "2026-09-11T10:34+08:00",
+          "timezone": "explicit_offset"
+        },
+        "followers_pct": 0.1,
+        "non_followers_pct": 99.9,
+        "source_files": [
+          "../source/insights/2026-09-11/IMG_8933.PNG",
+          "../source/insights/2026-09-11/IMG_8934.PNG",
+          "../source/insights/2026-09-11/IMG_8935.PNG",
+          "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+          "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record"
+      },
+      {
+        "capture": {
+          "at": "2026-09-11T10:43+08:00",
+          "timezone": "explicit_offset"
+        },
+        "followers_pct": 0.1,
+        "non_followers_pct": 99.9,
+        "age_pct": {
+          "13-17": 1.3,
+          "18-24": 17.2,
+          "25-34": 43.9,
+          "35-44": 28.0,
+          "45-54": 5.5,
+          "55-64": 2.1,
+          "65+": 1.9
+        },
+        "gender_pct": {
+          "men": 30.7,
+          "women": 69.3
+        },
+        "countries_pct": {
+          "Iran": 81.7,
+          "India": 3.1,
+          "Uzbekistan": 2.5,
+          "Turkiye": 2.4,
+          "Russia": 1.9
+        },
+        "source_files": [
+          "../source/insights/2026-09-11/IMG_8933.PNG",
+          "../source/insights/2026-09-11/IMG_8934.PNG",
+          "../source/insights/2026-09-11/IMG_8935.PNG",
+          "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+          "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record"
+      },
+      {
+        "capture": {
+          "date": "2026-09-11",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:34"
+        },
+        "followers_pct": 0.1,
+        "source_files": [
+          "../source/insights/2026-09-11/IMG_8935.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-09-11",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null
+        },
+        "followers_pct": 0.1,
+        "non_followers_pct": 99.9,
+        "age_pct": {
+          "13-17": 1.3,
+          "18-24": 17.2,
+          "25-34": 43.9,
+          "35-44": 28.0,
+          "45-54": 5.5,
+          "55-64": 2.1,
+          "65+": 1.9
+        },
+        "source_files": [
+          "../source/insights/2026-09-11-audience/IMG_8940.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-09-11",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null
+        },
+        "followers_pct": 0.1,
+        "non_followers_pct": 99.9,
+        "countries_pct": {
+          "Iran": 81.7,
+          "India": 3.1,
+          "Uzbekistan": 2.5,
+          "Russia": 1.9
+        },
+        "source_files": [
+          "../source/insights/2026-09-11-audience/IMG_8941.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-09-11",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:43"
+        },
+        "followers_pct": 0.1,
+        "non_followers_pct": 99.9,
+        "gender_pct": {
+          "men": 30.7,
+          "women": 69.3
+        },
+        "source_files": [
+          "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "traffic": {
+    "sample_id": "hard-boiled",
+    "platform": "instagram",
+    "account": "unfilmed.lab",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "at": "2026-09-11T10:34+08:00",
+          "timezone": "explicit_offset"
+        },
+        "sources_pct": {
+          "Explore": 59.7,
+          "Reels tab": 39.8,
+          "Profile": 0.5
+        },
+        "source_files": [
+          "../source/insights/2026-09-11/IMG_8933.PNG",
+          "../source/insights/2026-09-11/IMG_8934.PNG",
+          "../source/insights/2026-09-11/IMG_8935.PNG",
+          "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+          "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+          "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record",
+        "notes": [
+          "summary + rates + audience transcribed verbatim from the screenshots; retention keypoints digitized from the screenshot pixels (white-curve centroid per column, y mapped through the 100/50/0% gridlines, x assumed linear 0 -> duration) — about +/-1pp in y, +/-0.2s in x"
+        ]
+      },
+      {
+        "capture": {
+          "date": "2026-09-11",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:34"
+        },
+        "sources_pct": {
+          "explore": 59.7,
+          "reels_tab": 39.8,
+          "profile": 0.5
+        },
+        "source_files": [
+          "../source/insights/2026-09-11/IMG_8935.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "distribution_observations": [
+    {
+      "capture": {
+        "at": "2026-09-11T10:34+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/IMG_8933.PNG",
+        "../source/insights/2026-09-11/IMG_8934.PNG",
+        "../source/insights/2026-09-11/IMG_8935.PNG",
+        "../source/insights/2026-09-11/Reel insights for unfilmed.lab – 8 Sep 2026 - 11 Sep 2026.pdf",
+        "../source/insights/2026-09-11-audience/IMG_8940.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8941.PNG",
+        "../source/insights/2026-09-11-audience/IMG_8942.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates + audience transcribed verbatim from the screenshots; retention keypoints digitized from the screenshot pixels (white-curve centroid per column, y mapped through the 100/50/0% gridlines, x assumed linear 0 -> duration) — about +/-1pp in y, +/-0.2s in x"
+      ],
+      "views_rank": "2 of 10 latest",
+      "viewers_label": "Lower"
+    },
+    {
+      "capture": {
+        "date": "2026-09-11",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:34"
+      },
+      "source_files": [
+        "../source/insights/2026-09-11/IMG_8933.PNG"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "views_over_time"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "sample_id": "niede-guidon",
+  "platform": "instagram",
+  "account": "sifontanareis",
+  "objective": "Fit the loop metric: average views per viewer.",
+  "target_fields": [
+    "views_per_viewer"
+  ],
+  "formula": "views / viewers",
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "date": "2026-08-24",
+        "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+        "timezone": "-03:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (2).jpeg",
+        "../source/insights/2026-08-24/Insights do reel para sifontanareis - 15 de jun. de 2026 - 24 de ago. de 2026.pdf",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (2).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.46.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.57.45 (3).jpeg"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "views": 50278,
+      "viewers": 1800,
+      "views_per_viewer": 27.93222222,
+      "rounded_fields": [
+        "viewers"
+      ],
+      "ratio_precision": "approximate_from_rounded_counts",
+      "viewers_status": "unconfirmed_pdf_value_flagged_in_historical_record",
+      "notes": [
+        "PDF 'Visualizadores 1,8 mil' is implausible on 50k views (vpv 27.9) — recorded as suspect, likely a PDF-layout artifact. Retention curve read from a 3x crop of the screenshot."
+      ]
+    }
+  ],
+  "notes": [
+    "Insights-only record. Local MP4 and transcript are unavailable.",
+    "Missing viewers are not replaced with reach."
+  ]
+}

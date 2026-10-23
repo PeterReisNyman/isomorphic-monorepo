@@ -1,0 +1,345 @@
+{
+  "sample_id": "o-bolo",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "purpose": "Context for fitting and interpreting the objectives; these fields are not performance targets.",
+  "post": {
+    "sample_id": "o-bolo",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "urls": [],
+    "posting_observations": [
+      {
+        "capture": {
+          "at": "2026-08-07T13:02-03:00",
+          "timezone": "explicit_offset"
+        },
+        "at": "2026-08-06 (approx)",
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7470.PNG",
+          "../source/insights/2026-08-07/IMG_7471.PNG",
+          "../source/insights/2026-08-07/IMG_7472.PNG",
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+        ],
+        "precision": "as_recorded"
+      },
+      {
+        "capture": {
+          "at": "2026-08-17T12:15-03:00",
+          "timezone": "explicit_offset"
+        },
+        "at": "2026-08-06T21:24-03:00",
+        "account": "@imoblyy",
+        "followers_at_capture": 2,
+        "source_files": [
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+        ]
+      },
+      {
+        "at": "2026-08-06T21:24:00",
+        "timezone": null,
+        "capture": {
+          "at": "2026-08-17T12:15:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+        ],
+        "precision": "as_displayed_no_timezone"
+      }
+    ],
+    "captions": [
+      {
+        "capture": {
+          "at": "2026-08-07T13:02-03:00",
+          "timezone": "explicit_offset"
+        },
+        "caption": null,
+        "hashtags": null,
+        "truncated_in_export": null,
+        "handle": "@imoblyy",
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7470.PNG",
+          "../source/insights/2026-08-07/IMG_7471.PNG",
+          "../source/insights/2026-08-07/IMG_7472.PNG",
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+        ]
+      },
+      {
+        "capture": {
+          "at": "2026-08-17T12:15-03:00",
+          "timezone": "explicit_offset"
+        },
+        "caption": "3h40 pro casamento. Oitavo andar. Tijuca · 92 m² · 2 quartos · 3 banheiros · R$ 450.000 Fale com a Imobly na bio #tijuca #riodejaneiro #apartamento #bolodecasamemto",
+        "hashtags": [
+          "#tijuca",
+          "#riodejaneiro",
+          "#apartamento",
+          "#bolodecasamemto"
+        ],
+        "truncated_in_export": false,
+        "handle": "@imoblyy",
+        "source_files": [
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+        ]
+      },
+      {
+        "capture": {
+          "at": "2026-08-17T12:35-03:00",
+          "timezone": "explicit_offset"
+        },
+        "visible": "3h40 pro casamento. Oitavo andar ...",
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7470.PNG",
+          "../source/insights/2026-08-07/IMG_7471.PNG",
+          "../source/insights/2026-08-07/IMG_7472.PNG",
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf",
+          "../source/insights/2026-08-19/IMG_7786.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7749.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7750.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7751.PNG"
+        ]
+      },
+      {
+        "caption": "3h40 pro casamento. Oitavo andar.\n\nTijuca · 92 m² · 2 quartos · 3 banheiros · R$ 450.000\nFale com a Imobly         na bio #tijuca #riodejaneiro\n#apartamento #bolodecasamemto",
+        "truncated_in_export": false,
+        "capture": {
+          "at": "2026-08-17T12:15:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+        ],
+        "notes": [
+          "Extracted from the PDF text layer; emoji and original line wrapping may be lost."
+        ]
+      }
+    ],
+    "account_observations": [
+      {
+        "followers": 2,
+        "capture": {
+          "at": "2026-08-17T12:15:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+        ]
+      }
+    ],
+    "notes": [
+      "Only information from saved Instagram post/Insights evidence is included. A missing field is unknown, not zero."
+    ]
+  },
+  "audience": {
+    "sample_id": "o-bolo",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "at": "2026-08-07T13:02-03:00",
+          "timezone": "explicit_offset"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7470.PNG",
+          "../source/insights/2026-08-07/IMG_7471.PNG",
+          "../source/insights/2026-08-07/IMG_7472.PNG",
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+        ],
+        "extraction": "previously_digitized_instagram_record"
+      },
+      {
+        "capture": {
+          "at": "2026-08-24T10:35-03:00",
+          "timezone": "explicit_offset"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "age_pct": {
+          "13-17": 0,
+          "18-24": 18.7,
+          "25-34": 20.3,
+          "35-44": 26.8,
+          "45-54": 17.9,
+          "55-64": 7.3,
+          "65+": 8.9
+        },
+        "gender_pct": {
+          "men": 19.1,
+          "women": 80.9
+        },
+        "countries_pct": {
+          "Brazil": 98.4,
+          "French Guiana": 0.8,
+          "Bolivia": 0.8
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7749.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7750.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7751.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record"
+      },
+      {
+        "capture": {
+          "date": "2026-08-07",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "13:03"
+        },
+        "followers_pct": 0.0,
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7472.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:35"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "age_pct": {
+          "13-17": 0.0,
+          "18-24": 18.7,
+          "25-34": 20.3,
+          "35-44": 26.8,
+          "45-54": 17.9,
+          "55-64": 17.9,
+          "65+": 8.9
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7749.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:35"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "countries_pct": {
+          "Brazil": 98.4
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7750.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:35"
+        },
+        "followers_pct": 0.0,
+        "non_followers_pct": 100.0,
+        "gender_pct": {
+          "men": 19.1,
+          "women": 80.9
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7751.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "traffic": {
+    "sample_id": "o-bolo",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "at": "2026-08-07T13:02-03:00",
+          "timezone": "explicit_offset"
+        },
+        "sources_pct": {
+          "reels_tab": 82.4,
+          "explore": 16.0,
+          "feed": 1.7
+        },
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7470.PNG",
+          "../source/insights/2026-08-07/IMG_7471.PNG",
+          "../source/insights/2026-08-07/IMG_7472.PNG",
+          "../source/insights/2026-08-07/Reel insights for imoblyy – 6 Aug 2026 - 17 Aug 2026.pdf"
+        ],
+        "extraction": "previously_digitized_instagram_record",
+        "notes": [
+          "retention keypoints read off the graph by supervising agent — approximate"
+        ]
+      },
+      {
+        "capture": {
+          "date": "2026-08-07",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "13:03"
+        },
+        "sources_pct": {
+          "reels_tab": 82.4,
+          "explore": 16.0,
+          "feed": 1.7
+        },
+        "source_files": [
+          "../source/insights/2026-08-07/IMG_7472.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "distribution_observations": [
+    {
+      "capture": {
+        "date": "2026-08-07",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7470.PNG"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "views_over_time"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "12:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7786.PNG"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "views_over_time"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    }
+  ]
+}

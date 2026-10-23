@@ -1,0 +1,63 @@
+{
+  "sample_id": "cat-reel",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit viewers distributing the post through shares and reposts.",
+  "target_fields": [
+    "shares",
+    "reposts",
+    "rates_pct.share",
+    "rates_pct.repost"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-07T13:01-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7460.PNG",
+        "../source/insights/2026-08-07/IMG_7462.PNG",
+        "../source/insights/2026-08-07/IMG_7463.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "retention keypoints approximate"
+      ],
+      "shares": 0,
+      "reposts": 0
+    },
+    {
+      "capture": {
+        "at": "2026-07-24T19:01:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/cat-reel-ig-insights-20260724.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "reposts": 0,
+      "shares": 0
+    },
+    {
+      "capture": {
+        "date": "2026-08-07",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-07/IMG_7462.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "share": 0.0,
+        "repost": 0.0
+      }
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

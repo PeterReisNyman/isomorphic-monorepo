@@ -1,0 +1,71 @@
+{
+  "sample_id": "barra-v3-ficha",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit viewers liking, commenting on, or saving the post.",
+  "target_fields": [
+    "likes",
+    "comments",
+    "saves",
+    "rates_pct.like",
+    "rates_pct.comment",
+    "rates_pct.save",
+    "likes_timing_pct"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-13T10:57-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7609.PNG",
+        "../source/insights/2026-08-13/IMG_7610.PNG",
+        "../source/insights/2026-08-13/IMG_7611.PNG",
+        "../source/insights/2026-08-13/reel-insights-2026-08-10_13.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary metrics transcribed verbatim from the PDF by supervising agent; posted caption-style variant identified as FICHA by matching the IG cover frame against the three V3 finals"
+      ],
+      "likes": 0,
+      "comments": 0,
+      "saves": 0
+    },
+    {
+      "capture": {
+        "at": "2026-08-13T10:57:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/reel-insights-2026-08-10_13.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "likes": 0,
+      "comments": 0,
+      "saves": 0
+    },
+    {
+      "capture": {
+        "date": "2026-08-13",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:57"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7610.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "like": 0.0,
+        "save": 0.0,
+        "comment": 0.0
+      }
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

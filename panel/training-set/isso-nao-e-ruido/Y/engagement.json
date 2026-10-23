@@ -1,0 +1,131 @@
+{
+  "sample_id": "isso-nao-e-ruido",
+  "platform": "instagram",
+  "account": "kima.ia.br",
+  "objective": "Fit viewers liking, commenting on, or saving the post.",
+  "target_fields": [
+    "likes",
+    "comments",
+    "saves",
+    "rates_pct.like",
+    "rates_pct.comment",
+    "rates_pct.save",
+    "likes_timing_pct"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:38"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-01.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "likes": 12,
+      "comments": 5,
+      "saves": 0
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-04.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "notes": [
+        "The screenshot displays a 100.0% skip rate. This is preserved as displayed; its definition and apparent disagreement with the nonzero retention curve are unresolved."
+      ],
+      "rates_pct": {
+        "like": 36.4,
+        "save": 0.0,
+        "comment": 15.2
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-06.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "likes": 12,
+      "comments": 5
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "likes": 12,
+      "comments": 5
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "displayed_clock": "14:37",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+      ],
+      "extraction": "previously_visually_checked_instagram_screenshot",
+      "likes": 12,
+      "comments": 5,
+      "saves": 0
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-06.jpeg"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "likes_timing"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    },
+    {
+      "capture": {
+        "date": "2026-10-09",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:37"
+      },
+      "source_files": [
+        "../source/insights/2026-10-09/FINAL-reel-insights-2026-10-09-07.jpeg"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "likes_timing"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

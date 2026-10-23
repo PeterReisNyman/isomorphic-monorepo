@@ -1,0 +1,531 @@
+{
+  "created_at": "2026-10-22T19:40:53.285771+08:00",
+  "layout": "<sample-id>/X/{video.mp4,transcript.json}; <sample-id>/Y/*.json; original Instagram results PDFs and screenshots in <sample-id>/source/",
+  "sample_count": 15,
+  "total_video_bytes": 265825531,
+  "project_counts": {
+    "imobly": 11,
+    "kima": 2,
+    "unfilmed.lab": 2
+  },
+  "samples": [
+    {
+      "id": "a-lead-de-marco",
+      "project": "kima",
+      "account": "kima.ia.br",
+      "video": "a-lead-de-marco/X/video.mp4",
+      "source": "a-lead-de-marco/source/",
+      "sha256": "c60ba729d635bcc393822a815c333ed39c2e6cd48c0f381fbaa65683e8b13a0a",
+      "bytes": 17817547,
+      "variant_status": "inferred",
+      "source_directory": "a-lead-de-marco/source/",
+      "source_file_count": 10,
+      "transcript": "a-lead-de-marco/X/transcript.json",
+      "transcript_sha256": "ff4aef9bf3ca48c8656143bec9642dbef1069b87f17466e3b40786042fc9addd",
+      "transcript_status": "no_lexical_speech_transcribed",
+      "transcript_origin": "generated_from_saved_video",
+      "X_directory": "a-lead-de-marco/X/",
+      "Y_directory": "a-lead-de-marco/Y/",
+      "Y_files": [
+        "a-lead-de-marco/Y/loops.json",
+        "a-lead-de-marco/Y/attention.json",
+        "a-lead-de-marco/Y/engagement.json",
+        "a-lead-de-marco/Y/amplification.json",
+        "a-lead-de-marco/Y/conversion.json",
+        "a-lead-de-marco/Y/context.json"
+      ]
+    },
+    {
+      "id": "a-porta-do-corredor",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "a-porta-do-corredor/X/video.mp4",
+      "source": "a-porta-do-corredor/source/",
+      "sha256": "e9834f051a1a12acd347457481ea279f3edb380d3ae7418e12d3415c69316ef2",
+      "bytes": 11463564,
+      "variant_status": "inferred",
+      "source_directory": "a-porta-do-corredor/source/",
+      "source_file_count": 11,
+      "transcript": "a-porta-do-corredor/X/transcript.json",
+      "transcript_sha256": "a0b152c3d32567cd93b0756a9bd50c36a472506a03731b1c55fcad0cda2578b5",
+      "transcript_status": "no_lexical_speech_transcribed",
+      "transcript_origin": "generated_from_saved_video",
+      "X_directory": "a-porta-do-corredor/X/",
+      "Y_directory": "a-porta-do-corredor/Y/",
+      "Y_files": [
+        "a-porta-do-corredor/Y/loops.json",
+        "a-porta-do-corredor/Y/attention.json",
+        "a-porta-do-corredor/Y/engagement.json",
+        "a-porta-do-corredor/Y/amplification.json",
+        "a-porta-do-corredor/Y/conversion.json",
+        "a-porta-do-corredor/Y/context.json"
+      ]
+    },
+    {
+      "id": "barra-v3-ficha",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "barra-v3-ficha/X/video.mp4",
+      "source": "barra-v3-ficha/source/",
+      "sha256": "a606381658f530aa62f105297637476671af0a7ef2d616146428b6acba0857d6",
+      "bytes": 29225237,
+      "variant_status": "catalogued",
+      "source_directory": "barra-v3-ficha/source/",
+      "source_file_count": 5,
+      "transcript": "barra-v3-ficha/X/transcript.json",
+      "transcript_origin": "saved_timestamped_transcript",
+      "transcript_sha256": "ddaf42261f19c51a223789e2635961875c07ca3129584758abad565590de10ef",
+      "transcript_status": "saved_automatic_transcript_unverified",
+      "X_directory": "barra-v3-ficha/X/",
+      "Y_directory": "barra-v3-ficha/Y/",
+      "Y_files": [
+        "barra-v3-ficha/Y/loops.json",
+        "barra-v3-ficha/Y/attention.json",
+        "barra-v3-ficha/Y/engagement.json",
+        "barra-v3-ficha/Y/amplification.json",
+        "barra-v3-ficha/Y/conversion.json",
+        "barra-v3-ficha/Y/context.json"
+      ]
+    },
+    {
+      "id": "cat-reel",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "cat-reel/X/video.mp4",
+      "source": "cat-reel/source/",
+      "sha256": "53c7db01f8e0f28145ce42ea8187cba2fb35650dcb70451fe047f91822b208a9",
+      "bytes": 11938490,
+      "variant_status": "catalogued",
+      "source_directory": "cat-reel/source/",
+      "source_file_count": 8,
+      "transcript": "cat-reel/X/transcript.json",
+      "transcript_origin": "saved_timestamped_transcript",
+      "transcript_sha256": "9b189344aea85b6776ee5269198570c1f29893b0bc59fb54644d100619630e0f",
+      "transcript_status": "saved_automatic_transcript_unverified",
+      "X_directory": "cat-reel/X/",
+      "Y_directory": "cat-reel/Y/",
+      "Y_files": [
+        "cat-reel/Y/loops.json",
+        "cat-reel/Y/attention.json",
+        "cat-reel/Y/engagement.json",
+        "cat-reel/Y/amplification.json",
+        "cat-reel/Y/conversion.json",
+        "cat-reel/Y/context.json"
+      ]
+    },
+    {
+      "id": "hard-boiled",
+      "project": "unfilmed.lab",
+      "account": "unfilmed.lab",
+      "video": "hard-boiled/X/video.mp4",
+      "source": "hard-boiled/source/",
+      "sha256": "5e78987b8a4b6558611a8909df8004da8cf04550d571ff4582e48ce5f1ab05a0",
+      "bytes": 6309643,
+      "variant_status": "catalogued",
+      "source_directory": "hard-boiled/source/",
+      "source_file_count": 7,
+      "transcript": "hard-boiled/X/transcript.json",
+      "transcript_sha256": "abd6db2137c9af830a6736bb583fe2eb9b8be076f6870714c2e49dc61984a5f6",
+      "transcript_status": "no_lexical_speech_transcribed",
+      "transcript_origin": "generated_from_saved_video",
+      "X_directory": "hard-boiled/X/",
+      "Y_directory": "hard-boiled/Y/",
+      "Y_files": [
+        "hard-boiled/Y/loops.json",
+        "hard-boiled/Y/attention.json",
+        "hard-boiled/Y/engagement.json",
+        "hard-boiled/Y/amplification.json",
+        "hard-boiled/Y/conversion.json",
+        "hard-boiled/Y/context.json"
+      ]
+    },
+    {
+      "id": "o-bolo",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "o-bolo/X/video.mp4",
+      "source": "o-bolo/source/",
+      "sha256": "584962503f89d5238aa040610c7e1234692ee289ec6d0d4a78a00336b704b200",
+      "bytes": 16798098,
+      "variant_status": "catalogued",
+      "source_directory": "o-bolo/source/",
+      "source_file_count": 8,
+      "transcript": "o-bolo/X/transcript.json",
+      "transcript_origin": "saved_timestamped_transcript",
+      "transcript_sha256": "02d3b57b74ca0ff5c285c244dc401266c3f9f697f3cf6492fed6f1b7a4e75da1",
+      "transcript_status": "saved_automatic_transcript_unverified",
+      "X_directory": "o-bolo/X/",
+      "Y_directory": "o-bolo/Y/",
+      "Y_files": [
+        "o-bolo/Y/loops.json",
+        "o-bolo/Y/attention.json",
+        "o-bolo/Y/engagement.json",
+        "o-bolo/Y/amplification.json",
+        "o-bolo/Y/conversion.json",
+        "o-bolo/Y/context.json"
+      ]
+    },
+    {
+      "id": "o-mesmo-ape-6-inquilinos",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "o-mesmo-ape-6-inquilinos/X/video.mp4",
+      "source": "o-mesmo-ape-6-inquilinos/source/",
+      "sha256": "3c08c660a3b468a0a5d299c093e6eb7e6421f8a3d5a3e25643d9ec5e41aac8cc",
+      "bytes": 5287748,
+      "variant_status": "inferred",
+      "source_directory": "o-mesmo-ape-6-inquilinos/source/",
+      "source_file_count": 1,
+      "transcript": "o-mesmo-ape-6-inquilinos/X/transcript.json",
+      "transcript_sha256": "8dfe125b2e7d2b0bc62f6a4010c2872a2d9679cde69b57df3fde8a7904a11bab",
+      "transcript_status": "no_lexical_speech_transcribed",
+      "transcript_origin": "generated_from_saved_video",
+      "X_directory": "o-mesmo-ape-6-inquilinos/X/",
+      "Y_directory": "o-mesmo-ape-6-inquilinos/Y/",
+      "Y_files": [
+        "o-mesmo-ape-6-inquilinos/Y/loops.json",
+        "o-mesmo-ape-6-inquilinos/Y/attention.json",
+        "o-mesmo-ape-6-inquilinos/Y/engagement.json",
+        "o-mesmo-ape-6-inquilinos/Y/amplification.json",
+        "o-mesmo-ape-6-inquilinos/Y/conversion.json",
+        "o-mesmo-ape-6-inquilinos/Y/context.json"
+      ]
+    },
+    {
+      "id": "o-piano-do-9",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "o-piano-do-9/X/video.mp4",
+      "source": "o-piano-do-9/source/",
+      "sha256": "0ddbc9a98d22592479809d442074cdc5aadc5e7c5dd019839a72ae0b8ef77f85",
+      "bytes": 11252495,
+      "variant_status": "catalogued",
+      "source_directory": "o-piano-do-9/source/",
+      "source_file_count": 8,
+      "transcript": "o-piano-do-9/X/transcript.json",
+      "transcript_sha256": "d1a53b7a22d18b2b285f6344e7194904c8fa2d950b83f747f5ab345db6e2d4cb",
+      "transcript_status": "no_lexical_speech_transcribed",
+      "transcript_origin": "generated_from_saved_video",
+      "X_directory": "o-piano-do-9/X/",
+      "Y_directory": "o-piano-do-9/Y/",
+      "Y_files": [
+        "o-piano-do-9/Y/loops.json",
+        "o-piano-do-9/Y/attention.json",
+        "o-piano-do-9/Y/engagement.json",
+        "o-piano-do-9/Y/amplification.json",
+        "o-piano-do-9/Y/conversion.json",
+        "o-piano-do-9/Y/context.json"
+      ]
+    },
+    {
+      "id": "o-piso-torto",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "o-piso-torto/X/video.mp4",
+      "source": "o-piso-torto/source/",
+      "sha256": "5bfa0b0e8e1554e5ae3c45fea64e3a200acf79d2a92b75e33a9e13594860f10f",
+      "bytes": 7810204,
+      "variant_status": "catalogued",
+      "source_directory": "o-piso-torto/source/",
+      "source_file_count": 18,
+      "transcript": "o-piso-torto/X/transcript.json",
+      "transcript_sha256": "69150a1a2c98a8b7aa85f2c311615b8c6a2a4c076adea9c7125a4e26a1c02077",
+      "transcript_status": "no_lexical_speech_transcribed",
+      "transcript_origin": "generated_from_saved_video",
+      "X_directory": "o-piso-torto/X/",
+      "Y_directory": "o-piso-torto/Y/",
+      "Y_files": [
+        "o-piso-torto/Y/loops.json",
+        "o-piso-torto/Y/attention.json",
+        "o-piso-torto/Y/engagement.json",
+        "o-piso-torto/Y/amplification.json",
+        "o-piso-torto/Y/conversion.json",
+        "o-piso-torto/Y/context.json"
+      ]
+    },
+    {
+      "id": "o-quarto-de-235",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "o-quarto-de-235/X/video.mp4",
+      "source": "o-quarto-de-235/source/",
+      "sha256": "67088161734655b858cc76e9238acb84e5800e288381e6dcd5ef2eaee176c548",
+      "bytes": 6348104,
+      "variant_status": "catalogued",
+      "source_directory": "o-quarto-de-235/source/",
+      "source_file_count": 13,
+      "transcript": "o-quarto-de-235/X/transcript.json",
+      "transcript_sha256": "1edbc1c3e3f0b442de39b3517db6c7be6148dacc6ffaf5218c297fa8da820db7",
+      "transcript_status": "no_lexical_speech_transcribed",
+      "transcript_origin": "generated_from_saved_video",
+      "X_directory": "o-quarto-de-235/X/",
+      "Y_directory": "o-quarto-de-235/Y/",
+      "Y_files": [
+        "o-quarto-de-235/Y/loops.json",
+        "o-quarto-de-235/Y/attention.json",
+        "o-quarto-de-235/Y/engagement.json",
+        "o-quarto-de-235/Y/amplification.json",
+        "o-quarto-de-235/Y/conversion.json",
+        "o-quarto-de-235/Y/context.json"
+      ]
+    },
+    {
+      "id": "perdizes-c206",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "perdizes-c206/X/video.mp4",
+      "source": "perdizes-c206/source/",
+      "sha256": "b2d4fb22f1a35ade8a196bbafcf94345e00188aa9d8c42fedb18e12f32e5ef6c",
+      "bytes": 51039626,
+      "variant_status": "catalogued",
+      "source_directory": "perdizes-c206/source/",
+      "source_file_count": 8,
+      "transcript": "perdizes-c206/X/transcript.json",
+      "transcript_origin": "saved_timestamped_transcript",
+      "transcript_sha256": "b7de99df4134c6ba7e9b186bfc5cc80f9e20be2c4ca9756dc3341fa43ea8cd4d",
+      "transcript_status": "saved_automatic_transcript_unverified",
+      "X_directory": "perdizes-c206/X/",
+      "Y_directory": "perdizes-c206/Y/",
+      "Y_files": [
+        "perdizes-c206/Y/loops.json",
+        "perdizes-c206/Y/attention.json",
+        "perdizes-c206/Y/engagement.json",
+        "perdizes-c206/Y/amplification.json",
+        "perdizes-c206/Y/conversion.json",
+        "perdizes-c206/Y/context.json"
+      ]
+    },
+    {
+      "id": "silent-garage",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "silent-garage/X/video.mp4",
+      "source": "silent-garage/source/",
+      "sha256": "d79c1aa5544fe55c0eb67f3fccc3a831c662321e4fac402388907b3b4a176c74",
+      "bytes": 13558051,
+      "variant_status": "unconfirmed",
+      "source_directory": "silent-garage/source/",
+      "source_file_count": 8,
+      "transcript": "silent-garage/X/transcript.json",
+      "transcript_origin": "saved_timestamped_transcript",
+      "transcript_sha256": "b5348cd043e72039481608f9d69e795ecde51c427affcfd553e7aa717f8ec885",
+      "transcript_status": "no_lexical_speech_transcribed",
+      "X_directory": "silent-garage/X/",
+      "Y_directory": "silent-garage/Y/",
+      "Y_files": [
+        "silent-garage/Y/loops.json",
+        "silent-garage/Y/attention.json",
+        "silent-garage/Y/engagement.json",
+        "silent-garage/Y/amplification.json",
+        "silent-garage/Y/conversion.json",
+        "silent-garage/Y/context.json"
+      ]
+    },
+    {
+      "id": "tatuape-tour",
+      "project": "imobly",
+      "account": "imoblyy",
+      "video": "tatuape-tour/X/video.mp4",
+      "source": "tatuape-tour/source/",
+      "sha256": "a07fc6bd1838ee093c86e1f6ab31f411d2e7de1c32c2f4c2cdc3f336593fca40",
+      "bytes": 16076573,
+      "variant_status": "catalogued",
+      "source_directory": "tatuape-tour/source/",
+      "source_file_count": 8,
+      "transcript": "tatuape-tour/X/transcript.json",
+      "transcript_origin": "saved_timestamped_transcript",
+      "transcript_sha256": "413ba73fc04c8129e1c357d7441e1d5aa88a30203f557cb9ab9aebb34bc50643",
+      "transcript_status": "saved_automatic_transcript_unverified",
+      "X_directory": "tatuape-tour/X/",
+      "Y_directory": "tatuape-tour/Y/",
+      "Y_files": [
+        "tatuape-tour/Y/loops.json",
+        "tatuape-tour/Y/attention.json",
+        "tatuape-tour/Y/engagement.json",
+        "tatuape-tour/Y/amplification.json",
+        "tatuape-tour/Y/conversion.json",
+        "tatuape-tour/Y/context.json"
+      ]
+    },
+    {
+      "id": "the-cheapest-ocean-view",
+      "project": "unfilmed.lab",
+      "account": "unfilmed.lab",
+      "video": "the-cheapest-ocean-view/X/video.mp4",
+      "source": "the-cheapest-ocean-view/source/",
+      "sha256": "597a81a8e8e6df7ea0dd7cc82dba7007489e16026874a8d9ed1e6d70070da75a",
+      "bytes": 13363985,
+      "variant_status": "catalogued",
+      "source_directory": "the-cheapest-ocean-view/source/",
+      "source_file_count": 7,
+      "transcript": "the-cheapest-ocean-view/X/transcript.json",
+      "transcript_sha256": "4197196795d025995f37ec6ca9f86e7b1587cd0108e4dd6e8f89e45fa526cd7d",
+      "transcript_status": "no_reliable_speech_transcribed",
+      "transcript_origin": "generated_from_saved_video",
+      "X_directory": "the-cheapest-ocean-view/X/",
+      "Y_directory": "the-cheapest-ocean-view/Y/",
+      "Y_files": [
+        "the-cheapest-ocean-view/Y/loops.json",
+        "the-cheapest-ocean-view/Y/attention.json",
+        "the-cheapest-ocean-view/Y/engagement.json",
+        "the-cheapest-ocean-view/Y/amplification.json",
+        "the-cheapest-ocean-view/Y/conversion.json",
+        "the-cheapest-ocean-view/Y/context.json"
+      ]
+    },
+    {
+      "id": "isso-nao-e-ruido",
+      "project": "kima",
+      "account": "kima.ia.br",
+      "video": "isso-nao-e-ruido/X/video.mp4",
+      "source": "isso-nao-e-ruido/source/",
+      "sha256": "6e17b5ddf6ad4e378f897f48dba6eaa09d2f74e07dad3f7146ab73b9d68bd3b3",
+      "bytes": 47536166,
+      "variant_status": "confirmed",
+      "insights_raw_directory": "isso-nao-e-ruido/source/insights/2026-10-09",
+      "source_directory": "isso-nao-e-ruido/source/",
+      "source_file_count": 7,
+      "transcript": "isso-nao-e-ruido/X/transcript.json",
+      "transcript_sha256": "f543bb9067560467b9fa608831ba6f9f386dc21deff7ddf37673227149ba3d2c",
+      "transcript_status": "automatic_transcript_unverified",
+      "transcript_origin": "generated_from_saved_video",
+      "X_directory": "isso-nao-e-ruido/X/",
+      "Y_directory": "isso-nao-e-ruido/Y/",
+      "Y_files": [
+        "isso-nao-e-ruido/Y/loops.json",
+        "isso-nao-e-ruido/Y/attention.json",
+        "isso-nao-e-ruido/Y/engagement.json",
+        "isso-nao-e-ruido/Y/amplification.json",
+        "isso-nao-e-ruido/Y/conversion.json",
+        "isso-nao-e-ruido/Y/context.json"
+      ]
+    }
+  ],
+  "related_external_calibration_posts_without_local_video": [
+    {
+      "id": "canyon-draped-figure",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DZ58TOORmmh/",
+      "status": "insights_available_video_not_available_locally",
+      "note": "Original insight PDFs/screenshots and objective JSONs are available in panel/insights-only. The MP4 is unavailable locally.",
+      "insights_directory": "../insights-only/canyon-draped-figure/"
+    },
+    {
+      "id": "gallery-watermelon",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DP9StouDsyd/",
+      "status": "insights_available_video_not_available_locally",
+      "note": "Original insight PDFs/screenshots and objective JSONs are available in panel/insights-only. The MP4 is unavailable locally.",
+      "insights_directory": "../insights-only/gallery-watermelon/"
+    },
+    {
+      "id": "jiboia-passarinho",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DNeL5UivNkb/",
+      "status": "insights_available_video_not_available_locally",
+      "note": "Original insight PDFs/screenshots and objective JSONs are available in panel/insights-only. The MP4 is unavailable locally.",
+      "insights_directory": "../insights-only/jiboia-passarinho/"
+    },
+    {
+      "id": "nego-bispo-jurema",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DZbW3Iqxx64/",
+      "status": "insights_available_video_not_available_locally",
+      "note": "Original insight PDFs/screenshots and objective JSONs are available in panel/insights-only. The MP4 is unavailable locally.",
+      "insights_directory": "../insights-only/nego-bispo-jurema/"
+    },
+    {
+      "id": "niede-guidon",
+      "account": "sifontanareis",
+      "url": "https://www.instagram.com/reel/DZoCjWRRBtP/",
+      "status": "insights_available_video_not_available_locally",
+      "note": "Original insight PDFs/screenshots and objective JSONs are available in panel/insights-only. The MP4 is unavailable locally.",
+      "insights_directory": "../insights-only/niede-guidon/"
+    }
+  ],
+  "limits": [
+    "Coverage follows the local project records and historical posted-video catalog; no live social account inventory was available.",
+    "silent-garage is a posted reel with an unconfirmed local variant; three other samples retain historical variant inferences."
+  ],
+  "source_file_count": 127,
+  "source_total_bytes": 100063468,
+  "sources_added_at": "2026-10-22T19:49:05.813046+08:00",
+  "transcript_count": 15,
+  "transcript_limits": [
+    "Speech transcripts are automatic and have not been independently verified verbatim.",
+    "Nonverbal sound tags are kept in provider evidence; empty speech text does not imply silence.",
+    "On-screen text and social post captions are separate from audio transcripts.",
+    "Five transcripts used audio copies with explicitly repaired timestamp gaps; original videos were not modified."
+  ],
+  "source_scope": "Only original Instagram Insights PDFs and screenshots. Creation records, captions, generated metrics, indexes, provenance metadata, and transcription artifacts are excluded from source/.",
+  "source_file_types": {
+    ".jpeg": 7,
+    ".pdf": 14,
+    ".png": 106
+  },
+  "Y_file_count": 90,
+  "Y_categories": [
+    "loops",
+    "attention",
+    "engagement",
+    "amplification",
+    "conversion",
+    "context"
+  ],
+  "instagram_data_scope": "Saved Instagram/Edits PDFs and screenshots plus matching previously digitized Instagram observations; no live Instagram inventory or new account fetch.",
+  "Y_limits": [
+    "Dated captures are separate observations; missing information is unknown, not zero.",
+    "Rounded export counts are labeled with their original display values.",
+    "OCR and pixel-traced graph values are automatic extractions; retention curve readings are estimates.",
+    "Post captions may be truncated, and timezone is null when not explicitly recorded.",
+    "Production details and panel predictions are excluded."
+  ],
+  "Y_fitting_objectives": {
+    "loops": {
+      "objective": "Fit the loop metric: average views per viewer.",
+      "target_fields": [
+        "views_per_viewer"
+      ],
+      "formula": "views / viewers"
+    },
+    "attention": {
+      "objective": "Fit how long viewers kept watching and where they dropped off.",
+      "target_fields": [
+        "average_watch_time_s",
+        "average_watch_time_pdf_s",
+        "points",
+        "displayed_retention_pct",
+        "rates_pct.skip"
+      ]
+    },
+    "engagement": {
+      "objective": "Fit viewers liking, commenting on, or saving the post.",
+      "target_fields": [
+        "likes",
+        "comments",
+        "saves",
+        "rates_pct.like",
+        "rates_pct.comment",
+        "rates_pct.save",
+        "likes_timing_pct"
+      ]
+    },
+    "amplification": {
+      "objective": "Fit viewers distributing the post through shares and reposts.",
+      "target_fields": [
+        "shares",
+        "reposts",
+        "rates_pct.share",
+        "rates_pct.repost"
+      ]
+    },
+    "conversion": {
+      "objective": "Fit profile visits and follows attributed to the post.",
+      "target_fields": [
+        "profile_visits",
+        "follows"
+      ]
+    }
+  },
+  "Y_context": "Post details, audience mix, traffic sources, distribution ranks, and views-over-time observations are retained as context, separate from fitting targets."
+}

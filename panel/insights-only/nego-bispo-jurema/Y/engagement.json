@@ -1,0 +1,53 @@
+{
+  "sample_id": "nego-bispo-jurema",
+  "platform": "instagram",
+  "account": "sifontanareis",
+  "objective": "Fit viewers liking, commenting on, or saving the post.",
+  "target_fields": [
+    "likes",
+    "comments",
+    "saves",
+    "rates_pct.like",
+    "rates_pct.comment",
+    "rates_pct.save",
+    "likes_timing_pct"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "date": "2026-08-24",
+        "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+        "timezone": "-03:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.33.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32.jpeg",
+        "../source/insights/2026-08-24/Insights do reel para sifontanareis - 10 de jun. de 2026 - 24 de ago. de 2026.pdf",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.32 (2).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.54.34 (1).jpeg"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "likes": 3200,
+      "comments": 449,
+      "saves": 426,
+      "rates_pct": {
+        "like": 4.35,
+        "comment": 0.61,
+        "save": 0.57
+      },
+      "rounded_fields": [
+        "likes"
+      ],
+      "notes": [
+        "Rates are as displayed on the Instagram rate cards; counts and rates may differ within the capture window."
+      ]
+    }
+  ],
+  "notes": [
+    "Insights-only record. Local MP4 and transcript are unavailable.",
+    "Missing viewers are not replaced with reach."
+  ]
+}

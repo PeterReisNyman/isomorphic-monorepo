@@ -1,0 +1,65 @@
+{
+  "sample_id": "perdizes-c206",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit viewers distributing the post through shares and reposts.",
+  "target_fields": [
+    "shares",
+    "reposts",
+    "rates_pct.share",
+    "rates_pct.repost"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-13T10:57-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7606.PNG",
+        "../source/insights/2026-08-13/IMG_7607.PNG",
+        "../source/insights/2026-08-13/IMG_7608.PNG",
+        "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary metrics transcribed verbatim from the PDF by supervising agent"
+      ],
+      "reposts": 0,
+      "shares": 0
+    },
+    {
+      "capture": {
+        "at": "2026-08-13T10:57:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "reposts": 0,
+      "shares": 0
+    },
+    {
+      "capture": {
+        "date": "2026-08-13",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:56"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7607.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "share": 0.0,
+        "repost": 0.0
+      }
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

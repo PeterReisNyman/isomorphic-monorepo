@@ -1,0 +1,294 @@
+{
+  "sample_id": "perdizes-c206",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "purpose": "Context for fitting and interpreting the objectives; these fields are not performance targets.",
+  "post": {
+    "sample_id": "perdizes-c206",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "urls": [],
+    "posting_observations": [
+      {
+        "capture": {
+          "at": "2026-08-13T10:57-03:00",
+          "timezone": "explicit_offset"
+        },
+        "at": "2026-08-08T14:53-03:00",
+        "account": "@imoblyy",
+        "followers_at_capture": 2,
+        "source_files": [
+          "../source/insights/2026-08-13/IMG_7606.PNG",
+          "../source/insights/2026-08-13/IMG_7607.PNG",
+          "../source/insights/2026-08-13/IMG_7608.PNG",
+          "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+        ]
+      },
+      {
+        "capture": {
+          "at": "2026-08-13T10:57-03:00",
+          "timezone": "explicit_offset"
+        },
+        "at": "2026-08-08T14:53-03:00",
+        "source_files": [
+          "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+        ]
+      },
+      {
+        "at": "2026-08-08T14:53:00",
+        "timezone": null,
+        "capture": {
+          "at": "2026-08-13T10:57:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+        ],
+        "precision": "as_displayed_no_timezone"
+      }
+    ],
+    "captions": [
+      {
+        "capture": {
+          "at": "2026-08-13T10:57-03:00",
+          "timezone": "explicit_offset"
+        },
+        "caption": "o apartamento de R$ 2,9 milhões não tinha chão. ele se mudou mesmo assim. Perdizes, Rua Cotoxó · 4 suítes · 190 m² · 3 vagas · terraço gourmet entrega em contrapiso — o acabamento é escolha sua, do zero. quer ver de perto? chama no direct.",
+        "hashtags": [],
+        "truncated_in_export": false,
+        "handle": "@imoblyy",
+        "source_files": [
+          "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+        ]
+      },
+      {
+        "capture": {
+          "at": "2026-08-17T12:35-03:00",
+          "timezone": "explicit_offset"
+        },
+        "visible": "o apartamento de R$ 2,9 milhões não tinha chão ...",
+        "source_files": [
+          "../source/insights/2026-08-13/IMG_7606.PNG",
+          "../source/insights/2026-08-13/IMG_7607.PNG",
+          "../source/insights/2026-08-13/IMG_7608.PNG",
+          "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf",
+          "../source/insights/2026-08-19/IMG_7787.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7746.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7747.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7748.PNG"
+        ]
+      },
+      {
+        "caption": "o apartamento de R$ 2,9 milhões não tinha chão. ele se\nmudou mesmo assim.\nPerdizes, Rua Cotoxó · 4 suítes · 190 m² · 3 vagas · terraço\ngourmet entrega em contrapiso — o acabamento é escolha sua, do\nzero.\nquer ver de perto? chama no direct.",
+        "truncated_in_export": false,
+        "capture": {
+          "at": "2026-08-13T10:57:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+        ],
+        "notes": [
+          "Extracted from the PDF text layer; emoji and original line wrapping may be lost."
+        ]
+      }
+    ],
+    "account_observations": [
+      {
+        "followers": 2,
+        "capture": {
+          "at": "2026-08-13T10:57:00",
+          "timezone": null
+        },
+        "source_files": [
+          "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+        ]
+      }
+    ],
+    "notes": [
+      "Only information from saved Instagram post/Insights evidence is included. A missing field is unknown, not zero."
+    ]
+  },
+  "audience": {
+    "sample_id": "perdizes-c206",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "at": "2026-08-24T10:35-03:00",
+          "timezone": "explicit_offset"
+        },
+        "followers_pct": 0.9,
+        "non_followers_pct": 99.1,
+        "age_pct": {
+          "13-17": 0,
+          "18-24": 18.6,
+          "25-34": 43.4,
+          "35-44": 18.6,
+          "45-54": 12.4,
+          "55-64": 3.5,
+          "65+": 3.5
+        },
+        "gender_pct": {
+          "men": 67.1,
+          "women": 32.9
+        },
+        "countries_pct": {
+          "Brazil": 92.9,
+          "United States": 1.8,
+          "United Kingdom": 1.8,
+          "Portugal": 1.8,
+          "Italy": 0.9
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7746.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7747.PNG",
+          "../source/insights/2026-08-24-audience/IMG_7748.PNG"
+        ],
+        "extraction": "previously_digitized_instagram_record"
+      },
+      {
+        "capture": {
+          "date": "2026-08-13",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:57"
+        },
+        "followers_pct": 0.9,
+        "source_files": [
+          "../source/insights/2026-08-13/IMG_7608.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:35"
+        },
+        "followers_pct": 0.9,
+        "non_followers_pct": 99.1,
+        "age_pct": {
+          "13-17": 0.0,
+          "18-24": 18.6,
+          "25-34": 43.4,
+          "35-44": 18.6,
+          "45-54": 12.4,
+          "55-64": 3.5,
+          "65+": 3.5
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7746.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:35"
+        },
+        "followers_pct": 0.9,
+        "non_followers_pct": 99.1,
+        "countries_pct": {
+          "Brazil": 92.9,
+          "United States": 1.8,
+          "United Kingdom": 1.8,
+          "Portugal": 1.8,
+          "Italy": 0.9
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7747.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      },
+      {
+        "capture": {
+          "date": "2026-08-24",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:35"
+        },
+        "followers_pct": 0.9,
+        "non_followers_pct": 99.1,
+        "gender_pct": {
+          "men": 67.1,
+          "women": 32.9
+        },
+        "source_files": [
+          "../source/insights/2026-08-24-audience/IMG_7748.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "traffic": {
+    "sample_id": "perdizes-c206",
+    "platform": "instagram",
+    "account": "imoblyy",
+    "available": true,
+    "observations": [
+      {
+        "capture": {
+          "date": "2026-08-13",
+          "date_basis": "source_folder_or_filename",
+          "timezone": null,
+          "displayed_clock": "10:57"
+        },
+        "sources_pct": {
+          "reels_tab": 89.4,
+          "explore": 8.8,
+          "feed": 1.8
+        },
+        "source_files": [
+          "../source/insights/2026-08-13/IMG_7608.PNG"
+        ],
+        "extraction": "saved_screenshot_ocr"
+      }
+    ],
+    "notes": [
+      "Dates and numeric precision follow the individual capture. Different snapshots are not merged. OCR and pixel-derived figures are automatic extractions; graph readings are approximate."
+    ]
+  },
+  "distribution_observations": [
+    {
+      "capture": {
+        "date": "2026-08-13",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:56"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7606.PNG"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "views_over_time"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "12:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7787.PNG"
+      ],
+      "extraction": "saved_screenshot",
+      "graphs_available": [
+        "views_over_time"
+      ],
+      "numeric_curve": "not_digitized_from_this_screenshot"
+    }
+  ]
+}

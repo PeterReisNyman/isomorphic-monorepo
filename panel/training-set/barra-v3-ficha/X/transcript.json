@@ -1,0 +1,450 @@
+{
+  "produced": "2026-08-13T15:04:08.525Z",
+  "how": "whisper-1 API, language=pt, verbose_json; audio extracted mono 16kHz from the posted master",
+  "duration_s": 30.479999542236328,
+  "text": "este é um dos destaques deste apartamento novo olha só essa vista incrível da Barra da Tijuca e lá embaixo temos o resort com a piscina nossa, essa água está maravilhosa hoje, você precisa entrar logo esse piso de porcelanato reflete muito bem a luz do sol e essa vista da Barra da Tijuca é simplesmente maravilhosa o apartamento é incrível completamente vazio e pronto pra você, olha só essa bancada de pedra e a iluminação natural é incrível",
+  "segments": [
+    {
+      "start": 0,
+      "end": 2.9200000762939453,
+      "text": "este é um dos destaques deste apartamento novo"
+    },
+    {
+      "start": 2.9200000762939453,
+      "end": 5.480000019073486,
+      "text": "olha só essa vista incrível da Barra da Tijuca"
+    },
+    {
+      "start": 5.480000019073486,
+      "end": 8.420000076293945,
+      "text": "e lá embaixo temos o resort com a piscina"
+    },
+    {
+      "start": 12.739999771118164,
+      "end": 15.920000076293945,
+      "text": "nossa, essa água está maravilhosa hoje, você precisa entrar logo"
+    },
+    {
+      "start": 15.920000076293945,
+      "end": 19.420000076293945,
+      "text": "esse piso de porcelanato reflete muito bem a luz do sol"
+    },
+    {
+      "start": 19.440000534057617,
+      "end": 22.540000915527344,
+      "text": "e essa vista da Barra da Tijuca é simplesmente maravilhosa"
+    },
+    {
+      "start": 22.540000915527344,
+      "end": 24.059999465942383,
+      "text": "o apartamento é incrível"
+    },
+    {
+      "start": 24.219999313354492,
+      "end": 27.8799991607666,
+      "text": "completamente vazio e pronto pra você, olha só essa bancada de pedra"
+    },
+    {
+      "start": 27.8799991607666,
+      "end": 30.34000015258789,
+      "text": "e a iluminação natural é incrível"
+    }
+  ],
+  "words": [
+    {
+      "start": 0,
+      "end": 0.5199999809265137,
+      "word": "este"
+    },
+    {
+      "start": 0.5199999809265137,
+      "end": 0.6800000071525574,
+      "word": "é"
+    },
+    {
+      "start": 0.6800000071525574,
+      "end": 0.7799999713897705,
+      "word": "um"
+    },
+    {
+      "start": 0.7799999713897705,
+      "end": 1.1399999856948853,
+      "word": "dos"
+    },
+    {
+      "start": 1.1399999856948853,
+      "end": 1.5199999809265137,
+      "word": "destaques"
+    },
+    {
+      "start": 1.5199999809265137,
+      "end": 1.899999976158142,
+      "word": "deste"
+    },
+    {
+      "start": 1.899999976158142,
+      "end": 2.3399999141693115,
+      "word": "apartamento"
+    },
+    {
+      "start": 2.3399999141693115,
+      "end": 2.9200000762939453,
+      "word": "novo"
+    },
+    {
+      "start": 2.9200000762939453,
+      "end": 3.319999933242798,
+      "word": "olha"
+    },
+    {
+      "start": 3.319999933242798,
+      "end": 3.5,
+      "word": "só"
+    },
+    {
+      "start": 3.5,
+      "end": 3.7200000286102295,
+      "word": "essa"
+    },
+    {
+      "start": 3.7200000286102295,
+      "end": 4,
+      "word": "vista"
+    },
+    {
+      "start": 4,
+      "end": 4.519999980926514,
+      "word": "incrível"
+    },
+    {
+      "start": 4.519999980926514,
+      "end": 4.760000228881836,
+      "word": "da"
+    },
+    {
+      "start": 4.760000228881836,
+      "end": 4.940000057220459,
+      "word": "Barra"
+    },
+    {
+      "start": 4.940000057220459,
+      "end": 5.139999866485596,
+      "word": "da"
+    },
+    {
+      "start": 5.139999866485596,
+      "end": 5.480000019073486,
+      "word": "Tijuca"
+    },
+    {
+      "start": 5.480000019073486,
+      "end": 5.980000019073486,
+      "word": "e"
+    },
+    {
+      "start": 5.980000019073486,
+      "end": 6.28000020980835,
+      "word": "lá"
+    },
+    {
+      "start": 6.28000020980835,
+      "end": 6.360000133514404,
+      "word": "embaixo"
+    },
+    {
+      "start": 6.360000133514404,
+      "end": 6.659999847412109,
+      "word": "temos"
+    },
+    {
+      "start": 6.659999847412109,
+      "end": 7.139999866485596,
+      "word": "o"
+    },
+    {
+      "start": 7.139999866485596,
+      "end": 7.239999771118164,
+      "word": "resort"
+    },
+    {
+      "start": 7.239999771118164,
+      "end": 7.440000057220459,
+      "word": "com"
+    },
+    {
+      "start": 7.440000057220459,
+      "end": 8.420000076293945,
+      "word": "a"
+    },
+    {
+      "start": 8.420000076293945,
+      "end": 8.420000076293945,
+      "word": "piscina"
+    },
+    {
+      "start": 12.739999771118164,
+      "end": 13.34000015258789,
+      "word": "nossa"
+    },
+    {
+      "start": 13.699999809265137,
+      "end": 13.699999809265137,
+      "word": "essa"
+    },
+    {
+      "start": 13.699999809265137,
+      "end": 13.699999809265137,
+      "word": "água"
+    },
+    {
+      "start": 13.699999809265137,
+      "end": 13.9399995803833,
+      "word": "está"
+    },
+    {
+      "start": 13.9399995803833,
+      "end": 14.520000457763672,
+      "word": "maravilhosa"
+    },
+    {
+      "start": 14.520000457763672,
+      "end": 14.800000190734863,
+      "word": "hoje"
+    },
+    {
+      "start": 14.899999618530273,
+      "end": 15.039999961853027,
+      "word": "você"
+    },
+    {
+      "start": 15.039999961853027,
+      "end": 15.260000228881836,
+      "word": "precisa"
+    },
+    {
+      "start": 15.260000228881836,
+      "end": 15.5,
+      "word": "entrar"
+    },
+    {
+      "start": 15.5,
+      "end": 15.920000076293945,
+      "word": "logo"
+    },
+    {
+      "start": 15.920000076293945,
+      "end": 16.5,
+      "word": "esse"
+    },
+    {
+      "start": 16.5,
+      "end": 16.65999984741211,
+      "word": "piso"
+    },
+    {
+      "start": 16.65999984741211,
+      "end": 17,
+      "word": "de"
+    },
+    {
+      "start": 17,
+      "end": 17.540000915527344,
+      "word": "porcelanato"
+    },
+    {
+      "start": 17.540000915527344,
+      "end": 18.059999465942383,
+      "word": "reflete"
+    },
+    {
+      "start": 18.059999465942383,
+      "end": 18.479999542236328,
+      "word": "muito"
+    },
+    {
+      "start": 18.479999542236328,
+      "end": 18.6200008392334,
+      "word": "bem"
+    },
+    {
+      "start": 18.6200008392334,
+      "end": 18.899999618530273,
+      "word": "a"
+    },
+    {
+      "start": 18.899999618530273,
+      "end": 18.899999618530273,
+      "word": "luz"
+    },
+    {
+      "start": 18.899999618530273,
+      "end": 19.420000076293945,
+      "word": "do"
+    },
+    {
+      "start": 19.420000076293945,
+      "end": 19.420000076293945,
+      "word": "sol"
+    },
+    {
+      "start": 19.440000534057617,
+      "end": 20.040000915527344,
+      "word": "e"
+    },
+    {
+      "start": 20.040000915527344,
+      "end": 20.200000762939453,
+      "word": "essa"
+    },
+    {
+      "start": 20.200000762939453,
+      "end": 20.459999084472656,
+      "word": "vista"
+    },
+    {
+      "start": 20.459999084472656,
+      "end": 20.719999313354492,
+      "word": "da"
+    },
+    {
+      "start": 20.719999313354492,
+      "end": 20.860000610351562,
+      "word": "Barra"
+    },
+    {
+      "start": 20.860000610351562,
+      "end": 21.079999923706055,
+      "word": "da"
+    },
+    {
+      "start": 21.079999923706055,
+      "end": 21.260000228881836,
+      "word": "Tijuca"
+    },
+    {
+      "start": 21.260000228881836,
+      "end": 21.559999465942383,
+      "word": "é"
+    },
+    {
+      "start": 21.559999465942383,
+      "end": 22.079999923706055,
+      "word": "simplesmente"
+    },
+    {
+      "start": 22.079999923706055,
+      "end": 22.540000915527344,
+      "word": "maravilhosa"
+    },
+    {
+      "start": 22.540000915527344,
+      "end": 22.979999542236328,
+      "word": "o"
+    },
+    {
+      "start": 22.979999542236328,
+      "end": 23.280000686645508,
+      "word": "apartamento"
+    },
+    {
+      "start": 23.280000686645508,
+      "end": 24.059999465942383,
+      "word": "é"
+    },
+    {
+      "start": 24.059999465942383,
+      "end": 24.059999465942383,
+      "word": "incrível"
+    },
+    {
+      "start": 24.219999313354492,
+      "end": 24.81999969482422,
+      "word": "completamente"
+    },
+    {
+      "start": 24.81999969482422,
+      "end": 25.3799991607666,
+      "word": "vazio"
+    },
+    {
+      "start": 25.3799991607666,
+      "end": 25.84000015258789,
+      "word": "e"
+    },
+    {
+      "start": 25.84000015258789,
+      "end": 25.84000015258789,
+      "word": "pronto"
+    },
+    {
+      "start": 25.84000015258789,
+      "end": 26.040000915527344,
+      "word": "pra"
+    },
+    {
+      "start": 26.040000915527344,
+      "end": 26.299999237060547,
+      "word": "você"
+    },
+    {
+      "start": 26.520000457763672,
+      "end": 26.540000915527344,
+      "word": "olha"
+    },
+    {
+      "start": 26.540000915527344,
+      "end": 26.739999771118164,
+      "word": "só"
+    },
+    {
+      "start": 26.739999771118164,
+      "end": 26.940000534057617,
+      "word": "essa"
+    },
+    {
+      "start": 26.940000534057617,
+      "end": 27.280000686645508,
+      "word": "bancada"
+    },
+    {
+      "start": 27.280000686645508,
+      "end": 27.81999969482422,
+      "word": "de"
+    },
+    {
+      "start": 27.81999969482422,
+      "end": 27.8799991607666,
+      "word": "pedra"
+    },
+    {
+      "start": 27.8799991607666,
+      "end": 28.31999969482422,
+      "word": "e"
+    },
+    {
+      "start": 28.31999969482422,
+      "end": 28.520000457763672,
+      "word": "a"
+    },
+    {
+      "start": 28.520000457763672,
+      "end": 28.959999084472656,
+      "word": "iluminação"
+    },
+    {
+      "start": 28.959999084472656,
+      "end": 29.459999084472656,
+      "word": "natural"
+    },
+    {
+      "start": 29.459999084472656,
+      "end": 29.760000228881836,
+      "word": "é"
+    },
+    {
+      "start": 29.760000228881836,
+      "end": 30.34000015258789,
+      "word": "incrível"
+    }
+  ]
+}

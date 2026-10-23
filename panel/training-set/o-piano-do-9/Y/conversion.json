@@ -1,0 +1,34 @@
+{
+  "sample_id": "o-piano-do-9",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit profile visits and follows attributed to the post.",
+  "target_fields": [
+    "profile_visits",
+    "follows"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-18T09:51-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-18/Reel insights for imoblyy – 17 Aug 2026 - 18 Aug 2026.pdf",
+        "../source/insights/2026-08-18/rates.PNG",
+        "../source/insights/2026-08-18/retention.PNG",
+        "../source/insights/2026-08-18/summary.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary metrics + rates transcribed verbatim from the PDF/screenshots by supervising agent; retention keypoints read off the graph — approximate"
+      ],
+      "follows": 0
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

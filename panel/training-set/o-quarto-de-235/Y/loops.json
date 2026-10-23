@@ -1,0 +1,136 @@
+{
+  "sample_id": "o-quarto-de-235",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit the loop metric: average views per viewer.",
+  "target_fields": [
+    "views_per_viewer"
+  ],
+  "formula": "views / viewers",
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-24T08:13-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/Reel insights for imoblyy – 18 Aug 2026 - 24 Aug 2026.pdf",
+        "../source/insights/2026-08-24/rates.PNG",
+        "../source/insights/2026-08-24/retention.PNG",
+        "../source/insights/2026-08-24/summary.PNG",
+        "../source/insights/2026-08-24-audience/IMG_7857.PNG",
+        "../source/insights/2026-08-24-audience/IMG_7858.PNG",
+        "../source/insights/2026-08-24-audience/IMG_7859.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates transcribed verbatim; retention keypoints read off the graph (0:00-0:18 axis) — approximate ±3pp"
+      ],
+      "views": 1647,
+      "viewers": 1269,
+      "views_per_viewer": 1.29787234,
+      "ratio_precision": "computed_from_recorded_counts"
+    },
+    {
+      "capture": {
+        "at": "2026-08-24T08:13:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/Reel insights for imoblyy – 18 Aug 2026 - 24 Aug 2026.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "views": 1600,
+      "viewers": 1200,
+      "views_per_viewer": 1.33333333,
+      "displayed_values": {
+        "views": "1.6K",
+        "viewers": "1.2K"
+      },
+      "rounded_fields": [
+        "views",
+        "viewers"
+      ],
+      "ratio_precision": "approximate_from_rounded_counts"
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7777.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "views": 661,
+      "viewers": 508,
+      "views_per_viewer": 1.3011811,
+      "ratio_precision": "computed_from_recorded_counts"
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "12:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7781.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "views": 901,
+      "viewers": 675,
+      "views_per_viewer": 1.33481481,
+      "displayed_values": {
+        "views": "901",
+        "viewers": "675"
+      },
+      "ratio_precision": "computed_from_recorded_counts"
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7794.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "views": 1273,
+      "viewers": 959,
+      "views_per_viewer": 1.3274244,
+      "displayed_values": {
+        "views": "1 273",
+        "viewers": "959"
+      },
+      "ratio_precision": "computed_from_recorded_counts"
+    },
+    {
+      "capture": {
+        "date": "2026-08-24",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/summary.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "views": 1647,
+      "viewers": 1269,
+      "views_per_viewer": 1.29787234,
+      "displayed_values": {
+        "views": "1 647",
+        "viewers": "1269"
+      },
+      "ratio_precision": "computed_from_recorded_counts"
+    }
+  ],
+  "notes": [
+    "The ratio uses counts from the same recorded observation; dates and evidence are preserved.",
+    "Views and viewers are retained as the numerator and denominator, rather than separate fitting targets.",
+    "Ratios from abbreviated or rounded counts are labeled approximate. This ratio does not measure completed full-length loops."
+  ]
+}

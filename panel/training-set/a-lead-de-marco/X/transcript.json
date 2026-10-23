@@ -1,0 +1,27 @@
+{
+  "produced": "2026-10-22T11:52:27.236830+00:00",
+  "how": "media-context transcribe-1-pro (Fish Audio), from the complete saved MP4; segment/word timings are provider estimates in original-media seconds.",
+  "duration_s": 16.733333,
+  "language": "pt",
+  "text": "",
+  "segments": [],
+  "words": [],
+  "timing": "estimated",
+  "status": "no_lexical_speech_transcribed",
+  "source_video": "video.mp4",
+  "source_sha256": "c60ba729d635bcc393822a815c333ed39c2e6cd48c0f381fbaa65683e8b13a0a",
+  "warnings": [],
+  "note": "An empty transcript means no speech was transcribed; it does not establish silence. On-screen text is not included.",
+  "raw_provider_text": "[music]",
+  "non_speech_annotations": [
+    "music"
+  ],
+  "audio_annotations": [
+    {
+      "start": 0.0,
+      "end": 16.733333333333334,
+      "text": "[music]",
+      "speaker": "speaker:0"
+    }
+  ]
+}

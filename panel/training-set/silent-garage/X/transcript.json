@@ -1,0 +1,20 @@
+{
+  "produced": "2026-08-13T15:04:25.155Z",
+  "how": "whisper-1 API, language=pt, verbose_json; audio extracted mono 16kHz from the posted master",
+  "duration_s": 28.280000686645508,
+  "text": "♫",
+  "segments": [
+    {
+      "start": 17.31999969482422,
+      "end": 18.719999313354492,
+      "text": "♫"
+    }
+  ],
+  "words": [
+    {
+      "start": 17.31999969482422,
+      "end": 18.719999313354492,
+      "word": "♫"
+    }
+  ]
+}

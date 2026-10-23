@@ -1,0 +1,30 @@
+{
+  "formula": "estimated_views = 995.7243434545438 * 10 ** (-0.006779702196931817 * (watch_pct - 50) - 0.033354715038029364 * (skip_pct - 50))",
+  "inputs": "Use 70 for 70%; watch_pct is average watch seconds divided by reel duration times 100.",
+  "uses_account_specific_baseline": false,
+  "global_intercept_at_50_percent_watch_and_skip": 995.7243434545438,
+  "n": 19,
+  "nested_leave_one_reel_out_validation": {
+    "log10_rmse": 1.093210684627008,
+    "typical_factor_rmse": 12.393976964335296,
+    "median_factor_error": 6.98760445047875,
+    "p80_factor_error": 34.19043933933262,
+    "within_factor_2": 0.15789473684210525,
+    "within_factor_5": 0.42105263157894735,
+    "r2_log10": 0.32007906615188186
+  },
+  "leave_one_account_out_validation": {
+    "log10_rmse": 1.962419901886543,
+    "typical_factor_rmse": 91.71067752919774,
+    "median_factor_error": 81.86335957401317,
+    "p80_factor_error": 454.49077856052713,
+    "within_factor_2": 0.15789473684210525,
+    "within_factor_5": 0.21052631578947367,
+    "r2_log10": -1.190960543978648
+  },
+  "limits": [
+    "Exploratory descriptive fit with poor accuracy for unseen accounts.",
+    "The negative watch coefficient reflects the pooled account mix and is not evidence of a causal effect.",
+    "These saved observations do not establish forecasts for a specific time horizon."
+  ]
+}

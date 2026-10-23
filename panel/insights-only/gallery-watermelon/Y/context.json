@@ -1,0 +1,76 @@
+{
+  "sample_id": "gallery-watermelon",
+  "platform": "instagram",
+  "account": "sifontanareis",
+  "purpose": "Post context and measurement qualifications for an insights-only record.",
+  "post": {
+    "url": "https://www.instagram.com/reel/DP9StouDsyd/",
+    "shortcode": "DP9StouDsyd",
+    "posted_at": "2025-10-18T13:49-03:00",
+    "duration_s": 54,
+    "caption": "Fungo preto, elemento essencial para a confecção da Terra Preta ou solo antropogênico, solo fértil criado com tecnologia feminina na Amazônia Ancestral. Por causa dessa tecnologia, foi possível a vida saudável de milhares de humanos e não humanos que viviam bem,  sem fome e sem doenças, na grande Floresta. #terrapreta"
+  },
+  "audience": {
+    "followers_pct": 4.3,
+    "non_followers_pct": 95.7,
+    "age_pct": {
+      "13-17": 3.1,
+      "18-24": 25.1,
+      "25-34": 46.7,
+      "35-44": 16.7,
+      "45-54": 4.7,
+      "55-64": 2.9,
+      "65+": 0.8
+    },
+    "country_pct": {
+      "BR": 97.5,
+      "US": 0.6,
+      "CH": 0.4,
+      "IT": 0.3,
+      "PT": 0.2
+    },
+    "gender_pct": {
+      "men": 48.4,
+      "women": 51.6
+    }
+  },
+  "traffic": {
+    "reels_tab": 61.4,
+    "explore": 14.9,
+    "other": 10.5,
+    "stories": 7.3,
+    "profile": 3.3,
+    "feed": 2.2,
+    "search": 0.4
+  },
+  "distribution_observations": [
+    {
+      "capture": {
+        "date": "2026-08-24",
+        "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+        "timezone": "-03:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.21.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.22 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.52.23 (2).jpeg",
+        "../source/insights/2026-08-24/Insights do reel para sifontanareis - 18 de out. de 2025 - 24 de ago. de 2026.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "views": 190575,
+      "reached": 139840
+    }
+  ],
+  "availability": {
+    "video": false,
+    "transcript": false,
+    "viewers": false,
+    "viewer_count_status": "unavailable_reach_only"
+  },
+  "notes": [
+    "2nd capture (1st: 2026-08-19, 190,562 — static, reel is 10 months old). Caption identifies the piece: Fungo preto / Terra Preta performance."
+  ]
+}

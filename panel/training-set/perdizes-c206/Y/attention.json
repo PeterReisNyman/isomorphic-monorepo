@@ -1,0 +1,470 @@
+{
+  "sample_id": "perdizes-c206",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit how long viewers kept watching and where they dropped off.",
+  "target_fields": [
+    "average_watch_time_s",
+    "average_watch_time_pdf_s",
+    "points",
+    "displayed_retention_pct",
+    "rates_pct.skip"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-13T10:57-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7606.PNG",
+        "../source/insights/2026-08-13/IMG_7607.PNG",
+        "../source/insights/2026-08-13/IMG_7608.PNG",
+        "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary metrics transcribed verbatim from the PDF by supervising agent"
+      ],
+      "average_watch_time_s": 15.23
+    },
+    {
+      "capture": {
+        "at": "2026-08-13T10:57:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/reel-insights-2026-08-08_13.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "average_watch_time_s": 15.23,
+      "displayed_values": {
+        "average_watch_time": "15.23s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-13",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:56"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7606.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "average_watch_time_s": 15.2,
+      "displayed_values": {
+        "average_watch_time_s": "15,2s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-19",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "12:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-19/IMG_7787.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "average_watch_time_s": 14.9,
+      "displayed_values": {
+        "average_watch_time_s": "14,9s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-13",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:56"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7607.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "skip": 36.8
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-13",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "10:57"
+      },
+      "source_files": [
+        "../source/insights/2026-08-13/IMG_7608.PNG"
+      ],
+      "extraction": "saved_screenshot_pixel_trace",
+      "points": [
+        {
+          "time_s": 0,
+          "retention_pct": 100
+        },
+        {
+          "time_s": 1,
+          "retention_pct": 92.2
+        },
+        {
+          "time_s": 2,
+          "retention_pct": 77.6
+        },
+        {
+          "time_s": 3,
+          "retention_pct": 66.5
+        },
+        {
+          "time_s": 4,
+          "retention_pct": 57.1
+        },
+        {
+          "time_s": 5,
+          "retention_pct": 50.6
+        },
+        {
+          "time_s": 6,
+          "retention_pct": 45.4
+        },
+        {
+          "time_s": 7,
+          "retention_pct": 43.9
+        },
+        {
+          "time_s": 8,
+          "retention_pct": 42.0
+        },
+        {
+          "time_s": 9,
+          "retention_pct": 41.3
+        },
+        {
+          "time_s": 10,
+          "retention_pct": 40.7
+        },
+        {
+          "time_s": 11,
+          "retention_pct": 39.9
+        },
+        {
+          "time_s": 12,
+          "retention_pct": 39.6
+        },
+        {
+          "time_s": 13,
+          "retention_pct": 37.4
+        },
+        {
+          "time_s": 14,
+          "retention_pct": 36.2
+        },
+        {
+          "time_s": 15,
+          "retention_pct": 33.9
+        },
+        {
+          "time_s": 16,
+          "retention_pct": 33.4
+        },
+        {
+          "time_s": 17,
+          "retention_pct": 33.4
+        },
+        {
+          "time_s": 18,
+          "retention_pct": 33.4
+        },
+        {
+          "time_s": 19,
+          "retention_pct": 33.4
+        },
+        {
+          "time_s": 20,
+          "retention_pct": 32.6
+        },
+        {
+          "time_s": 21,
+          "retention_pct": 30.4
+        },
+        {
+          "time_s": 22,
+          "retention_pct": 29.1
+        },
+        {
+          "time_s": 23,
+          "retention_pct": 26.7
+        },
+        {
+          "time_s": 24,
+          "retention_pct": 23.4
+        },
+        {
+          "time_s": 25,
+          "retention_pct": 22.1
+        },
+        {
+          "time_s": 26,
+          "retention_pct": 21.3
+        },
+        {
+          "time_s": 27,
+          "retention_pct": 21.1
+        },
+        {
+          "time_s": 28,
+          "retention_pct": 20.3
+        },
+        {
+          "time_s": 29,
+          "retention_pct": 19.5
+        },
+        {
+          "time_s": 30,
+          "retention_pct": 18.6
+        },
+        {
+          "time_s": 31,
+          "retention_pct": 18.6
+        },
+        {
+          "time_s": 32,
+          "retention_pct": 18.6
+        },
+        {
+          "time_s": 33,
+          "retention_pct": 18.6
+        },
+        {
+          "time_s": 34,
+          "retention_pct": 17.5
+        },
+        {
+          "time_s": 35,
+          "retention_pct": 14.5
+        },
+        {
+          "time_s": 36,
+          "retention_pct": 14.0
+        },
+        {
+          "time_s": 37,
+          "retention_pct": 13.2
+        },
+        {
+          "time_s": 38,
+          "retention_pct": 13.2
+        },
+        {
+          "time_s": 39,
+          "retention_pct": 11.6
+        },
+        {
+          "time_s": 40,
+          "retention_pct": 11.4
+        },
+        {
+          "time_s": 41,
+          "retention_pct": 11.4
+        },
+        {
+          "time_s": 42,
+          "retention_pct": 11.3
+        },
+        {
+          "time_s": 43,
+          "retention_pct": 10.8
+        },
+        {
+          "time_s": 44,
+          "retention_pct": 10.6
+        },
+        {
+          "time_s": 45,
+          "retention_pct": 10.5
+        },
+        {
+          "time_s": 46,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 47,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 48,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 49,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 50,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 51,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 52,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 53,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 54,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 55,
+          "retention_pct": 9.7
+        },
+        {
+          "time_s": 56,
+          "retention_pct": 8.9
+        },
+        {
+          "time_s": 57,
+          "retention_pct": 8.9
+        },
+        {
+          "time_s": 58,
+          "retention_pct": 8.1
+        },
+        {
+          "time_s": 59,
+          "retention_pct": 7.9
+        },
+        {
+          "time_s": 60,
+          "retention_pct": 7.9
+        },
+        {
+          "time_s": 61,
+          "retention_pct": 7.9
+        },
+        {
+          "time_s": 62,
+          "retention_pct": 7.8
+        },
+        {
+          "time_s": 63,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 64,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 65,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 66,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 67,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 68,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 69,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 70,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 71,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 72,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 73,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 74,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 75,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 76,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 77,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 78,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 79,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 80,
+          "retention_pct": 7.1
+        },
+        {
+          "time_s": 81,
+          "retention_pct": 6.8
+        },
+        {
+          "time_s": 82,
+          "retention_pct": 6.2
+        },
+        {
+          "time_s": 83,
+          "retention_pct": 5.8
+        },
+        {
+          "time_s": 84,
+          "retention_pct": 4.4
+        },
+        {
+          "time_s": 85,
+          "retention_pct": 4.3
+        },
+        {
+          "time_s": 86,
+          "retention_pct": 3.6
+        },
+        {
+          "time_s": 87,
+          "retention_pct": 3.5
+        }
+      ],
+      "displayed_end_seconds": 87,
+      "precision": "estimated_from_screenshot",
+      "curve_color": "white",
+      "limitations": [
+        "Pixel tracing of the visible curve; times assume a linear axis between the displayed endpoints. These estimates do not replace previously digitized readings."
+      ]
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

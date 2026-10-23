@@ -1,0 +1,334 @@
+{
+  "sample_id": "a-lead-de-marco",
+  "platform": "instagram",
+  "account": "kima.ia.br",
+  "objective": "Fit how long viewers kept watching and where they dropped off.",
+  "target_fields": [
+    "average_watch_time_s",
+    "average_watch_time_pdf_s",
+    "points",
+    "displayed_retention_pct",
+    "rates_pct.skip"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-09-23T16:19+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9864.PNG",
+        "../source/insights/2026-09-23/IMG_9865.PNG",
+        "../source/insights/2026-09-23/IMG_9866.PNG",
+        "../source/insights/2026-09-23/IMG_9867.PNG",
+        "../source/insights/2026-09-23/IMG_9868.PNG",
+        "../source/insights/2026-09-23/IMG_9869.PNG",
+        "../source/insights/2026-09-23/IMG_9870.PNG",
+        "../source/insights/2026-09-23/IMG_9871.PNG",
+        "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf",
+        "../source/insights/2026-09-23-audience/IMG_9863.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "counts, rates, sources and the follower split transcribed verbatim from the screenshots and the PDF. The retention, likes-timing and three views-over-time curves were digitized from the screenshot pixels: magenta-stroke centroid per column, y mapped through each chart's own gridlines. x is NOT linear to duration here: both 0:00-0:16 charts plot 17 evenly spaced vertices (measured 66.9 px apart), one per whole second 0-16, so keypoints sit on whole seconds; the views charts plot one vertex per day, 11-22 Sep. About +/-1pp (retention), +/-3pp (likes timing), +/-1 view (views)."
+      ],
+      "average_watch_time_s": 15,
+      "average_watch_time_pdf_s": 15.99
+    },
+    {
+      "capture": {
+        "at": "2026-09-23T16:20:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "average_watch_time_s": 15.99,
+      "displayed_values": {
+        "average_watch_time": "15.99s"
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9866.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "average_watch_time_s": 15.0,
+      "displayed_values": {
+        "average_watch_time_s": "15s"
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-09-23T16:19+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9864.PNG",
+        "../source/insights/2026-09-23/IMG_9865.PNG",
+        "../source/insights/2026-09-23/IMG_9866.PNG",
+        "../source/insights/2026-09-23/IMG_9867.PNG",
+        "../source/insights/2026-09-23/IMG_9868.PNG",
+        "../source/insights/2026-09-23/IMG_9869.PNG",
+        "../source/insights/2026-09-23/IMG_9870.PNG",
+        "../source/insights/2026-09-23/IMG_9871.PNG",
+        "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf",
+        "../source/insights/2026-09-23-audience/IMG_9863.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "counts, rates, sources and the follower split transcribed verbatim from the screenshots and the PDF. The retention, likes-timing and three views-over-time curves were digitized from the screenshot pixels: magenta-stroke centroid per column, y mapped through each chart's own gridlines. x is NOT linear to duration here: both 0:00-0:16 charts plot 17 evenly spaced vertices (measured 66.9 px apart), one per whole second 0-16, so keypoints sit on whole seconds; the views charts plot one vertex per day, 11-22 Sep. About +/-1pp (retention), +/-3pp (likes timing), +/-1 view (views)."
+      ],
+      "rates_pct": {
+        "skip": 54.9
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9867.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "skip": 54.9
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9868.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "skip": 54.9
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9869.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "skip": 54.9
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9870.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "skip": 54.9
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-09-23T16:19+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9864.PNG",
+        "../source/insights/2026-09-23/IMG_9865.PNG",
+        "../source/insights/2026-09-23/IMG_9866.PNG",
+        "../source/insights/2026-09-23/IMG_9867.PNG",
+        "../source/insights/2026-09-23/IMG_9868.PNG",
+        "../source/insights/2026-09-23/IMG_9869.PNG",
+        "../source/insights/2026-09-23/IMG_9870.PNG",
+        "../source/insights/2026-09-23/IMG_9871.PNG",
+        "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf",
+        "../source/insights/2026-09-23-audience/IMG_9863.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "t=0 set to 100 by definition (the pixel read is 98.3). The last vertex is the 16 s bucket of a 16.73 s reel"
+      ],
+      "points": [
+        {
+          "time_s": 0,
+          "retention_pct": 100.0
+        },
+        {
+          "time_s": 1,
+          "retention_pct": 90.0
+        },
+        {
+          "time_s": 2,
+          "retention_pct": 72.9
+        },
+        {
+          "time_s": 3,
+          "retention_pct": 65.3
+        },
+        {
+          "time_s": 4,
+          "retention_pct": 60.0
+        },
+        {
+          "time_s": 5,
+          "retention_pct": 58.8
+        },
+        {
+          "time_s": 6,
+          "retention_pct": 54.5
+        },
+        {
+          "time_s": 7,
+          "retention_pct": 55.6
+        },
+        {
+          "time_s": 8,
+          "retention_pct": 54.5
+        },
+        {
+          "time_s": 9,
+          "retention_pct": 53.3
+        },
+        {
+          "time_s": 10,
+          "retention_pct": 52.2
+        },
+        {
+          "time_s": 11,
+          "retention_pct": 50.0
+        },
+        {
+          "time_s": 12,
+          "retention_pct": 49.0
+        },
+        {
+          "time_s": 13,
+          "retention_pct": 46.8
+        },
+        {
+          "time_s": 14,
+          "retention_pct": 45.5
+        },
+        {
+          "time_s": 15,
+          "retention_pct": 46.5
+        },
+        {
+          "time_s": 16,
+          "retention_pct": 42.2
+        }
+      ],
+      "precision": "previously_digitized_approximation"
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9871.PNG"
+      ],
+      "extraction": "saved_screenshot_pixel_trace",
+      "points": [
+        {
+          "time_s": 0,
+          "retention_pct": 99.7
+        },
+        {
+          "time_s": 1,
+          "retention_pct": 92.5
+        },
+        {
+          "time_s": 2,
+          "retention_pct": 74.9
+        },
+        {
+          "time_s": 3,
+          "retention_pct": 66.6
+        },
+        {
+          "time_s": 4,
+          "retention_pct": 61.1
+        },
+        {
+          "time_s": 5,
+          "retention_pct": 59.7
+        },
+        {
+          "time_s": 6,
+          "retention_pct": 55.3
+        },
+        {
+          "time_s": 7,
+          "retention_pct": 56.3
+        },
+        {
+          "time_s": 8,
+          "retention_pct": 55.3
+        },
+        {
+          "time_s": 9,
+          "retention_pct": 54.1
+        },
+        {
+          "time_s": 10,
+          "retention_pct": 53.0
+        },
+        {
+          "time_s": 11,
+          "retention_pct": 50.7
+        },
+        {
+          "time_s": 12,
+          "retention_pct": 49.5
+        },
+        {
+          "time_s": 13,
+          "retention_pct": 47.4
+        },
+        {
+          "time_s": 14,
+          "retention_pct": 46.1
+        },
+        {
+          "time_s": 15,
+          "retention_pct": 47.2
+        },
+        {
+          "time_s": 16,
+          "retention_pct": 42.8
+        }
+      ],
+      "displayed_end_seconds": 16,
+      "precision": "estimated_from_screenshot",
+      "curve_color": "magenta",
+      "limitations": [
+        "Pixel tracing of the visible curve; times assume a linear axis between the displayed endpoints. These estimates do not replace previously digitized readings."
+      ]
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

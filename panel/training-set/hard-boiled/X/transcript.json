@@ -1,0 +1,30 @@
+{
+  "produced": "2026-10-22T11:52:27.234310+00:00",
+  "how": "media-context transcribe-1-pro (Fish Audio), from the complete saved MP4; segment/word timings are provider estimates in original-media seconds.",
+  "duration_s": 7.3,
+  "language": "en",
+  "text": "",
+  "segments": [],
+  "words": [],
+  "timing": "estimated",
+  "status": "no_lexical_speech_transcribed",
+  "source_video": "video.mp4",
+  "source_sha256": "5e78987b8a4b6558611a8909df8004da8cf04550d571ff4582e48ce5f1ab05a0",
+  "warnings": [],
+  "note": "An empty transcript means no speech was transcribed; it does not establish silence. On-screen text is not included.",
+  "raw_provider_text": "[knock noise] [knock noise] [knock noise] [the sound of something falling on the ground]",
+  "non_speech_annotations": [
+    "knock noise",
+    "knock noise",
+    "knock noise",
+    "the sound of something falling on the ground"
+  ],
+  "audio_annotations": [
+    {
+      "start": 0.0,
+      "end": 7.3,
+      "text": "[knock noise] [knock noise] [knock noise] [the sound of something falling on the ground]",
+      "speaker": "speaker:0"
+    }
+  ]
+}

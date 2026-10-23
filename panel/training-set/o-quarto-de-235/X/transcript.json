@@ -1,0 +1,27 @@
+{
+  "produced": "2026-10-22T11:54:12.943804+00:00",
+  "how": "media-context transcribe-1-pro (Fish Audio), from an explicit presentation-timeline-repaired mono FLAC; audio timestamp gaps were explicitly repaired in an analysis copy.",
+  "duration_s": 18.033008,
+  "language": "pt",
+  "text": "",
+  "segments": [],
+  "words": [],
+  "timing": "estimated",
+  "status": "no_lexical_speech_transcribed",
+  "source_video": "video.mp4",
+  "source_sha256": "67088161734655b858cc76e9238acb84e5800e288381e6dcd5ef2eaee176c548",
+  "warnings": [],
+  "note": "An empty transcript means no speech was transcribed; it does not establish silence. On-screen text is not included.",
+  "raw_provider_text": "[music]",
+  "non_speech_annotations": [
+    "music"
+  ],
+  "audio_annotations": [
+    {
+      "start": 0.0,
+      "end": 18.0320625,
+      "text": "[music]",
+      "speaker": "speaker:0"
+    }
+  ]
+}

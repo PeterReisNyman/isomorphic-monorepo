@@ -1,0 +1,233 @@
+{
+  "sample_id": "o-piso-torto",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit viewers liking, commenting on, or saving the post.",
+  "target_fields": [
+    "likes",
+    "comments",
+    "saves",
+    "rates_pct.like",
+    "rates_pct.comment",
+    "rates_pct.save",
+    "likes_timing_pct"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-26T14:03-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-26/IMG_7894.PNG",
+        "../source/insights/2026-08-26/IMG_7895.PNG",
+        "../source/insights/2026-08-26/IMG_7896.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7891.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7892.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7893.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7905.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7906.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7907.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7908.PNG",
+        "../source/insights/2026-08-30/IMG_8240.PNG",
+        "../source/insights/2026-08-30/IMG_8241.PNG",
+        "../source/insights/2026-08-30/IMG_8242.PNG",
+        "../source/insights/2026-08-30/IMG_8243.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8245.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8246.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8247.PNG",
+        "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates transcribed verbatim from the screenshots; retention keypoints read off the 0:00-0:18 graph by eye — approximate +/-3pp"
+      ],
+      "likes": 3,
+      "comments": 1,
+      "saves": 1,
+      "rates_pct": {
+        "like": 0.2,
+        "save": 0.1,
+        "comment": 0.1
+      },
+      "rate_labels": {
+        "like": "Higher",
+        "save": "Higher",
+        "comment": "Higher"
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-08-26T22:45-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-26/IMG_7894.PNG",
+        "../source/insights/2026-08-26/IMG_7895.PNG",
+        "../source/insights/2026-08-26/IMG_7896.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7891.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7892.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7893.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7905.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7906.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7907.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7908.PNG",
+        "../source/insights/2026-08-30/IMG_8240.PNG",
+        "../source/insights/2026-08-30/IMG_8241.PNG",
+        "../source/insights/2026-08-30/IMG_8242.PNG",
+        "../source/insights/2026-08-30/IMG_8243.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8245.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8246.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8247.PNG",
+        "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates transcribed verbatim from the screenshots; retention keypoints read off the 0:00-0:18 graph by eye — approximate +/-3pp"
+      ],
+      "rates_pct": {
+        "like": 0.2,
+        "save": 0.1,
+        "comment": 0.1
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-08-30T14:12-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-26/IMG_7894.PNG",
+        "../source/insights/2026-08-26/IMG_7895.PNG",
+        "../source/insights/2026-08-26/IMG_7896.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7891.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7892.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7893.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7905.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7906.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7907.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7908.PNG",
+        "../source/insights/2026-08-30/IMG_8240.PNG",
+        "../source/insights/2026-08-30/IMG_8241.PNG",
+        "../source/insights/2026-08-30/IMG_8242.PNG",
+        "../source/insights/2026-08-30/IMG_8243.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8245.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8246.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8247.PNG",
+        "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates transcribed verbatim from the screenshots; retention keypoints read off the 0:00-0:18 graph by eye — approximate +/-3pp"
+      ],
+      "likes": 3,
+      "comments": 2,
+      "saves": 1,
+      "rates_pct": {
+        "like": 0.2,
+        "save": 0.1,
+        "comment": 0.1
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-09-04T10:04-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-26/IMG_7894.PNG",
+        "../source/insights/2026-08-26/IMG_7895.PNG",
+        "../source/insights/2026-08-26/IMG_7896.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7891.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7892.PNG",
+        "../source/insights/2026-08-26-audience/IMG_7893.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7905.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7906.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7907.PNG",
+        "../source/insights/2026-08-26-evening/IMG_7908.PNG",
+        "../source/insights/2026-08-30/IMG_8240.PNG",
+        "../source/insights/2026-08-30/IMG_8241.PNG",
+        "../source/insights/2026-08-30/IMG_8242.PNG",
+        "../source/insights/2026-08-30/IMG_8243.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8245.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8246.PNG",
+        "../source/insights/2026-08-30-audience/IMG_8247.PNG",
+        "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary + rates transcribed verbatim from the screenshots; retention keypoints read off the 0:00-0:18 graph by eye — approximate +/-3pp"
+      ],
+      "likes": 3,
+      "comments": 2,
+      "saves": 1
+    },
+    {
+      "capture": {
+        "at": "2026-09-04T10:04:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-04/Reel insights for imoblyy – 25 Aug 2026 - 4 Sep 2026.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "likes": 3,
+      "comments": 2,
+      "saves": 1
+    },
+    {
+      "capture": {
+        "date": "2026-08-26",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-26/IMG_7895.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "like": 0.2,
+        "save": 0.1,
+        "comment": 0.1
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-26",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-26-evening/IMG_7907.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "like": 0.2,
+        "save": 0.1,
+        "comment": 0.1
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-08-30",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null,
+        "displayed_clock": "14:12"
+      },
+      "source_files": [
+        "../source/insights/2026-08-30/IMG_8242.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "like": 0.2,
+        "save": 0.1,
+        "comment": 0.1
+      }
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

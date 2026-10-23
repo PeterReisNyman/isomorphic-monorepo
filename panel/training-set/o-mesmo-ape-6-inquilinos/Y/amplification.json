@@ -1,0 +1,46 @@
+{
+  "sample_id": "o-mesmo-ape-6-inquilinos",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit viewers distributing the post through shares and reposts.",
+  "target_fields": [
+    "shares",
+    "reposts",
+    "rates_pct.share",
+    "rates_pct.repost"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-09-04T19:59+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-04/Reel insights for imoblyy – 4 Sep 2026 - 4 Sep 2026.pdf"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "transcribed verbatim from the PDF; the PDF carries no rates, retention graph or audience"
+      ],
+      "reposts": 0,
+      "shares": 0
+    },
+    {
+      "capture": {
+        "at": "2026-09-04T19:59:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-04/Reel insights for imoblyy – 4 Sep 2026 - 4 Sep 2026.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "reposts": 0,
+      "shares": 0
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

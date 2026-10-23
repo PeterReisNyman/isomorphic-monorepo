@@ -1,0 +1,872 @@
+{
+  "objective": "Predict how many times a reel will perform above or below its own channel baseline. No account identity or absolute channel view count is an input.",
+  "target": "reel views / median views of comparable reels on the same channel",
+  "baseline_convention": "For this exploratory fit, the median is estimated from the available aligned channel reels. For each held-out reel, that reel is excluded from its channel baseline calculation.",
+  "input_units": "Percentage points: enter 70 for 70%. watch_pct = average watch seconds / duration seconds * 100. skip_pct is the native Instagram/Edits percentage.",
+  "model": {
+    "features": [
+      "watch_pct",
+      "skip_pct"
+    ],
+    "ridge_alpha": 10.0,
+    "intercept_log10_multiplier": 0.08502106495651611,
+    "coefficients_per_percentage_point": {
+      "watch_pct": 0.0031284987937455562,
+      "skip_pct": -0.003766290028138341
+    },
+    "reference_percent": {
+      "watch_pct": 50.0,
+      "skip_pct": 50.0
+    },
+    "multiplier_at_reference": 1.1301380657288944,
+    "nested_leave_one_reel_out": {
+      "log10_rmse": 0.4987659518811142,
+      "median_factor_error": 1.6074971748458515,
+      "p80_factor_error": 4.877995193929799,
+      "within_factor_2": 0.5789473684210527,
+      "above_below_baseline_accuracy_excluding_exact_baseline": 0.6842105263157895,
+      "n": 19
+    },
+    "predict_1x_baseline": {
+      "log10_rmse": 0.4734807446887689,
+      "median_factor_error": 1.3936094264425576,
+      "p80_factor_error": 2.656290392922655,
+      "within_factor_2": 0.7368421052631579,
+      "above_below_baseline_accuracy_excluding_exact_baseline": null,
+      "n": 19
+    },
+    "leave_one_channel_out": {
+      "log10_rmse": 0.5246814832942135,
+      "median_factor_error": 1.7397325660920142,
+      "p80_factor_error": 4.603810114452688,
+      "within_factor_2": 0.5789473684210527,
+      "above_below_baseline_accuracy_excluding_exact_baseline": 0.5789473684210527,
+      "n": 19
+    },
+    "unseen_channel_predict_1x": {
+      "log10_rmse": 0.47348074468876894,
+      "median_factor_error": 1.3936094264425576,
+      "p80_factor_error": 2.656290392922655,
+      "within_factor_2": 0.7368421052631579,
+      "above_below_baseline_accuracy_excluding_exact_baseline": null,
+      "n": 19
+    },
+    "held_out_reels": [
+      {
+        "id": "a-lead-de-marco",
+        "account": "kima",
+        "baseline_views_from_other_channel_reels": 70.0,
+        "actual_multiplier": 1.8571428571428572,
+        "predicted_multiplier": 1.4295593698847429,
+        "ridge_alpha": 30.0
+      },
+      {
+        "id": "a-porta-do-corredor",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 1.1417910447761195,
+        "predicted_multiplier": 0.9907326821632225,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "barra-v3-ficha",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.15686274509803919,
+        "predicted_multiplier": 0.9064599588702806,
+        "ridge_alpha": 30.0
+      },
+      {
+        "id": "cat-reel",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.8758169934640523,
+        "predicted_multiplier": 0.605741800197997,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "hard-boiled",
+        "account": "unfilmed.lab",
+        "baseline_views_from_other_channel_reels": 2846.0,
+        "actual_multiplier": 0.7326071679550246,
+        "predicted_multiplier": 4.892807142261139,
+        "ridge_alpha": 1.0
+      },
+      {
+        "id": "o-bolo",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.7777777777777778,
+        "predicted_multiplier": 1.1860713748332803,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "o-piano-do-9",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 1.6194029850746268,
+        "predicted_multiplier": 1.0074064268448353,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "o-piso-torto",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 18.007462686567163,
+        "predicted_multiplier": 1.1772426461040908,
+        "ridge_alpha": 30.0
+      },
+      {
+        "id": "o-quarto-de-235",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 12.291044776119405,
+        "predicted_multiplier": 1.1456091444241587,
+        "ridge_alpha": 30.0
+      },
+      {
+        "id": "perdizes-c206",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.738562091503268,
+        "predicted_multiplier": 0.9888566409012045,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "silent-garage",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 1.2761194029850746,
+        "predicted_multiplier": 0.5520024378892775,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "tatuape-tour",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.8169934640522876,
+        "predicted_multiplier": 0.861732810134026,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "the-cheapest-ocean-view",
+        "account": "unfilmed.lab",
+        "baseline_views_from_other_channel_reels": 2085.0,
+        "actual_multiplier": 1.3649880095923261,
+        "predicted_multiplier": 3.105708085646505,
+        "ridge_alpha": 0.01
+      },
+      {
+        "id": "isso-nao-e-ruido",
+        "account": "kima",
+        "baseline_views_from_other_channel_reels": 130.0,
+        "actual_multiplier": 0.5384615384615384,
+        "predicted_multiplier": 0.8798338157958062,
+        "ridge_alpha": 30.0
+      },
+      {
+        "id": "canyon-draped-figure",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 144275.0,
+        "actual_multiplier": 2.058138970715647,
+        "predicted_multiplier": 1.3301348229458947,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "jiboia-passarinho",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 144275.0,
+        "actual_multiplier": 1.3936094264425576,
+        "predicted_multiplier": 1.3749604139539917,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "gallery-watermelon",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 149519.0,
+        "actual_multiplier": 1.274587176211719,
+        "predicted_multiplier": 1.406811492185062,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "nego-bispo-jurema",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 195819.0,
+        "actual_multiplier": 0.5003344925671156,
+        "predicted_multiplier": 1.088678245710085,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "niede-guidon",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 195819.0,
+        "actual_multiplier": 0.2567575158692466,
+        "predicted_multiplier": 1.1186809335185042,
+        "ridge_alpha": 10.0
+      }
+    ],
+    "held_out_channel_reels": [
+      {
+        "id": "a-porta-do-corredor",
+        "account": "imobly",
+        "actual_multiplier": 1.1417910447761195,
+        "predicted_multiplier": 0.7630071228984017
+      },
+      {
+        "id": "barra-v3-ficha",
+        "account": "imobly",
+        "actual_multiplier": 0.15686274509803919,
+        "predicted_multiplier": 0.6586157556004454
+      },
+      {
+        "id": "cat-reel",
+        "account": "imobly",
+        "actual_multiplier": 0.8758169934640523,
+        "predicted_multiplier": 0.6714019561783345
+      },
+      {
+        "id": "o-bolo",
+        "account": "imobly",
+        "actual_multiplier": 0.7777777777777778,
+        "predicted_multiplier": 0.8066747698424743
+      },
+      {
+        "id": "o-piano-do-9",
+        "account": "imobly",
+        "actual_multiplier": 1.6194029850746268,
+        "predicted_multiplier": 0.7635346028926338
+      },
+      {
+        "id": "o-piso-torto",
+        "account": "imobly",
+        "actual_multiplier": 18.007462686567163,
+        "predicted_multiplier": 0.9283145436368965
+      },
+      {
+        "id": "o-quarto-de-235",
+        "account": "imobly",
+        "actual_multiplier": 12.291044776119405,
+        "predicted_multiplier": 0.864416413783015
+      },
+      {
+        "id": "perdizes-c206",
+        "account": "imobly",
+        "actual_multiplier": 0.738562091503268,
+        "predicted_multiplier": 0.7597847563193286
+      },
+      {
+        "id": "silent-garage",
+        "account": "imobly",
+        "actual_multiplier": 1.2761194029850746,
+        "predicted_multiplier": 0.6526478780966702
+      },
+      {
+        "id": "tatuape-tour",
+        "account": "imobly",
+        "actual_multiplier": 0.8169934640522876,
+        "predicted_multiplier": 0.7339068947000722
+      },
+      {
+        "id": "a-lead-de-marco",
+        "account": "kima",
+        "actual_multiplier": 1.8571428571428572,
+        "predicted_multiplier": 1.4000960797428845
+      },
+      {
+        "id": "isso-nao-e-ruido",
+        "account": "kima",
+        "actual_multiplier": 0.5384615384615384,
+        "predicted_multiplier": 0.9367790740495461
+      },
+      {
+        "id": "canyon-draped-figure",
+        "account": "sifontanareis",
+        "actual_multiplier": 2.058138970715647,
+        "predicted_multiplier": 1.6889342559745883
+      },
+      {
+        "id": "jiboia-passarinho",
+        "account": "sifontanareis",
+        "actual_multiplier": 1.3936094264425576,
+        "predicted_multiplier": 1.6666810822495985
+      },
+      {
+        "id": "gallery-watermelon",
+        "account": "sifontanareis",
+        "actual_multiplier": 1.274587176211719,
+        "predicted_multiplier": 1.6710470381552283
+      },
+      {
+        "id": "nego-bispo-jurema",
+        "account": "sifontanareis",
+        "actual_multiplier": 0.5003344925671156,
+        "predicted_multiplier": 1.3898647790934566
+      },
+      {
+        "id": "niede-guidon",
+        "account": "sifontanareis",
+        "actual_multiplier": 0.2567575158692466,
+        "predicted_multiplier": 1.3572136368209582
+      },
+      {
+        "id": "hard-boiled",
+        "account": "unfilmed.lab",
+        "actual_multiplier": 0.7326071679550246,
+        "predicted_multiplier": 4.64361073423604
+      },
+      {
+        "id": "the-cheapest-ocean-view",
+        "account": "unfilmed.lab",
+        "actual_multiplier": 1.3649880095923261,
+        "predicted_multiplier": 3.367164593771275
+      }
+    ],
+    "fitted_channel_baselines_for_labels_only": {
+      "kima": 100.0,
+      "imobly": 143.5,
+      "unfilmed.lab": 2465.5,
+      "sifontanareis": 190575.0
+    },
+    "fitted_points": [
+      {
+        "id": "a-lead-de-marco",
+        "actual_multiplier": 1.3,
+        "predicted_multiplier": 1.5038485907629124
+      },
+      {
+        "id": "a-porta-do-corredor",
+        "actual_multiplier": 1.0662020905923344,
+        "predicted_multiplier": 0.9636920981161705
+      },
+      {
+        "id": "barra-v3-ficha",
+        "actual_multiplier": 0.1672473867595819,
+        "predicted_multiplier": 0.624767756017666
+      },
+      {
+        "id": "cat-reel",
+        "actual_multiplier": 0.9337979094076655,
+        "predicted_multiplier": 0.6690332717484702
+      },
+      {
+        "id": "hard-boiled",
+        "actual_multiplier": 0.8456702494423038,
+        "predicted_multiplier": 2.1576038633447343
+      },
+      {
+        "id": "o-bolo",
+        "actual_multiplier": 0.8292682926829268,
+        "predicted_multiplier": 1.188533314313516
+      },
+      {
+        "id": "o-piano-do-9",
+        "actual_multiplier": 1.5121951219512195,
+        "predicted_multiplier": 0.9938542796919311
+      },
+      {
+        "id": "o-piso-torto",
+        "actual_multiplier": 16.81533101045296,
+        "predicted_multiplier": 1.7651412760625012
+      },
+      {
+        "id": "o-quarto-de-235",
+        "actual_multiplier": 11.477351916376307,
+        "predicted_multiplier": 1.4345913495000786
+      },
+      {
+        "id": "perdizes-c206",
+        "actual_multiplier": 0.7874564459930313,
+        "predicted_multiplier": 1.0013040014801375
+      },
+      {
+        "id": "silent-garage",
+        "actual_multiplier": 1.1916376306620209,
+        "predicted_multiplier": 0.6105777010661692
+      },
+      {
+        "id": "tatuape-tour",
+        "actual_multiplier": 0.8710801393728222,
+        "predicted_multiplier": 0.8925935203731252
+      },
+      {
+        "id": "the-cheapest-ocean-view",
+        "actual_multiplier": 1.1543297505576962,
+        "predicted_multiplier": 1.9439651218620286
+      },
+      {
+        "id": "isso-nao-e-ruido",
+        "actual_multiplier": 0.7,
+        "predicted_multiplier": 0.8138417493071185
+      },
+      {
+        "id": "canyon-draped-figure",
+        "actual_multiplier": 1.5581162272071363,
+        "predicted_multiplier": 1.2187668019359352
+      },
+      {
+        "id": "jiboia-passarinho",
+        "actual_multiplier": 1.0550334513970878,
+        "predicted_multiplier": 1.2084074837117822
+      },
+      {
+        "id": "gallery-watermelon",
+        "actual_multiplier": 1.0,
+        "predicted_multiplier": 1.264348446157745
+      },
+      {
+        "id": "nego-bispo-jurema",
+        "actual_multiplier": 0.514102059556605,
+        "predicted_multiplier": 1.0365740458679769
+      },
+      {
+        "id": "niede-guidon",
+        "actual_multiplier": 0.2638226420044602,
+        "predicted_multiplier": 1.0014242036511898
+      }
+    ],
+    "formula": "relative_views_multiplier = 1.130138066 * 10 ** (0.003128498794 * (watch_pct - 50) + -0.003766290028 * (skip_pct - 50))",
+    "example": {
+      "watch_pct": 70,
+      "skip_pct": 30,
+      "estimated_multiplier": 1.5524845243043275
+    },
+    "held_out_above_below_correct": 13,
+    "formula_display": "M = 1.13 * 10 ** (0.00313 * (W - 50) - 0.00377 * (S - 50))",
+    "change_percent_formula": "100 * (M - 1)"
+  },
+  "alternative_with_saves": {
+    "features": [
+      "watch_pct",
+      "skip_pct",
+      "save_pct"
+    ],
+    "ridge_alpha": 10.0,
+    "intercept_log10_multiplier": 0.17377310297467982,
+    "coefficients_per_percentage_point": {
+      "watch_pct": 0.002840004872365606,
+      "skip_pct": -0.0045238069998920095,
+      "save_pct": -0.5991177602822364
+    },
+    "reference_percent": {
+      "watch_pct": 50.0,
+      "skip_pct": 50.0,
+      "save_pct": 0.0
+    },
+    "multiplier_at_reference": 1.229088051134214,
+    "nested_leave_one_reel_out": {
+      "log10_rmse": 0.46636030577565424,
+      "median_factor_error": 1.5393932567907722,
+      "p80_factor_error": 4.285099249052162,
+      "within_factor_2": 0.631578947368421,
+      "above_below_baseline_accuracy_excluding_exact_baseline": 0.7894736842105263,
+      "n": 19
+    },
+    "predict_1x_baseline": {
+      "log10_rmse": 0.4734807446887689,
+      "median_factor_error": 1.3936094264425576,
+      "p80_factor_error": 2.656290392922655,
+      "within_factor_2": 0.7368421052631579,
+      "above_below_baseline_accuracy_excluding_exact_baseline": null,
+      "n": 19
+    },
+    "leave_one_channel_out": {
+      "log10_rmse": 0.5690901162670557,
+      "median_factor_error": 1.7605020727006364,
+      "p80_factor_error": 6.025208026808299,
+      "within_factor_2": 0.631578947368421,
+      "above_below_baseline_accuracy_excluding_exact_baseline": 0.5789473684210527,
+      "n": 19
+    },
+    "unseen_channel_predict_1x": {
+      "log10_rmse": 0.47348074468876894,
+      "median_factor_error": 1.3936094264425576,
+      "p80_factor_error": 2.656290392922655,
+      "within_factor_2": 0.7368421052631579,
+      "above_below_baseline_accuracy_excluding_exact_baseline": null,
+      "n": 19
+    },
+    "held_out_reels": [
+      {
+        "id": "a-lead-de-marco",
+        "account": "kima",
+        "baseline_views_from_other_channel_reels": 70.0,
+        "actual_multiplier": 1.8571428571428572,
+        "predicted_multiplier": 1.4856595824436072,
+        "ridge_alpha": 30.0
+      },
+      {
+        "id": "a-porta-do-corredor",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 1.1417910447761195,
+        "predicted_multiplier": 1.054772137507293,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "barra-v3-ficha",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.15686274509803919,
+        "predicted_multiplier": 0.8034834709470802,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "cat-reel",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.8758169934640523,
+        "predicted_multiplier": 0.6439675053090301,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "hard-boiled",
+        "account": "unfilmed.lab",
+        "baseline_views_from_other_channel_reels": 2846.0,
+        "actual_multiplier": 0.7326071679550246,
+        "predicted_multiplier": 4.269373631494601,
+        "ridge_alpha": 0.1
+      },
+      {
+        "id": "o-bolo",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.7777777777777778,
+        "predicted_multiplier": 1.3626112906335328,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "o-piano-do-9",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 1.6194029850746268,
+        "predicted_multiplier": 1.1165605297119006,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "o-piso-torto",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 18.007462686567163,
+        "predicted_multiplier": 1.389249505418963,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "o-quarto-de-235",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 12.291044776119405,
+        "predicted_multiplier": 1.2768700737667396,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "perdizes-c206",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.738562091503268,
+        "predicted_multiplier": 1.13693750338142,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "silent-garage",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 134.0,
+        "actual_multiplier": 1.2761194029850746,
+        "predicted_multiplier": 0.5831159604575729,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "tatuape-tour",
+        "account": "imobly",
+        "baseline_views_from_other_channel_reels": 153.0,
+        "actual_multiplier": 0.8169934640522876,
+        "predicted_multiplier": 0.959414888111285,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "the-cheapest-ocean-view",
+        "account": "unfilmed.lab",
+        "baseline_views_from_other_channel_reels": 2085.0,
+        "actual_multiplier": 1.3649880095923261,
+        "predicted_multiplier": 3.493919162783861,
+        "ridge_alpha": 3.0
+      },
+      {
+        "id": "isso-nao-e-ruido",
+        "account": "kima",
+        "baseline_views_from_other_channel_reels": 130.0,
+        "actual_multiplier": 0.5384615384615384,
+        "predicted_multiplier": 0.7494041743305234,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "canyon-draped-figure",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 144275.0,
+        "actual_multiplier": 2.058138970715647,
+        "predicted_multiplier": 1.3225830526006437,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "jiboia-passarinho",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 144275.0,
+        "actual_multiplier": 1.3936094264425576,
+        "predicted_multiplier": 1.3140843660411958,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "gallery-watermelon",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 149519.0,
+        "actual_multiplier": 1.274587176211719,
+        "predicted_multiplier": 1.236379798583152,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "nego-bispo-jurema",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 195819.0,
+        "actual_multiplier": 0.5003344925671156,
+        "predicted_multiplier": 0.6041898498385062,
+        "ridge_alpha": 10.0
+      },
+      {
+        "id": "niede-guidon",
+        "account": "sifontanareis",
+        "baseline_views_from_other_channel_reels": 195819.0,
+        "actual_multiplier": 0.2567575158692466,
+        "predicted_multiplier": 0.9768320113699834,
+        "ridge_alpha": 3.0
+      }
+    ],
+    "held_out_channel_reels": [
+      {
+        "id": "a-porta-do-corredor",
+        "account": "imobly",
+        "actual_multiplier": 1.1417910447761195,
+        "predicted_multiplier": 0.8302467098601665
+      },
+      {
+        "id": "barra-v3-ficha",
+        "account": "imobly",
+        "actual_multiplier": 0.15686274509803919,
+        "predicted_multiplier": 0.7285701585986863
+      },
+      {
+        "id": "cat-reel",
+        "account": "imobly",
+        "actual_multiplier": 0.8758169934640523,
+        "predicted_multiplier": 0.7479406684592299
+      },
+      {
+        "id": "o-bolo",
+        "account": "imobly",
+        "actual_multiplier": 0.7777777777777778,
+        "predicted_multiplier": 0.9038359828017399
+      },
+      {
+        "id": "o-piano-do-9",
+        "account": "imobly",
+        "actual_multiplier": 1.6194029850746268,
+        "predicted_multiplier": 0.8495175461946497
+      },
+      {
+        "id": "o-piso-torto",
+        "account": "imobly",
+        "actual_multiplier": 18.007462686567163,
+        "predicted_multiplier": 0.980038354110669
+      },
+      {
+        "id": "o-quarto-de-235",
+        "account": "imobly",
+        "actual_multiplier": 12.291044776119405,
+        "predicted_multiplier": 0.9092305670579485
+      },
+      {
+        "id": "perdizes-c206",
+        "account": "imobly",
+        "actual_multiplier": 0.738562091503268,
+        "predicted_multiplier": 0.8603534394941483
+      },
+      {
+        "id": "silent-garage",
+        "account": "imobly",
+        "actual_multiplier": 1.2761194029850746,
+        "predicted_multiplier": 0.7248610625192213
+      },
+      {
+        "id": "tatuape-tour",
+        "account": "imobly",
+        "actual_multiplier": 0.8169934640522876,
+        "predicted_multiplier": 0.8260074841913981
+      },
+      {
+        "id": "a-lead-de-marco",
+        "account": "kima",
+        "actual_multiplier": 1.8571428571428572,
+        "predicted_multiplier": 1.458265112918474
+      },
+      {
+        "id": "isso-nao-e-ruido",
+        "account": "kima",
+        "actual_multiplier": 0.5384615384615384,
+        "predicted_multiplier": 0.957211023598324
+      },
+      {
+        "id": "canyon-draped-figure",
+        "account": "sifontanareis",
+        "actual_multiplier": 2.058138970715647,
+        "predicted_multiplier": 1.619978705779754
+      },
+      {
+        "id": "jiboia-passarinho",
+        "account": "sifontanareis",
+        "actual_multiplier": 1.3936094264425576,
+        "predicted_multiplier": 1.7388219908056448
+      },
+      {
+        "id": "gallery-watermelon",
+        "account": "sifontanareis",
+        "actual_multiplier": 1.274587176211719,
+        "predicted_multiplier": 1.979240025187049
+      },
+      {
+        "id": "nego-bispo-jurema",
+        "account": "sifontanareis",
+        "actual_multiplier": 0.5003344925671156,
+        "predicted_multiplier": 2.8316238874500126
+      },
+      {
+        "id": "niede-guidon",
+        "account": "sifontanareis",
+        "actual_multiplier": 0.2567575158692466,
+        "predicted_multiplier": 1.6993803602101427
+      },
+      {
+        "id": "hard-boiled",
+        "account": "unfilmed.lab",
+        "actual_multiplier": 0.7326071679550246,
+        "predicted_multiplier": 6.53911168421996
+      },
+      {
+        "id": "the-cheapest-ocean-view",
+        "account": "unfilmed.lab",
+        "actual_multiplier": 1.3649880095923261,
+        "predicted_multiplier": 5.7064870750394405
+      }
+    ],
+    "fitted_channel_baselines_for_labels_only": {
+      "kima": 100.0,
+      "imobly": 143.5,
+      "unfilmed.lab": 2465.5,
+      "sifontanareis": 190575.0
+    },
+    "fitted_points": [
+      {
+        "id": "a-lead-de-marco",
+        "actual_multiplier": 1.3,
+        "predicted_multiplier": 1.5732604800654177
+      },
+      {
+        "id": "a-porta-do-corredor",
+        "actual_multiplier": 1.0662020905923344,
+        "predicted_multiplier": 1.0170106832883299
+      },
+      {
+        "id": "barra-v3-ficha",
+        "actual_multiplier": 0.1672473867595819,
+        "predicted_multiplier": 0.6511830373493334
+      },
+      {
+        "id": "cat-reel",
+        "actual_multiplier": 0.9337979094076655,
+        "predicted_multiplier": 0.7107861723673106
+      },
+      {
+        "id": "hard-boiled",
+        "actual_multiplier": 0.8456702494423038,
+        "predicted_multiplier": 2.026901343338263
+      },
+      {
+        "id": "o-bolo",
+        "actual_multiplier": 0.8292682926829268,
+        "predicted_multiplier": 1.3486040599179532
+      },
+      {
+        "id": "o-piano-do-9",
+        "actual_multiplier": 1.5121951219512195,
+        "predicted_multiplier": 1.0945914463044448
+      },
+      {
+        "id": "o-piso-torto",
+        "actual_multiplier": 16.81533101045296,
+        "predicted_multiplier": 1.863222786058301
+      },
+      {
+        "id": "o-quarto-de-235",
+        "actual_multiplier": 11.477351916376307,
+        "predicted_multiplier": 1.4716345790383667
+      },
+      {
+        "id": "perdizes-c206",
+        "actual_multiplier": 0.7874564459930313,
+        "predicted_multiplier": 1.1388026087226217
+      },
+      {
+        "id": "silent-garage",
+        "actual_multiplier": 1.1916376306620209,
+        "predicted_multiplier": 0.6395298305119806
+      },
+      {
+        "id": "tatuape-tour",
+        "actual_multiplier": 0.8710801393728222,
+        "predicted_multiplier": 0.9931094659802168
+      },
+      {
+        "id": "the-cheapest-ocean-view",
+        "actual_multiplier": 1.1543297505576962,
+        "predicted_multiplier": 2.171067591214675
+      },
+      {
+        "id": "isso-nao-e-ruido",
+        "actual_multiplier": 0.7,
+        "predicted_multiplier": 0.8033397844280348
+      },
+      {
+        "id": "canyon-draped-figure",
+        "actual_multiplier": 1.5581162272071363,
+        "predicted_multiplier": 1.2089712880672299
+      },
+      {
+        "id": "jiboia-passarinho",
+        "actual_multiplier": 1.0550334513970878,
+        "predicted_multiplier": 1.1327257443491572
+      },
+      {
+        "id": "gallery-watermelon",
+        "actual_multiplier": 1.0,
+        "predicted_multiplier": 1.0664842788551059
+      },
+      {
+        "id": "nego-bispo-jurema",
+        "actual_multiplier": 0.514102059556605,
+        "predicted_multiplier": 0.6443995578128932
+      },
+      {
+        "id": "niede-guidon",
+        "actual_multiplier": 0.2638226420044602,
+        "predicted_multiplier": 0.9044799068916919
+      }
+    ]
+  },
+  "n": 19,
+  "account_count": 4,
+  "limits": [
+    "Only 19 aligned reels and 4 channels, with two channels represented by only 2 reels.",
+    "Saved reels have different ages at capture. A practical baseline should use comparable post ages and formats.",
+    "Hyperparameters are selected by inner leave-one-reel-out, with the held-out reel excluded from all channel baseline calculations.",
+    "Whole-channel tests use other reels from the withheld channel to define true relative performance, never as equation inputs.",
+    "These are retrospective percentage measurements; prospective forecasting is not established.",
+    "Action percentages reuse views in their denominator; the primary formula excludes them."
+  ]
+}

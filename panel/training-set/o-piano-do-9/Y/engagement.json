@@ -1,0 +1,74 @@
+{
+  "sample_id": "o-piano-do-9",
+  "platform": "instagram",
+  "account": "imoblyy",
+  "objective": "Fit viewers liking, commenting on, or saving the post.",
+  "target_fields": [
+    "likes",
+    "comments",
+    "saves",
+    "rates_pct.like",
+    "rates_pct.comment",
+    "rates_pct.save",
+    "likes_timing_pct"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-08-18T09:51-03:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-08-18/Reel insights for imoblyy – 17 Aug 2026 - 18 Aug 2026.pdf",
+        "../source/insights/2026-08-18/rates.PNG",
+        "../source/insights/2026-08-18/retention.PNG",
+        "../source/insights/2026-08-18/summary.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "summary metrics + rates transcribed verbatim from the PDF/screenshots by supervising agent; retention keypoints read off the graph — approximate"
+      ],
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "rates_pct": {
+        "like": 0.0,
+        "save": 0.0
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-08-18T09:51:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-18/Reel insights for imoblyy – 17 Aug 2026 - 18 Aug 2026.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "likes": 0,
+      "comments": 0,
+      "saves": 0
+    },
+    {
+      "capture": {
+        "date": "2026-08-18",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-08-18/rates.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "like": 0.0,
+        "save": 0.0,
+        "comment": 0.0
+      }
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

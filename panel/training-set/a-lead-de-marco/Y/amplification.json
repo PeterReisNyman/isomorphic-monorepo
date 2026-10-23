@@ -1,0 +1,157 @@
+{
+  "sample_id": "a-lead-de-marco",
+  "platform": "instagram",
+  "account": "kima.ia.br",
+  "objective": "Fit viewers distributing the post through shares and reposts.",
+  "target_fields": [
+    "shares",
+    "reposts",
+    "rates_pct.share",
+    "rates_pct.repost"
+  ],
+  "available": true,
+  "observations": [
+    {
+      "capture": {
+        "at": "2026-09-23T16:19+08:00",
+        "timezone": "explicit_offset"
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9864.PNG",
+        "../source/insights/2026-09-23/IMG_9865.PNG",
+        "../source/insights/2026-09-23/IMG_9866.PNG",
+        "../source/insights/2026-09-23/IMG_9867.PNG",
+        "../source/insights/2026-09-23/IMG_9868.PNG",
+        "../source/insights/2026-09-23/IMG_9869.PNG",
+        "../source/insights/2026-09-23/IMG_9870.PNG",
+        "../source/insights/2026-09-23/IMG_9871.PNG",
+        "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf",
+        "../source/insights/2026-09-23-audience/IMG_9863.PNG"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "notes": [
+        "counts, rates, sources and the follower split transcribed verbatim from the screenshots and the PDF. The retention, likes-timing and three views-over-time curves were digitized from the screenshot pixels: magenta-stroke centroid per column, y mapped through each chart's own gridlines. x is NOT linear to duration here: both 0:00-0:16 charts plot 17 evenly spaced vertices (measured 66.9 px apart), one per whole second 0-16, so keypoints sit on whole seconds; the views charts plot one vertex per day, 11-22 Sep. About +/-1pp (retention), +/-3pp (likes timing), +/-1 view (views)."
+      ],
+      "reposts": 0,
+      "shares": 4,
+      "rates_pct": {
+        "share": 5.6,
+        "repost": 0.0
+      }
+    },
+    {
+      "capture": {
+        "at": "2026-09-23T16:20:00",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/Reel insights for kima.ia.br – 12 Sep 2026 - 23 Sep 2026.pdf"
+      ],
+      "extraction": "instagram_pdf_text_layer",
+      "reposts": 0,
+      "shares": 4
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9864.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "shares": 4
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9865.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "shares": 4
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9867.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "share": 5.6,
+        "repost": 0.0
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9868.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "share": 5.6,
+        "repost": 0.0
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9869.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "share": 5.6,
+        "repost": 0.0
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9870.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "share": 5.6,
+        "repost": 0.0
+      }
+    },
+    {
+      "capture": {
+        "date": "2026-09-23",
+        "date_basis": "source_folder_or_filename",
+        "timezone": null
+      },
+      "source_files": [
+        "../source/insights/2026-09-23/IMG_9871.PNG"
+      ],
+      "extraction": "saved_screenshot_ocr",
+      "rates_pct": {
+        "repost": 0.0
+      }
+    }
+  ],
+  "notes": [
+    "Each dated observation keeps its own measurement window and evidence. Missing targets are unknown, not zero.",
+    "Displayed comparison labels, rounding, and graph estimates retain their original qualifications."
+  ]
+}

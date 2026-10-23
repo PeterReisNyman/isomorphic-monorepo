@@ -1,0 +1,76 @@
+{
+  "sample_id": "jiboia-passarinho",
+  "platform": "instagram",
+  "account": "sifontanareis",
+  "purpose": "Post context and measurement qualifications for an insights-only record.",
+  "post": {
+    "url": "https://www.instagram.com/reel/DNeL5UivNkb/",
+    "shortcode": "DNeL5UivNkb",
+    "posted_at": "2025-08-17T18:46-03:00",
+    "duration_s": 95.3,
+    "caption": "Dentro da barriga da jiboia, me transformei num passarinho. @terrauna_ecovila @borghi.paula"
+  },
+  "audience": {
+    "followers_pct": 2.9,
+    "non_followers_pct": 97.1,
+    "age_pct": {
+      "13-17": 0.0,
+      "18-24": 14.0,
+      "25-34": 47.9,
+      "35-44": 22.7,
+      "45-54": 7.4,
+      "55-64": 5.4,
+      "65+": 2.5
+    },
+    "country_pct": {
+      "BR": 94.4,
+      "US": 1.2,
+      "AE": 0.8,
+      "VE": 0.8,
+      "DE": 0.8
+    },
+    "gender_pct": {
+      "men": 48.5,
+      "women": 51.5
+    }
+  },
+  "traffic": {
+    "reels_tab": 71.7,
+    "explore": 19.6,
+    "stories": 5.6,
+    "profile": 1.6,
+    "other": 1.1,
+    "feed": 0.5,
+    "search": 0.0
+  },
+  "distribution_observations": [
+    {
+      "capture": {
+        "date": "2026-08-24",
+        "window_as_recorded": "2026-08-24T09:45-03:00 .. 09:57-03:00",
+        "timezone": "-03:00"
+      },
+      "source_files": [
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (1).jpeg",
+        "../source/insights/2026-08-24/Insights do reel para sifontanareis - 17 de ago. de 2025 - 24 de ago. de 2026.pdf",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.11 (2).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (1).jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12.jpeg",
+        "../source/insights/2026-08-24/WhatsApp Image 2026-08-24 at 09.50.12 (2).jpeg"
+      ],
+      "extraction": "previously_digitized_instagram_record",
+      "views": 201063,
+      "reached": 146209
+    }
+  ],
+  "availability": {
+    "video": false,
+    "transcript": false,
+    "viewers": false,
+    "viewer_count_status": "unavailable_reach_only"
+  },
+  "notes": [
+    "Oldest reel of the set (Aug 2025). Reels-tab-dominant distribution (71.7%), near-zero feed."
+  ]
+}
